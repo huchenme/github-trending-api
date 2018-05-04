@@ -1,0 +1,6 @@
+{
+  "name": "github-trending-api",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

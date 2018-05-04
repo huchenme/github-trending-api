@@ -1,0 +1,28 @@
+{
+  "name": "github-trending-api",
+  "version": "1.0.0",
+  "description": "Get GitHub trending data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sallar/github-contribution-api.git"
+  },
+  "keywords": ["github", "contributions", "api", "node"],
+  "author": "Hu Chen <chen@huchen.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huchenme/github-trending-api/issues"
+  },
+  "homepage": "https://github.com/huchenme/github-trending-api#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "memory-cache": "^0.2.0",
+    "node-fetch": "^2.1.2"
+  }
+}
