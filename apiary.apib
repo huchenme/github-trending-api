@@ -8,10 +8,11 @@ GitHub Trending API is a simple API to fetch trending repositories and developer
 ## Repositories [/repositories{?language,since}]
 
 + Parameters
-    + language (optional) - Programming language
-    + since (optional) - Trending period: `daily`, `weekly`, `monthly`, default to `daily`
+    + language (string, optional) - Programming language
+    + since (string, optional) - Trending period: `daily`, `weekly`, `monthly`
+        + Default: `daily`
 
-### List All Trending Repositories [GET]
+### List Trending Repositories [GET]
 
 + Response 200 (application/json)
 
@@ -61,8 +62,9 @@ GitHub Trending API is a simple API to fetch trending repositories and developer
 ## Developers [/developers{?language,since}]
 
 + Parameters
-    + language (optional) - Programming language
-    + since (optional) - Trending period: `daily`, `weekly`, `monthly`, default to `daily`
+    + language (string, optional) - Programming language
+    + since (string, optional) - Trending period: `daily`, `weekly`, `monthly`
+        + Default: `daily`
 
 ### List All Trending Developers [GET]
 
