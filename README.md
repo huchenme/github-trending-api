@@ -4,11 +4,11 @@
 
 A simple API that returns number of Github trending repositories and developers.
 
-## APIs
+## API Documentation
 
 See the full API documentation in [Apiary](https://githubtrendingapi.docs.apiary.io/#).
 
-### Trending Repositories
+## Trending Repositories
 
 Receive an array of trending repositories.
 
@@ -40,7 +40,7 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
 ]
 ```
 
-### Trending Developers
+## Trending Developers
 
 Receive an array of trending developers.
 
@@ -74,7 +74,7 @@ https://github-trending-api.now.sh/developers?language=javascript&since=weekly
 ]
 ```
 
-### List Languages
+## List Languages
 
 Receive popular languages and all languages.
 
