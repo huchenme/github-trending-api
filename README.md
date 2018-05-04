@@ -1,31 +1,103 @@
 # Github Contributions API
 
-A simple API that returns number of Github contributions based on a users Github profile. This API is used for generating an image of user contributions [in this site](https://github-contributions.now.sh/)
+A simple API that returns number of Github trending repositories and developers.
 
-## Usage
+## APIs
 
-Send a request to the API in the following format:
+See the full API documentation in [Apiary](https://githubtrendingapi.docs.apiary.io/#).
 
+### Trending Repositories
+
+Receive an array of trending repositories.
+
+**URL Endpoint:**
+
+https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
+
+**Parameters:**
+
+* `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
+* `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
+
+**Response:**
+
+```json
+[
+  ...
+  {
+    "author": "google",
+    "name": "gvisor",
+    "url": "https://github.com/google/gvisor",
+    "description": "Container Runtime Sandbox",
+    "language": "Go",
+    "stars": 3320,
+    "forks": 118,
+    "currentPeriodStars": 1624
+  }
+  ...
+]
 ```
-https://github-contributions-api.now.sh/v1/GITHUB_USERNAME
+
+### Trending Developers
+
+Receive an array of trending developers.
+
+**URL Endpoint:**
+
+https://github-trending-api.now.sh/developers?language=javascript&since=weekly
+
+**Parameters:**
+
+* `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
+* `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
+
+**Response:**
+
+```json
+[
+  ...
+  {
+    "username": "google",
+    "name": "Google",
+    "url": "https://github.com/google",
+    "avatar": "https://avatars0.githubusercontent.com/u/1342004?s=96&v=4",
+    "repo": {
+      "name": "traceur-compiler",
+      "description":
+        "Traceur is a JavaScript.next-to-JavaScript-of-today compiler",
+      "url": "https://github.com/google/traceur-compiler"
+    }
+  }
+  ...
+]
 ```
 
-and you will receive an object with history of that user's contributions:
+### List Languages
+
+Receive popular languages and all languages.
+
+**URL Endpoint:**
+
+https://github-trending-api.now.sh/languages
+
+**Response:**
 
 ```json
 {
-  ...
-  "contributions": [
+  "popular": [
+    ...
     {
-      "date": "2018-04-30",
-      "count": 2,
-      "color": "#c6e48b"
-    },
+      "urlParam": "html",
+      "name": "HTML"
+    }
+    ...
+  ],
+  "all": [
+    ...
     {
-      "date": "2018-04-29",
-      "count": 29,
-      "color": "#239a3b"
-    },
+      "urlParam": "javascript",
+      "name": "JavaScript"
+    }
     ...
   ]
 }
@@ -33,4 +105,4 @@ and you will receive an object with history of that user's contributions:
 
 ## License
 
-MIT © [Sallar Kaboli](LICENSE)
+MIT © [Hu Chen](LICENSE)

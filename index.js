@@ -20,7 +20,7 @@ function getMatchString(value, pattern) {
 }
 
 function filterLanguages(languages) {
-  return languages.filter(lang => lang.id && lang.id !== "unknown");
+  return languages.filter(lang => lang.urlParam && lang.urlParam !== "unknown");
 }
 
 function omitNil(object) {
@@ -36,7 +36,7 @@ async function fetchAllLanguages() {
     .map(a => {
       const $a = $(a);
       return {
-        id: getLang($a.attr("href")),
+        urlParam: getLang($a.attr("href")),
         name: $a.text()
       };
     });
@@ -45,7 +45,7 @@ async function fetchAllLanguages() {
     .map(a => {
       const $a = $(a);
       return {
-        id: getLang($a.attr("href")),
+        urlParam: getLang($a.attr("href")),
         name: $a.children(".select-menu-item-text").text()
       };
     });
@@ -142,11 +142,15 @@ async function fetchDevelopers({ language = "", since = "daily" }) {
         url: `${GITHUB_URL}${relativeUrl}`,
         avatar: $dev.find("img").attr("src"),
         repo: {
-          name: $repo.find(".repo-snipit-name span.repo").text().trim(),
-          description: $repo
-            .find(".repo-snipit-description")
+          name: $repo
+            .find(".repo-snipit-name span.repo")
             .text()
             .trim(),
+          description:
+            $repo
+              .find(".repo-snipit-description")
+              .text()
+              .trim() || "",
           url: `${GITHUB_URL}${$repo.attr("href")}`
         }
       });
@@ -155,6 +159,11 @@ async function fetchDevelopers({ language = "", since = "daily" }) {
 
 app.get("/memsize", (req, res) => {
   res.send(`memsize=${cache.memsize()}`);
+});
+
+app.post("/memclear", (req, res) => {
+  cache.clear();
+  res.sendStatus(200);
 });
 
 app.get("/languages", async (req, res) => {
@@ -170,7 +179,8 @@ app.get("/languages", async (req, res) => {
 app.get("/repositories", async (req, res) => {
   try {
     const { language, since } = req.query;
-    const cacheKey = `repositories::${language || "nolang"}::${since || "daily"}`;
+    const cacheKey = `repositories::${language || "nolang"}::${since ||
+      "daily"}`;
     const cached = cache.get(cacheKey);
     if (cached !== null) {
       return res.json(cached);

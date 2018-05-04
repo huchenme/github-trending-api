@@ -5,6 +5,117 @@ HOST: https://github-trending-api.now.sh/
 
 GitHub Trending API is a simple API to fetch trending repositories and developers.
 
+## Repositories [/repositories{?language,since}
+
++ Parameters
+    + language (optional) - Programming language
+    + since (optional) - Trending period: `daily`, `weekly`, `monthly`, default to `daily`
+
+### List All Trending Repositories [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "author": "xingshaocheng",
+                "name": "architect-awesome",
+                "url": "https://github.com/xingshaocheng/architect-awesome",
+                "description": "后端架构师技术图谱",
+                "language": "",
+                "stars": 7333,
+                "forks": 1546,
+                "currentPeriodStars": 1528
+            },
+            {
+                "author": "google",
+                "name": "gvisor",
+                "url": "https://github.com/google/gvisor",
+                "description": "Container Runtime Sandbox",
+                "language": "Go",
+                "stars": 3346,
+                "forks": 118,
+                "currentPeriodStars": 1624
+            },
+            {
+                "author": "davideuler",
+                "name": "architecture.of.internet-product",
+                "url": "https://github.com/davideuler/architecture.of.internet-product",
+                "description": "互联网公司技术架构，微信/淘宝/腾讯/阿里/美团点评/百度/微博/Google/Facebook/Amazon/eBay的架构，欢迎PR补充",
+                "language": "",
+                "stars": 2763,
+                "forks": 416,
+                "currentPeriodStars": 1427
+            },
+            {
+                "author": "kusti8",
+                "name": "proton-native",
+                "url": "https://github.com/kusti8/proton-native",
+                "description": "A React environment for cross platform native desktop apps",
+                "language": "JavaScript",
+                "stars": 4711,
+                "forks": 124,
+                "currentPeriodStars": 1186
+            }
+        ]
+
+## Developers [/developers{?language,since}
+
++ Parameters
+    + language (optional) - Programming language
+    + since (optional) - Trending period: `daily`, `weekly`, `monthly`, default to `daily`
+
+### List All Trending Developers [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "username": "google",
+                "name": "Google",
+                "url": "https://github.com/google",
+                "avatar": "https://avatars0.githubusercontent.com/u/1342004?s=96&v=4",
+                "repo": {
+                    "name": "material-design-icons",
+                    "description": "Material Design icons by Google",
+                    "url": "https://github.com/google/material-design-icons"
+                }
+            },
+            {
+                "username": "davideuler",
+                "name": "david l euler",
+                "url": "https://github.com/davideuler",
+                "avatar": "https://avatars3.githubusercontent.com/u/377983?s=96&v=4",
+                "repo": {
+                    "name": "architecture.of.internet-product",
+                    "description":
+                        "互联网公司技术架构，微信/淘宝/腾讯/阿里/美团点评/百度/微博/Google/Facebook/Amazon/eBay的架构，欢迎PR补充",
+                    "url": "https://github.com/davideuler/architecture.of.internet-product"
+                }
+            },
+            {
+                "username": "xingshaocheng",
+                "url": "https://github.com/xingshaocheng",
+                "avatar": "https://avatars1.githubusercontent.com/u/4962837?s=96&v=4",
+                "repo": {
+                    "name": "architect-awesome",
+                    "description": "后端架构师技术图谱",
+                    "url": "https://github.com/xingshaocheng/architect-awesome"
+                }
+            },
+            {
+                "username": "cyanharlow",
+                "name": "Diana Smith",
+                "url": "https://github.com/cyanharlow",
+                "avatar": "https://avatars2.githubusercontent.com/u/8030961?s=96&v=4",
+                "repo": {
+                    "name": "purecss-francine",
+                    "description":
+                        "HTML/CSS drawing in the style of an 18th-century oil painting. Hand-coded entirely in HTML & CSS.",
+                    "url": "https://github.com/cyanharlow/purecss-francine"
+                }
+            }
+        ]
+
 ## Languages Collection [/languages]
 
 ### List All Languages [GET]
