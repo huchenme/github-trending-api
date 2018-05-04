@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "deploy": "now"
+    "dev": "nodemon index.js",
+    "deploy": "now --public && now alias"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sallar/github-contribution-api.git"
   },
-  "keywords": ["github", "contributions", "api", "node"],
+  "keywords": [
+    "github",
+    "trending",
+    "api",
+    "node"
+  ],
   "author": "Hu Chen <chen@huchen.me>",
   "license": "MIT",
   "bugs": {
@@ -22,7 +28,11 @@
     "cheerio": "^1.0.0-rc.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "lodash": "^4.17.10",
     "memory-cache": "^0.2.0",
     "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
   }
 }
