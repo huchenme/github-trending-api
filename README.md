@@ -1,6 +1,6 @@
-# Github Unofficial Trending API
+# Github Unofficial Trending API [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sallar/github-contributions-canvas/blob/master/LICENSE)
 
-A simple API that returns number of Github trending repositories and developers.
+:octocat: A simple API that returns number of Github trending repositories and developers.
 
 ## API Documentation
 
