@@ -1,7 +1,5 @@
 # Github Unofficial Trending API
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](paypal.me/huchenme)
-
 A simple API that returns number of Github trending repositories and developers.
 
 ## API Documentation
