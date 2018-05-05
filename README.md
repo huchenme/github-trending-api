@@ -1,4 +1,4 @@
-# Github Trending API
+# Github Unofficial Trending API
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](paypal.me/huchenme)
 
