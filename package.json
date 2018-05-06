@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "deploy": "now --public && now alias",
+    "deploy": "now --public",
+    "alias": "now alias",
     "contributors:add": "all-contributors add",
     "precommit": "lint-staged"
   },
