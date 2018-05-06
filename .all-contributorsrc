@@ -18,6 +18,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "umpc",
+      "name": "Justin Lowery",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5883661?v=4",
+      "profile": "https://twitter.com/jlowerydevelops",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
