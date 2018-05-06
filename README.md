@@ -1,6 +1,11 @@
-# Github Unofficial Trending API [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sallar/github-contributions-canvas/blob/master/LICENSE)
+# Github Unofficial Trending API
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sallar/github-contributions-canvas/blob/master/LICENSE)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 :octocat: A simple API that returns number of Github trending repositories and developers.
+
+![hero image](images/hero.jpeg)
 
 ## API Documentation
 
@@ -103,6 +108,20 @@ https://github-trending-api.now.sh/languages
 }
 ```
 
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/2078389?v=4" width="100px;"/><br /><sub><b>Hu Chen</b></sub>](https://huchen.me)<br />[💻](https://github.com/huchenme/github-trending-api/commits?author=huchenme "Code") [📖](https://github.com/huchenme/github-trending-api/commits?author=huchenme "Documentation") |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+
 ## License
 
-MIT © [Hu Chen](LICENSE)
+MIT
