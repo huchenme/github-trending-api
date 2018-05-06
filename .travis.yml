@@ -4,7 +4,6 @@ cache:
     - ~/.npm
 node_js:
   - '9'
-  - '8'
 script: yarn deploy --token $NOW_TOKEN
 after_script: yarn alias --token $NOW_TOKEN
 branches:
