@@ -116,8 +116,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/2078389?v=4" width="100px;"/><br /><sub><b>Hu Chen</b></sub>](https://huchen.me)<br />[💻](https://github.com/huchenme/github-trending-api/commits?author=huchenme "Code") [📖](https://github.com/huchenme/github-trending-api/commits?author=huchenme "Documentation") |
-| :---: |
+| [<img src="https://avatars3.githubusercontent.com/u/2078389?v=4" width="100px;"/><br /><sub><b>Hu Chen</b></sub>](https://huchen.me)<br />[💻](https://github.com/huchenme/github-trending-api/commits?author=huchenme "Code") [📖](https://github.com/huchenme/github-trending-api/commits?author=huchenme "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/5883661?v=4" width="100px;"/><br /><sub><b>Justin Lowery</b></sub>](https://twitter.com/jlowerydevelops)<br />[💻](https://github.com/huchenme/github-trending-api/commits?author=umpc "Code") |
+| :---: | :---: |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
