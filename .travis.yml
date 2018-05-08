@@ -1,5 +1,7 @@
 language: node_js
-cache: yarn
+cache:
+  directories:
+    - ~/.npm
 node_js:
   - '9'
 env:
