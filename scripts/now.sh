@@ -1,0 +1,1 @@
+npm run deploy --token $NOW_TOKEN && npm run alias --token $NOW_TOKEN

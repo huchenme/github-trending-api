@@ -9,6 +9,6 @@ before_script: yarn validate
 script: yarn build:prod
 deploy:
   provider: script
-  script: yarn deploy --token $NOW_TOKEN && yarn alias --token $NOW_TOKEN
+  script: bash scripts/now.sh
   on:
     branch: master
