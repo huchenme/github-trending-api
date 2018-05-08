@@ -19,7 +19,7 @@ export default [
     ],
   },
   {
-    input: 'src/server.js',
+    input: 'server.js',
     external: [
       'express',
       'memory-cache',

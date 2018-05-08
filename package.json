@@ -6,7 +6,7 @@
   "module": "dist/github-trending-api.esm.js",
   "scripts": {
     "start": "node ./dist/server.js",
-    "dev": "babel-node --presets @babel/preset-env ./src/server.js",
+    "dev": "babel-node --presets @babel/preset-env server.js",
     "deploy": "now --public",
     "alias": "now alias",
     "contributors:add": "all-contributors add",
@@ -15,8 +15,8 @@
     "lint": "eslint ./src",
     "validate": "npm-run-all lint test",
     "clean": "rimraf dist",
-    "build": "rollup -c",
-    "build:prod": "NODE_ENV=production rollup -c"
+    "build": "rollup -c rollup.config.js",
+    "build:prod": "NODE_ENV=production rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",

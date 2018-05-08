@@ -1,7 +1,4 @@
 {
   "name": "github-trending-api",
-  "alias": "github-trending-api.now.sh",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "alias": "github-trending-api.now.sh"
 }
