@@ -1,5 +1,6 @@
 # Github Unofficial Trending API
 
+[![Build Status](https://travis-ci.org/huchenme/github-trending-api.svg?branch=master)](https://travis-ci.org/huchenme/github-trending-api)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sallar/github-contributions-canvas/blob/master/LICENSE)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)
