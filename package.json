@@ -15,8 +15,8 @@
     "lint": "eslint ./src",
     "validate": "npm-run-all lint test",
     "clean": "rimraf dist",
-    "build": "rollup -c rollup.config.js",
-    "build:prod": "NODE_ENV=production rollup -c rollup.config.js"
+    "rollup:build": "rollup -c",
+    "rollup:build:prod": "NODE_ENV=production rollup -c"
   },
   "repository": {
     "type": "git",

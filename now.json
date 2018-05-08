@@ -1,4 +1,5 @@
 {
   "name": "github-trending-api",
-  "alias": "github-trending-api.now.sh"
+  "alias": "github-trending-api.now.sh",
+  "files": ["dist"]
 }
