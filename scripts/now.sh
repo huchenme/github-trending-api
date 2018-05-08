@@ -1,1 +1,1 @@
-yarn deploy --token $NOW_TOKEN && yarn alias --token $NOW_TOKEN
+npm run deploy -- --token $NOW_TOKEN && npm run alias -- --token $NOW_TOKEN

@@ -1,6 +1,5 @@
 language: node_js
 cache:
-  yarn: true
   directories:
     - node_modules
 node_js:
@@ -8,13 +7,11 @@ node_js:
 env:
   - NODE_ENV=production
 before_install:
-  - rm -rf $HOME/.cache/yarn
-  - rm -rf node_modules
-  - yarn global add now
+  - npm install -g now
 before_script:
-  - yarn validate
-  - yarn clean
-script: yarn rollup:build
+  - npm run validate
+  - npm run clean
+script: npm run rollup:build
 deploy:
   provider: script
   skip_cleanup: true
