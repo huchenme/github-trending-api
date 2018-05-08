@@ -2,14 +2,21 @@
   "name": "github-trending-api",
   "version": "1.0.0",
   "description": "Get GitHub trending data",
-  "main": "index.js",
+  "main": "dist/github-trending-api.cjs.js",
+  "module": "dist/github-trending-api.esm.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node ./dist/server.js",
+    "dev": "babel-node --presets @babel/preset-env ./src/server.js",
     "deploy": "now --public",
     "alias": "now alias",
     "contributors:add": "all-contributors add",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "jest",
+    "lint": "eslint ./src",
+    "validate": "npm-run-all lint test",
+    "clean": "rimraf dist",
+    "build": "rollup -c",
+    "build:prod": "NODE_ENV=production rollup -c"
   },
   "repository": {
     "type": "git",
@@ -31,14 +38,29 @@
     "node-fetch": "^2.1.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/node": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
     "all-contributors-cli": "^4.11.1",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-lodash": "^3.3.2",
+    "eslint": "^4.19.1",
+    "eslint-config-kentcdodds": "^13.0.1",
     "husky": "^0.14.3",
+    "jest": "^22.4.3",
     "lint-staged": "^7.0.5",
-    "nodemon": "^1.17.3",
-    "prettier": "^1.12.1"
+    "npm-run-all": "^4.1.3",
+    "prettier": "^1.12.1",
+    "regenerator-runtime": "^0.11.1",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^4.0.0-beta.4",
+    "rollup-plugin-uglify": "^3.0.0"
   },
   "lint-staged": {
     "*.{js,json,md}": ["prettier --write", "git add"],
     ".all-contributorsrc": ["all-contributors generate", "git add"]
-  }
+  },
+  "files": ["dist"]
 }

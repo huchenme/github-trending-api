@@ -1,0 +1,2450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchAllLanguages() should match snapshot 1`] = `
+Object {
+  "all": Array [
+    Object {
+      "name": "1C Enterprise",
+      "urlParam": "1c-enterprise",
+    },
+    Object {
+      "name": "ABAP",
+      "urlParam": "abap",
+    },
+    Object {
+      "name": "ABNF",
+      "urlParam": "abnf",
+    },
+    Object {
+      "name": "ActionScript",
+      "urlParam": "actionscript",
+    },
+    Object {
+      "name": "Ada",
+      "urlParam": "ada",
+    },
+    Object {
+      "name": "Adobe Font Metrics",
+      "urlParam": "adobe-font-metrics",
+    },
+    Object {
+      "name": "Agda",
+      "urlParam": "agda",
+    },
+    Object {
+      "name": "AGS Script",
+      "urlParam": "ags-script",
+    },
+    Object {
+      "name": "Alloy",
+      "urlParam": "alloy",
+    },
+    Object {
+      "name": "Alpine Abuild",
+      "urlParam": "alpine-abuild",
+    },
+    Object {
+      "name": "AMPL",
+      "urlParam": "ampl",
+    },
+    Object {
+      "name": "AngelScript",
+      "urlParam": "angelscript",
+    },
+    Object {
+      "name": "Ant Build System",
+      "urlParam": "ant-build-system",
+    },
+    Object {
+      "name": "ANTLR",
+      "urlParam": "antlr",
+    },
+    Object {
+      "name": "ApacheConf",
+      "urlParam": "apacheconf",
+    },
+    Object {
+      "name": "Apex",
+      "urlParam": "apex",
+    },
+    Object {
+      "name": "API Blueprint",
+      "urlParam": "api-blueprint",
+    },
+    Object {
+      "name": "APL",
+      "urlParam": "apl",
+    },
+    Object {
+      "name": "Apollo Guidance Computer",
+      "urlParam": "apollo-guidance-computer",
+    },
+    Object {
+      "name": "AppleScript",
+      "urlParam": "applescript",
+    },
+    Object {
+      "name": "Arc",
+      "urlParam": "arc",
+    },
+    Object {
+      "name": "AsciiDoc",
+      "urlParam": "asciidoc",
+    },
+    Object {
+      "name": "ASN.1",
+      "urlParam": "asn.1",
+    },
+    Object {
+      "name": "ASP",
+      "urlParam": "asp",
+    },
+    Object {
+      "name": "AspectJ",
+      "urlParam": "aspectj",
+    },
+    Object {
+      "name": "Assembly",
+      "urlParam": "assembly",
+    },
+    Object {
+      "name": "ATS",
+      "urlParam": "ats",
+    },
+    Object {
+      "name": "Augeas",
+      "urlParam": "augeas",
+    },
+    Object {
+      "name": "AutoHotkey",
+      "urlParam": "autohotkey",
+    },
+    Object {
+      "name": "AutoIt",
+      "urlParam": "autoit",
+    },
+    Object {
+      "name": "Awk",
+      "urlParam": "awk",
+    },
+    Object {
+      "name": "Ballerina",
+      "urlParam": "ballerina",
+    },
+    Object {
+      "name": "Batchfile",
+      "urlParam": "batchfile",
+    },
+    Object {
+      "name": "Befunge",
+      "urlParam": "befunge",
+    },
+    Object {
+      "name": "Bison",
+      "urlParam": "bison",
+    },
+    Object {
+      "name": "BitBake",
+      "urlParam": "bitbake",
+    },
+    Object {
+      "name": "Blade",
+      "urlParam": "blade",
+    },
+    Object {
+      "name": "BlitzBasic",
+      "urlParam": "blitzbasic",
+    },
+    Object {
+      "name": "BlitzMax",
+      "urlParam": "blitzmax",
+    },
+    Object {
+      "name": "Bluespec",
+      "urlParam": "bluespec",
+    },
+    Object {
+      "name": "Boo",
+      "urlParam": "boo",
+    },
+    Object {
+      "name": "Brainfuck",
+      "urlParam": "brainfuck",
+    },
+    Object {
+      "name": "Brightscript",
+      "urlParam": "brightscript",
+    },
+    Object {
+      "name": "Bro",
+      "urlParam": "bro",
+    },
+    Object {
+      "name": "C",
+      "urlParam": "c",
+    },
+    Object {
+      "name": "C#",
+      "urlParam": "c%23",
+    },
+    Object {
+      "name": "C++",
+      "urlParam": "c++",
+    },
+    Object {
+      "name": "C-ObjDump",
+      "urlParam": "c-objdump",
+    },
+    Object {
+      "name": "C2hs Haskell",
+      "urlParam": "c2hs-haskell",
+    },
+    Object {
+      "name": "Cap'n Proto",
+      "urlParam": "cap'n-proto",
+    },
+    Object {
+      "name": "CartoCSS",
+      "urlParam": "cartocss",
+    },
+    Object {
+      "name": "Ceylon",
+      "urlParam": "ceylon",
+    },
+    Object {
+      "name": "Chapel",
+      "urlParam": "chapel",
+    },
+    Object {
+      "name": "Charity",
+      "urlParam": "charity",
+    },
+    Object {
+      "name": "ChucK",
+      "urlParam": "chuck",
+    },
+    Object {
+      "name": "Cirru",
+      "urlParam": "cirru",
+    },
+    Object {
+      "name": "Clarion",
+      "urlParam": "clarion",
+    },
+    Object {
+      "name": "Clean",
+      "urlParam": "clean",
+    },
+    Object {
+      "name": "Click",
+      "urlParam": "click",
+    },
+    Object {
+      "name": "CLIPS",
+      "urlParam": "clips",
+    },
+    Object {
+      "name": "Clojure",
+      "urlParam": "clojure",
+    },
+    Object {
+      "name": "Closure Templates",
+      "urlParam": "closure-templates",
+    },
+    Object {
+      "name": "CMake",
+      "urlParam": "cmake",
+    },
+    Object {
+      "name": "COBOL",
+      "urlParam": "cobol",
+    },
+    Object {
+      "name": "CoffeeScript",
+      "urlParam": "coffeescript",
+    },
+    Object {
+      "name": "ColdFusion",
+      "urlParam": "coldfusion",
+    },
+    Object {
+      "name": "ColdFusion CFC",
+      "urlParam": "coldfusion-cfc",
+    },
+    Object {
+      "name": "COLLADA",
+      "urlParam": "collada",
+    },
+    Object {
+      "name": "Common Lisp",
+      "urlParam": "common-lisp",
+    },
+    Object {
+      "name": "Common Workflow Language",
+      "urlParam": "common-workflow-language",
+    },
+    Object {
+      "name": "Component Pascal",
+      "urlParam": "component-pascal",
+    },
+    Object {
+      "name": "Cool",
+      "urlParam": "cool",
+    },
+    Object {
+      "name": "Coq",
+      "urlParam": "coq",
+    },
+    Object {
+      "name": "Cpp-ObjDump",
+      "urlParam": "cpp-objdump",
+    },
+    Object {
+      "name": "Creole",
+      "urlParam": "creole",
+    },
+    Object {
+      "name": "Crystal",
+      "urlParam": "crystal",
+    },
+    Object {
+      "name": "CSON",
+      "urlParam": "cson",
+    },
+    Object {
+      "name": "Csound",
+      "urlParam": "csound",
+    },
+    Object {
+      "name": "Csound Document",
+      "urlParam": "csound-document",
+    },
+    Object {
+      "name": "Csound Score",
+      "urlParam": "csound-score",
+    },
+    Object {
+      "name": "CSS",
+      "urlParam": "css",
+    },
+    Object {
+      "name": "CSV",
+      "urlParam": "csv",
+    },
+    Object {
+      "name": "Cuda",
+      "urlParam": "cuda",
+    },
+    Object {
+      "name": "CWeb",
+      "urlParam": "cweb",
+    },
+    Object {
+      "name": "Cycript",
+      "urlParam": "cycript",
+    },
+    Object {
+      "name": "Cython",
+      "urlParam": "cython",
+    },
+    Object {
+      "name": "D",
+      "urlParam": "d",
+    },
+    Object {
+      "name": "D-ObjDump",
+      "urlParam": "d-objdump",
+    },
+    Object {
+      "name": "Darcs Patch",
+      "urlParam": "darcs-patch",
+    },
+    Object {
+      "name": "Dart",
+      "urlParam": "dart",
+    },
+    Object {
+      "name": "DataWeave",
+      "urlParam": "dataweave",
+    },
+    Object {
+      "name": "desktop",
+      "urlParam": "desktop",
+    },
+    Object {
+      "name": "Diff",
+      "urlParam": "diff",
+    },
+    Object {
+      "name": "DIGITAL Command Language",
+      "urlParam": "digital-command-language",
+    },
+    Object {
+      "name": "DM",
+      "urlParam": "dm",
+    },
+    Object {
+      "name": "DNS Zone",
+      "urlParam": "dns-zone",
+    },
+    Object {
+      "name": "Dockerfile",
+      "urlParam": "dockerfile",
+    },
+    Object {
+      "name": "Dogescript",
+      "urlParam": "dogescript",
+    },
+    Object {
+      "name": "DTrace",
+      "urlParam": "dtrace",
+    },
+    Object {
+      "name": "Dylan",
+      "urlParam": "dylan",
+    },
+    Object {
+      "name": "E",
+      "urlParam": "e",
+    },
+    Object {
+      "name": "Eagle",
+      "urlParam": "eagle",
+    },
+    Object {
+      "name": "Easybuild",
+      "urlParam": "easybuild",
+    },
+    Object {
+      "name": "EBNF",
+      "urlParam": "ebnf",
+    },
+    Object {
+      "name": "eC",
+      "urlParam": "ec",
+    },
+    Object {
+      "name": "Ecere Projects",
+      "urlParam": "ecere-projects",
+    },
+    Object {
+      "name": "ECL",
+      "urlParam": "ecl",
+    },
+    Object {
+      "name": "ECLiPSe",
+      "urlParam": "eclipse",
+    },
+    Object {
+      "name": "Edje Data Collection",
+      "urlParam": "edje-data-collection",
+    },
+    Object {
+      "name": "edn",
+      "urlParam": "edn",
+    },
+    Object {
+      "name": "Eiffel",
+      "urlParam": "eiffel",
+    },
+    Object {
+      "name": "EJS",
+      "urlParam": "ejs",
+    },
+    Object {
+      "name": "Elixir",
+      "urlParam": "elixir",
+    },
+    Object {
+      "name": "Elm",
+      "urlParam": "elm",
+    },
+    Object {
+      "name": "Emacs Lisp",
+      "urlParam": "emacs-lisp",
+    },
+    Object {
+      "name": "EmberScript",
+      "urlParam": "emberscript",
+    },
+    Object {
+      "name": "EQ",
+      "urlParam": "eq",
+    },
+    Object {
+      "name": "Erlang",
+      "urlParam": "erlang",
+    },
+    Object {
+      "name": "F#",
+      "urlParam": "f%23",
+    },
+    Object {
+      "name": "Factor",
+      "urlParam": "factor",
+    },
+    Object {
+      "name": "Fancy",
+      "urlParam": "fancy",
+    },
+    Object {
+      "name": "Fantom",
+      "urlParam": "fantom",
+    },
+    Object {
+      "name": "Filebench WML",
+      "urlParam": "filebench-wml",
+    },
+    Object {
+      "name": "Filterscript",
+      "urlParam": "filterscript",
+    },
+    Object {
+      "name": "fish",
+      "urlParam": "fish",
+    },
+    Object {
+      "name": "FLUX",
+      "urlParam": "flux",
+    },
+    Object {
+      "name": "Formatted",
+      "urlParam": "formatted",
+    },
+    Object {
+      "name": "Forth",
+      "urlParam": "forth",
+    },
+    Object {
+      "name": "Fortran",
+      "urlParam": "fortran",
+    },
+    Object {
+      "name": "FreeMarker",
+      "urlParam": "freemarker",
+    },
+    Object {
+      "name": "Frege",
+      "urlParam": "frege",
+    },
+    Object {
+      "name": "G-code",
+      "urlParam": "g-code",
+    },
+    Object {
+      "name": "Game Maker Language",
+      "urlParam": "game-maker-language",
+    },
+    Object {
+      "name": "GAMS",
+      "urlParam": "gams",
+    },
+    Object {
+      "name": "GAP",
+      "urlParam": "gap",
+    },
+    Object {
+      "name": "GCC Machine Description",
+      "urlParam": "gcc-machine-description",
+    },
+    Object {
+      "name": "GDB",
+      "urlParam": "gdb",
+    },
+    Object {
+      "name": "GDScript",
+      "urlParam": "gdscript",
+    },
+    Object {
+      "name": "Genie",
+      "urlParam": "genie",
+    },
+    Object {
+      "name": "Genshi",
+      "urlParam": "genshi",
+    },
+    Object {
+      "name": "Gentoo Ebuild",
+      "urlParam": "gentoo-ebuild",
+    },
+    Object {
+      "name": "Gentoo Eclass",
+      "urlParam": "gentoo-eclass",
+    },
+    Object {
+      "name": "Gerber Image",
+      "urlParam": "gerber-image",
+    },
+    Object {
+      "name": "Gettext Catalog",
+      "urlParam": "gettext-catalog",
+    },
+    Object {
+      "name": "Gherkin",
+      "urlParam": "gherkin",
+    },
+    Object {
+      "name": "GLSL",
+      "urlParam": "glsl",
+    },
+    Object {
+      "name": "Glyph",
+      "urlParam": "glyph",
+    },
+    Object {
+      "name": "GN",
+      "urlParam": "gn",
+    },
+    Object {
+      "name": "Gnuplot",
+      "urlParam": "gnuplot",
+    },
+    Object {
+      "name": "Go",
+      "urlParam": "go",
+    },
+    Object {
+      "name": "Golo",
+      "urlParam": "golo",
+    },
+    Object {
+      "name": "Gosu",
+      "urlParam": "gosu",
+    },
+    Object {
+      "name": "Grace",
+      "urlParam": "grace",
+    },
+    Object {
+      "name": "Gradle",
+      "urlParam": "gradle",
+    },
+    Object {
+      "name": "Grammatical Framework",
+      "urlParam": "grammatical-framework",
+    },
+    Object {
+      "name": "Graph Modeling Language",
+      "urlParam": "graph-modeling-language",
+    },
+    Object {
+      "name": "GraphQL",
+      "urlParam": "graphql",
+    },
+    Object {
+      "name": "Graphviz (DOT)",
+      "urlParam": "graphviz-(dot)",
+    },
+    Object {
+      "name": "Groovy",
+      "urlParam": "groovy",
+    },
+    Object {
+      "name": "Groovy Server Pages",
+      "urlParam": "groovy-server-pages",
+    },
+    Object {
+      "name": "Hack",
+      "urlParam": "hack",
+    },
+    Object {
+      "name": "Haml",
+      "urlParam": "haml",
+    },
+    Object {
+      "name": "Handlebars",
+      "urlParam": "handlebars",
+    },
+    Object {
+      "name": "Harbour",
+      "urlParam": "harbour",
+    },
+    Object {
+      "name": "Haskell",
+      "urlParam": "haskell",
+    },
+    Object {
+      "name": "Haxe",
+      "urlParam": "haxe",
+    },
+    Object {
+      "name": "HCL",
+      "urlParam": "hcl",
+    },
+    Object {
+      "name": "HLSL",
+      "urlParam": "hlsl",
+    },
+    Object {
+      "name": "HTML",
+      "urlParam": "html",
+    },
+    Object {
+      "name": "HTML+Django",
+      "urlParam": "html+django",
+    },
+    Object {
+      "name": "HTML+ECR",
+      "urlParam": "html+ecr",
+    },
+    Object {
+      "name": "HTML+EEX",
+      "urlParam": "html+eex",
+    },
+    Object {
+      "name": "HTML+ERB",
+      "urlParam": "html+erb",
+    },
+    Object {
+      "name": "HTML+PHP",
+      "urlParam": "html+php",
+    },
+    Object {
+      "name": "HTTP",
+      "urlParam": "http",
+    },
+    Object {
+      "name": "Hy",
+      "urlParam": "hy",
+    },
+    Object {
+      "name": "HyPhy",
+      "urlParam": "hyphy",
+    },
+    Object {
+      "name": "IDL",
+      "urlParam": "idl",
+    },
+    Object {
+      "name": "Idris",
+      "urlParam": "idris",
+    },
+    Object {
+      "name": "IGOR Pro",
+      "urlParam": "igor-pro",
+    },
+    Object {
+      "name": "Inform 7",
+      "urlParam": "inform-7",
+    },
+    Object {
+      "name": "INI",
+      "urlParam": "ini",
+    },
+    Object {
+      "name": "Inno Setup",
+      "urlParam": "inno-setup",
+    },
+    Object {
+      "name": "Io",
+      "urlParam": "io",
+    },
+    Object {
+      "name": "Ioke",
+      "urlParam": "ioke",
+    },
+    Object {
+      "name": "IRC log",
+      "urlParam": "irc-log",
+    },
+    Object {
+      "name": "Isabelle",
+      "urlParam": "isabelle",
+    },
+    Object {
+      "name": "Isabelle ROOT",
+      "urlParam": "isabelle-root",
+    },
+    Object {
+      "name": "J",
+      "urlParam": "j",
+    },
+    Object {
+      "name": "Jasmin",
+      "urlParam": "jasmin",
+    },
+    Object {
+      "name": "Java",
+      "urlParam": "java",
+    },
+    Object {
+      "name": "Java Server Pages",
+      "urlParam": "java-server-pages",
+    },
+    Object {
+      "name": "JavaScript",
+      "urlParam": "javascript",
+    },
+    Object {
+      "name": "JFlex",
+      "urlParam": "jflex",
+    },
+    Object {
+      "name": "Jison",
+      "urlParam": "jison",
+    },
+    Object {
+      "name": "Jison Lex",
+      "urlParam": "jison-lex",
+    },
+    Object {
+      "name": "Jolie",
+      "urlParam": "jolie",
+    },
+    Object {
+      "name": "JSON",
+      "urlParam": "json",
+    },
+    Object {
+      "name": "JSON5",
+      "urlParam": "json5",
+    },
+    Object {
+      "name": "JSONiq",
+      "urlParam": "jsoniq",
+    },
+    Object {
+      "name": "JSONLD",
+      "urlParam": "jsonld",
+    },
+    Object {
+      "name": "JSX",
+      "urlParam": "jsx",
+    },
+    Object {
+      "name": "Julia",
+      "urlParam": "julia",
+    },
+    Object {
+      "name": "Jupyter Notebook",
+      "urlParam": "jupyter-notebook",
+    },
+    Object {
+      "name": "KiCad Layout",
+      "urlParam": "kicad-layout",
+    },
+    Object {
+      "name": "KiCad Legacy Layout",
+      "urlParam": "kicad-legacy-layout",
+    },
+    Object {
+      "name": "KiCad Schematic",
+      "urlParam": "kicad-schematic",
+    },
+    Object {
+      "name": "Kit",
+      "urlParam": "kit",
+    },
+    Object {
+      "name": "Kotlin",
+      "urlParam": "kotlin",
+    },
+    Object {
+      "name": "KRL",
+      "urlParam": "krl",
+    },
+    Object {
+      "name": "LabVIEW",
+      "urlParam": "labview",
+    },
+    Object {
+      "name": "Lasso",
+      "urlParam": "lasso",
+    },
+    Object {
+      "name": "Latte",
+      "urlParam": "latte",
+    },
+    Object {
+      "name": "Lean",
+      "urlParam": "lean",
+    },
+    Object {
+      "name": "Less",
+      "urlParam": "less",
+    },
+    Object {
+      "name": "Lex",
+      "urlParam": "lex",
+    },
+    Object {
+      "name": "LFE",
+      "urlParam": "lfe",
+    },
+    Object {
+      "name": "LilyPond",
+      "urlParam": "lilypond",
+    },
+    Object {
+      "name": "Limbo",
+      "urlParam": "limbo",
+    },
+    Object {
+      "name": "Linker Script",
+      "urlParam": "linker-script",
+    },
+    Object {
+      "name": "Linux Kernel Module",
+      "urlParam": "linux-kernel-module",
+    },
+    Object {
+      "name": "Liquid",
+      "urlParam": "liquid",
+    },
+    Object {
+      "name": "Literate Agda",
+      "urlParam": "literate-agda",
+    },
+    Object {
+      "name": "Literate CoffeeScript",
+      "urlParam": "literate-coffeescript",
+    },
+    Object {
+      "name": "Literate Haskell",
+      "urlParam": "literate-haskell",
+    },
+    Object {
+      "name": "LiveScript",
+      "urlParam": "livescript",
+    },
+    Object {
+      "name": "LLVM",
+      "urlParam": "llvm",
+    },
+    Object {
+      "name": "Logos",
+      "urlParam": "logos",
+    },
+    Object {
+      "name": "Logtalk",
+      "urlParam": "logtalk",
+    },
+    Object {
+      "name": "LOLCODE",
+      "urlParam": "lolcode",
+    },
+    Object {
+      "name": "LookML",
+      "urlParam": "lookml",
+    },
+    Object {
+      "name": "LoomScript",
+      "urlParam": "loomscript",
+    },
+    Object {
+      "name": "LSL",
+      "urlParam": "lsl",
+    },
+    Object {
+      "name": "Lua",
+      "urlParam": "lua",
+    },
+    Object {
+      "name": "M",
+      "urlParam": "m",
+    },
+    Object {
+      "name": "M4",
+      "urlParam": "m4",
+    },
+    Object {
+      "name": "M4Sugar",
+      "urlParam": "m4sugar",
+    },
+    Object {
+      "name": "Makefile",
+      "urlParam": "makefile",
+    },
+    Object {
+      "name": "Mako",
+      "urlParam": "mako",
+    },
+    Object {
+      "name": "Markdown",
+      "urlParam": "markdown",
+    },
+    Object {
+      "name": "Marko",
+      "urlParam": "marko",
+    },
+    Object {
+      "name": "Mask",
+      "urlParam": "mask",
+    },
+    Object {
+      "name": "Mathematica",
+      "urlParam": "mathematica",
+    },
+    Object {
+      "name": "Matlab",
+      "urlParam": "matlab",
+    },
+    Object {
+      "name": "Maven POM",
+      "urlParam": "maven-pom",
+    },
+    Object {
+      "name": "Max",
+      "urlParam": "max",
+    },
+    Object {
+      "name": "MAXScript",
+      "urlParam": "maxscript",
+    },
+    Object {
+      "name": "MediaWiki",
+      "urlParam": "mediawiki",
+    },
+    Object {
+      "name": "Mercury",
+      "urlParam": "mercury",
+    },
+    Object {
+      "name": "Meson",
+      "urlParam": "meson",
+    },
+    Object {
+      "name": "Metal",
+      "urlParam": "metal",
+    },
+    Object {
+      "name": "MiniD",
+      "urlParam": "minid",
+    },
+    Object {
+      "name": "Mirah",
+      "urlParam": "mirah",
+    },
+    Object {
+      "name": "Modelica",
+      "urlParam": "modelica",
+    },
+    Object {
+      "name": "Modula-2",
+      "urlParam": "modula-2",
+    },
+    Object {
+      "name": "Module Management System",
+      "urlParam": "module-management-system",
+    },
+    Object {
+      "name": "Monkey",
+      "urlParam": "monkey",
+    },
+    Object {
+      "name": "Moocode",
+      "urlParam": "moocode",
+    },
+    Object {
+      "name": "MoonScript",
+      "urlParam": "moonscript",
+    },
+    Object {
+      "name": "MQL4",
+      "urlParam": "mql4",
+    },
+    Object {
+      "name": "MQL5",
+      "urlParam": "mql5",
+    },
+    Object {
+      "name": "MTML",
+      "urlParam": "mtml",
+    },
+    Object {
+      "name": "MUF",
+      "urlParam": "muf",
+    },
+    Object {
+      "name": "mupad",
+      "urlParam": "mupad",
+    },
+    Object {
+      "name": "Myghty",
+      "urlParam": "myghty",
+    },
+    Object {
+      "name": "NCL",
+      "urlParam": "ncl",
+    },
+    Object {
+      "name": "Nearley",
+      "urlParam": "nearley",
+    },
+    Object {
+      "name": "Nemerle",
+      "urlParam": "nemerle",
+    },
+    Object {
+      "name": "nesC",
+      "urlParam": "nesc",
+    },
+    Object {
+      "name": "NetLinx",
+      "urlParam": "netlinx",
+    },
+    Object {
+      "name": "NetLinx+ERB",
+      "urlParam": "netlinx+erb",
+    },
+    Object {
+      "name": "NetLogo",
+      "urlParam": "netlogo",
+    },
+    Object {
+      "name": "NewLisp",
+      "urlParam": "newlisp",
+    },
+    Object {
+      "name": "Nextflow",
+      "urlParam": "nextflow",
+    },
+    Object {
+      "name": "Nginx",
+      "urlParam": "nginx",
+    },
+    Object {
+      "name": "Nim",
+      "urlParam": "nim",
+    },
+    Object {
+      "name": "Ninja",
+      "urlParam": "ninja",
+    },
+    Object {
+      "name": "Nit",
+      "urlParam": "nit",
+    },
+    Object {
+      "name": "Nix",
+      "urlParam": "nix",
+    },
+    Object {
+      "name": "NL",
+      "urlParam": "nl",
+    },
+    Object {
+      "name": "NSIS",
+      "urlParam": "nsis",
+    },
+    Object {
+      "name": "Nu",
+      "urlParam": "nu",
+    },
+    Object {
+      "name": "NumPy",
+      "urlParam": "numpy",
+    },
+    Object {
+      "name": "ObjDump",
+      "urlParam": "objdump",
+    },
+    Object {
+      "name": "Objective-C",
+      "urlParam": "objective-c",
+    },
+    Object {
+      "name": "Objective-C++",
+      "urlParam": "objective-c++",
+    },
+    Object {
+      "name": "Objective-J",
+      "urlParam": "objective-j",
+    },
+    Object {
+      "name": "OCaml",
+      "urlParam": "ocaml",
+    },
+    Object {
+      "name": "Omgrofl",
+      "urlParam": "omgrofl",
+    },
+    Object {
+      "name": "ooc",
+      "urlParam": "ooc",
+    },
+    Object {
+      "name": "Opa",
+      "urlParam": "opa",
+    },
+    Object {
+      "name": "Opal",
+      "urlParam": "opal",
+    },
+    Object {
+      "name": "OpenCL",
+      "urlParam": "opencl",
+    },
+    Object {
+      "name": "OpenEdge ABL",
+      "urlParam": "openedge-abl",
+    },
+    Object {
+      "name": "OpenRC runscript",
+      "urlParam": "openrc-runscript",
+    },
+    Object {
+      "name": "OpenSCAD",
+      "urlParam": "openscad",
+    },
+    Object {
+      "name": "OpenType Feature File",
+      "urlParam": "opentype-feature-file",
+    },
+    Object {
+      "name": "Org",
+      "urlParam": "org",
+    },
+    Object {
+      "name": "Ox",
+      "urlParam": "ox",
+    },
+    Object {
+      "name": "Oxygene",
+      "urlParam": "oxygene",
+    },
+    Object {
+      "name": "Oz",
+      "urlParam": "oz",
+    },
+    Object {
+      "name": "P4",
+      "urlParam": "p4",
+    },
+    Object {
+      "name": "Pan",
+      "urlParam": "pan",
+    },
+    Object {
+      "name": "Papyrus",
+      "urlParam": "papyrus",
+    },
+    Object {
+      "name": "Parrot",
+      "urlParam": "parrot",
+    },
+    Object {
+      "name": "Parrot Assembly",
+      "urlParam": "parrot-assembly",
+    },
+    Object {
+      "name": "Parrot Internal Representation",
+      "urlParam": "parrot-internal-representation",
+    },
+    Object {
+      "name": "Pascal",
+      "urlParam": "pascal",
+    },
+    Object {
+      "name": "PAWN",
+      "urlParam": "pawn",
+    },
+    Object {
+      "name": "Pep8",
+      "urlParam": "pep8",
+    },
+    Object {
+      "name": "Perl",
+      "urlParam": "perl",
+    },
+    Object {
+      "name": "Perl 6",
+      "urlParam": "perl-6",
+    },
+    Object {
+      "name": "PHP",
+      "urlParam": "php",
+    },
+    Object {
+      "name": "Pic",
+      "urlParam": "pic",
+    },
+    Object {
+      "name": "Pickle",
+      "urlParam": "pickle",
+    },
+    Object {
+      "name": "PicoLisp",
+      "urlParam": "picolisp",
+    },
+    Object {
+      "name": "PigLatin",
+      "urlParam": "piglatin",
+    },
+    Object {
+      "name": "Pike",
+      "urlParam": "pike",
+    },
+    Object {
+      "name": "PLpgSQL",
+      "urlParam": "plpgsql",
+    },
+    Object {
+      "name": "PLSQL",
+      "urlParam": "plsql",
+    },
+    Object {
+      "name": "Pod",
+      "urlParam": "pod",
+    },
+    Object {
+      "name": "PogoScript",
+      "urlParam": "pogoscript",
+    },
+    Object {
+      "name": "Pony",
+      "urlParam": "pony",
+    },
+    Object {
+      "name": "PostCSS",
+      "urlParam": "postcss",
+    },
+    Object {
+      "name": "PostScript",
+      "urlParam": "postscript",
+    },
+    Object {
+      "name": "POV-Ray SDL",
+      "urlParam": "pov-ray-sdl",
+    },
+    Object {
+      "name": "PowerBuilder",
+      "urlParam": "powerbuilder",
+    },
+    Object {
+      "name": "PowerShell",
+      "urlParam": "powershell",
+    },
+    Object {
+      "name": "Processing",
+      "urlParam": "processing",
+    },
+    Object {
+      "name": "Prolog",
+      "urlParam": "prolog",
+    },
+    Object {
+      "name": "Propeller Spin",
+      "urlParam": "propeller-spin",
+    },
+    Object {
+      "name": "Protocol Buffer",
+      "urlParam": "protocol-buffer",
+    },
+    Object {
+      "name": "Public Key",
+      "urlParam": "public-key",
+    },
+    Object {
+      "name": "Pug",
+      "urlParam": "pug",
+    },
+    Object {
+      "name": "Puppet",
+      "urlParam": "puppet",
+    },
+    Object {
+      "name": "Pure Data",
+      "urlParam": "pure-data",
+    },
+    Object {
+      "name": "PureBasic",
+      "urlParam": "purebasic",
+    },
+    Object {
+      "name": "PureScript",
+      "urlParam": "purescript",
+    },
+    Object {
+      "name": "Python",
+      "urlParam": "python",
+    },
+    Object {
+      "name": "Python console",
+      "urlParam": "python-console",
+    },
+    Object {
+      "name": "Python traceback",
+      "urlParam": "python-traceback",
+    },
+    Object {
+      "name": "QMake",
+      "urlParam": "qmake",
+    },
+    Object {
+      "name": "QML",
+      "urlParam": "qml",
+    },
+    Object {
+      "name": "R",
+      "urlParam": "r",
+    },
+    Object {
+      "name": "Racket",
+      "urlParam": "racket",
+    },
+    Object {
+      "name": "Ragel",
+      "urlParam": "ragel",
+    },
+    Object {
+      "name": "RAML",
+      "urlParam": "raml",
+    },
+    Object {
+      "name": "Rascal",
+      "urlParam": "rascal",
+    },
+    Object {
+      "name": "Raw token data",
+      "urlParam": "raw-token-data",
+    },
+    Object {
+      "name": "RDoc",
+      "urlParam": "rdoc",
+    },
+    Object {
+      "name": "REALbasic",
+      "urlParam": "realbasic",
+    },
+    Object {
+      "name": "Reason",
+      "urlParam": "reason",
+    },
+    Object {
+      "name": "Rebol",
+      "urlParam": "rebol",
+    },
+    Object {
+      "name": "Red",
+      "urlParam": "red",
+    },
+    Object {
+      "name": "Redcode",
+      "urlParam": "redcode",
+    },
+    Object {
+      "name": "Regular Expression",
+      "urlParam": "regular-expression",
+    },
+    Object {
+      "name": "Ren'Py",
+      "urlParam": "ren'py",
+    },
+    Object {
+      "name": "RenderScript",
+      "urlParam": "renderscript",
+    },
+    Object {
+      "name": "reStructuredText",
+      "urlParam": "restructuredtext",
+    },
+    Object {
+      "name": "REXX",
+      "urlParam": "rexx",
+    },
+    Object {
+      "name": "RHTML",
+      "urlParam": "rhtml",
+    },
+    Object {
+      "name": "Ring",
+      "urlParam": "ring",
+    },
+    Object {
+      "name": "RMarkdown",
+      "urlParam": "rmarkdown",
+    },
+    Object {
+      "name": "RobotFramework",
+      "urlParam": "robotframework",
+    },
+    Object {
+      "name": "Roff",
+      "urlParam": "roff",
+    },
+    Object {
+      "name": "Rouge",
+      "urlParam": "rouge",
+    },
+    Object {
+      "name": "RPC",
+      "urlParam": "rpc",
+    },
+    Object {
+      "name": "RPM Spec",
+      "urlParam": "rpm-spec",
+    },
+    Object {
+      "name": "Ruby",
+      "urlParam": "ruby",
+    },
+    Object {
+      "name": "RUNOFF",
+      "urlParam": "runoff",
+    },
+    Object {
+      "name": "Rust",
+      "urlParam": "rust",
+    },
+    Object {
+      "name": "Sage",
+      "urlParam": "sage",
+    },
+    Object {
+      "name": "SaltStack",
+      "urlParam": "saltstack",
+    },
+    Object {
+      "name": "SAS",
+      "urlParam": "sas",
+    },
+    Object {
+      "name": "Sass",
+      "urlParam": "sass",
+    },
+    Object {
+      "name": "Scala",
+      "urlParam": "scala",
+    },
+    Object {
+      "name": "Scaml",
+      "urlParam": "scaml",
+    },
+    Object {
+      "name": "Scheme",
+      "urlParam": "scheme",
+    },
+    Object {
+      "name": "Scilab",
+      "urlParam": "scilab",
+    },
+    Object {
+      "name": "SCSS",
+      "urlParam": "scss",
+    },
+    Object {
+      "name": "sed",
+      "urlParam": "sed",
+    },
+    Object {
+      "name": "Self",
+      "urlParam": "self",
+    },
+    Object {
+      "name": "ShaderLab",
+      "urlParam": "shaderlab",
+    },
+    Object {
+      "name": "Shell",
+      "urlParam": "shell",
+    },
+    Object {
+      "name": "ShellSession",
+      "urlParam": "shellsession",
+    },
+    Object {
+      "name": "Shen",
+      "urlParam": "shen",
+    },
+    Object {
+      "name": "Slash",
+      "urlParam": "slash",
+    },
+    Object {
+      "name": "Slim",
+      "urlParam": "slim",
+    },
+    Object {
+      "name": "Smali",
+      "urlParam": "smali",
+    },
+    Object {
+      "name": "Smalltalk",
+      "urlParam": "smalltalk",
+    },
+    Object {
+      "name": "Smarty",
+      "urlParam": "smarty",
+    },
+    Object {
+      "name": "SMT",
+      "urlParam": "smt",
+    },
+    Object {
+      "name": "Solidity",
+      "urlParam": "solidity",
+    },
+    Object {
+      "name": "SourcePawn",
+      "urlParam": "sourcepawn",
+    },
+    Object {
+      "name": "SPARQL",
+      "urlParam": "sparql",
+    },
+    Object {
+      "name": "Spline Font Database",
+      "urlParam": "spline-font-database",
+    },
+    Object {
+      "name": "SQF",
+      "urlParam": "sqf",
+    },
+    Object {
+      "name": "SQL",
+      "urlParam": "sql",
+    },
+    Object {
+      "name": "SQLPL",
+      "urlParam": "sqlpl",
+    },
+    Object {
+      "name": "Squirrel",
+      "urlParam": "squirrel",
+    },
+    Object {
+      "name": "SRecode Template",
+      "urlParam": "srecode-template",
+    },
+    Object {
+      "name": "Stan",
+      "urlParam": "stan",
+    },
+    Object {
+      "name": "Standard ML",
+      "urlParam": "standard-ml",
+    },
+    Object {
+      "name": "Stata",
+      "urlParam": "stata",
+    },
+    Object {
+      "name": "STON",
+      "urlParam": "ston",
+    },
+    Object {
+      "name": "Stylus",
+      "urlParam": "stylus",
+    },
+    Object {
+      "name": "Sublime Text Config",
+      "urlParam": "sublime-text-config",
+    },
+    Object {
+      "name": "SubRip Text",
+      "urlParam": "subrip-text",
+    },
+    Object {
+      "name": "SugarSS",
+      "urlParam": "sugarss",
+    },
+    Object {
+      "name": "SuperCollider",
+      "urlParam": "supercollider",
+    },
+    Object {
+      "name": "SVG",
+      "urlParam": "svg",
+    },
+    Object {
+      "name": "Swift",
+      "urlParam": "swift",
+    },
+    Object {
+      "name": "SystemVerilog",
+      "urlParam": "systemverilog",
+    },
+    Object {
+      "name": "Tcl",
+      "urlParam": "tcl",
+    },
+    Object {
+      "name": "Tcsh",
+      "urlParam": "tcsh",
+    },
+    Object {
+      "name": "Tea",
+      "urlParam": "tea",
+    },
+    Object {
+      "name": "Terra",
+      "urlParam": "terra",
+    },
+    Object {
+      "name": "TeX",
+      "urlParam": "tex",
+    },
+    Object {
+      "name": "Text",
+      "urlParam": "text",
+    },
+    Object {
+      "name": "Textile",
+      "urlParam": "textile",
+    },
+    Object {
+      "name": "Thrift",
+      "urlParam": "thrift",
+    },
+    Object {
+      "name": "TI Program",
+      "urlParam": "ti-program",
+    },
+    Object {
+      "name": "TLA",
+      "urlParam": "tla",
+    },
+    Object {
+      "name": "TOML",
+      "urlParam": "toml",
+    },
+    Object {
+      "name": "Turing",
+      "urlParam": "turing",
+    },
+    Object {
+      "name": "Turtle",
+      "urlParam": "turtle",
+    },
+    Object {
+      "name": "Twig",
+      "urlParam": "twig",
+    },
+    Object {
+      "name": "TXL",
+      "urlParam": "txl",
+    },
+    Object {
+      "name": "Type Language",
+      "urlParam": "type-language",
+    },
+    Object {
+      "name": "TypeScript",
+      "urlParam": "typescript",
+    },
+    Object {
+      "name": "Unified Parallel C",
+      "urlParam": "unified-parallel-c",
+    },
+    Object {
+      "name": "Unity3D Asset",
+      "urlParam": "unity3d-asset",
+    },
+    Object {
+      "name": "Unix Assembly",
+      "urlParam": "unix-assembly",
+    },
+    Object {
+      "name": "Uno",
+      "urlParam": "uno",
+    },
+    Object {
+      "name": "UnrealScript",
+      "urlParam": "unrealscript",
+    },
+    Object {
+      "name": "UrWeb",
+      "urlParam": "urweb",
+    },
+    Object {
+      "name": "Vala",
+      "urlParam": "vala",
+    },
+    Object {
+      "name": "VCL",
+      "urlParam": "vcl",
+    },
+    Object {
+      "name": "Verilog",
+      "urlParam": "verilog",
+    },
+    Object {
+      "name": "VHDL",
+      "urlParam": "vhdl",
+    },
+    Object {
+      "name": "Vim script",
+      "urlParam": "vim-script",
+    },
+    Object {
+      "name": "Visual Basic",
+      "urlParam": "visual-basic",
+    },
+    Object {
+      "name": "Volt",
+      "urlParam": "volt",
+    },
+    Object {
+      "name": "Vue",
+      "urlParam": "vue",
+    },
+    Object {
+      "name": "Wavefront Material",
+      "urlParam": "wavefront-material",
+    },
+    Object {
+      "name": "Wavefront Object",
+      "urlParam": "wavefront-object",
+    },
+    Object {
+      "name": "wdl",
+      "urlParam": "wdl",
+    },
+    Object {
+      "name": "Web Ontology Language",
+      "urlParam": "web-ontology-language",
+    },
+    Object {
+      "name": "WebAssembly",
+      "urlParam": "webassembly",
+    },
+    Object {
+      "name": "WebIDL",
+      "urlParam": "webidl",
+    },
+    Object {
+      "name": "wisp",
+      "urlParam": "wisp",
+    },
+    Object {
+      "name": "World of Warcraft Addon Data",
+      "urlParam": "world-of-warcraft-addon-data",
+    },
+    Object {
+      "name": "X10",
+      "urlParam": "x10",
+    },
+    Object {
+      "name": "xBase",
+      "urlParam": "xbase",
+    },
+    Object {
+      "name": "XC",
+      "urlParam": "xc",
+    },
+    Object {
+      "name": "XCompose",
+      "urlParam": "xcompose",
+    },
+    Object {
+      "name": "XML",
+      "urlParam": "xml",
+    },
+    Object {
+      "name": "Xojo",
+      "urlParam": "xojo",
+    },
+    Object {
+      "name": "XPages",
+      "urlParam": "xpages",
+    },
+    Object {
+      "name": "XPM",
+      "urlParam": "xpm",
+    },
+    Object {
+      "name": "XProc",
+      "urlParam": "xproc",
+    },
+    Object {
+      "name": "XQuery",
+      "urlParam": "xquery",
+    },
+    Object {
+      "name": "XS",
+      "urlParam": "xs",
+    },
+    Object {
+      "name": "XSLT",
+      "urlParam": "xslt",
+    },
+    Object {
+      "name": "Xtend",
+      "urlParam": "xtend",
+    },
+    Object {
+      "name": "Yacc",
+      "urlParam": "yacc",
+    },
+    Object {
+      "name": "YAML",
+      "urlParam": "yaml",
+    },
+    Object {
+      "name": "YANG",
+      "urlParam": "yang",
+    },
+    Object {
+      "name": "YARA",
+      "urlParam": "yara",
+    },
+    Object {
+      "name": "Zephir",
+      "urlParam": "zephir",
+    },
+    Object {
+      "name": "Zimpl",
+      "urlParam": "zimpl",
+    },
+  ],
+  "popular": Array [
+    Object {
+      "name": "C++",
+      "urlParam": "c++",
+    },
+    Object {
+      "name": "HTML",
+      "urlParam": "html",
+    },
+    Object {
+      "name": "Java",
+      "urlParam": "java",
+    },
+    Object {
+      "name": "PHP",
+      "urlParam": "php",
+    },
+    Object {
+      "name": "Python",
+      "urlParam": "python",
+    },
+    Object {
+      "name": "Ruby",
+      "urlParam": "ruby",
+    },
+  ],
+}
+`;
+
+exports[`fetchDevelopers() should match snapshot 1`] = `
+Array [
+  Object {
+    "avatar": "https://avatars0.githubusercontent.com/u/1342004?s=96&v=4",
+    "name": "Google",
+    "repo": Object {
+      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler",
+      "name": "traceur-compiler",
+      "url": "https://github.com/google/traceur-compiler",
+    },
+    "url": "https://github.com/google",
+    "username": "google",
+  },
+  Object {
+    "avatar": "https://avatars2.githubusercontent.com/u/9812956?s=96&v=4",
+    "name": "Gustav Hansen",
+    "repo": Object {
+      "description": "A React environment for cross platform native desktop apps",
+      "name": "proton-native",
+      "url": "https://github.com/kusti8/proton-native",
+    },
+    "url": "https://github.com/kusti8",
+    "username": "kusti8",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/9919?s=96&v=4",
+    "name": "GitHub",
+    "repo": Object {
+      "description": "A window.fetch JavaScript polyfill.",
+      "name": "fetch",
+      "url": "https://github.com/github/fetch",
+    },
+    "url": "https://github.com/github",
+    "username": "github",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/170270?s=96&v=4",
+    "name": "Sindre Sorhus",
+    "repo": Object {
+      "description": "Capture website screenshots",
+      "name": "pageres",
+      "url": "https://github.com/sindresorhus/pageres",
+    },
+    "url": "https://github.com/sindresorhus",
+    "username": "sindresorhus",
+  },
+  Object {
+    "avatar": "https://avatars3.githubusercontent.com/u/768052?s=96&v=4",
+    "name": "Sallar Kaboli",
+    "repo": Object {
+      "description": "Generate an image of all your Github contributions",
+      "name": "github-contributions-chart",
+      "url": "https://github.com/sallar/github-contributions-chart",
+    },
+    "url": "https://github.com/sallar",
+    "username": "sallar",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/37601651?s=96&v=4",
+    "name": "ReLaXed",
+    "repo": Object {
+      "description": "Create PDF documents using web technologies",
+      "name": "ReLaXed",
+      "url": "https://github.com/RelaxedJS/ReLaXed",
+    },
+    "url": "https://github.com/RelaxedJS",
+    "username": "RelaxedJS",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/143937?s=96&v=4",
+    "name": "Symfony",
+    "repo": Object {
+      "description": "A simple but powerful API for processing & compiling assets built around Webpack",
+      "name": "webpack-encore",
+      "url": "https://github.com/symfony/webpack-encore",
+    },
+    "url": "https://github.com/symfony",
+    "username": "symfony",
+  },
+  Object {
+    "avatar": "https://avatars2.githubusercontent.com/u/69631?s=96&v=4",
+    "name": "Facebook",
+    "repo": Object {
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "url": "https://github.com/facebook/react",
+    },
+    "url": "https://github.com/facebook",
+    "username": "facebook",
+  },
+  Object {
+    "avatar": "https://avatars2.githubusercontent.com/u/6154722?s=96&v=4",
+    "name": "Microsoft",
+    "repo": Object {
+      "description": "A browser based code editor",
+      "name": "monaco-editor",
+      "url": "https://github.com/Microsoft/monaco-editor",
+    },
+    "url": "https://github.com/Microsoft",
+    "username": "Microsoft",
+  },
+  Object {
+    "avatar": "https://avatars0.githubusercontent.com/u/30564946?s=96&v=4",
+    "repo": Object {
+      "description": "⏰Fast 2KB immutable date library alternative to Moment.js with the same modern API",
+      "name": "dayjs",
+      "url": "https://github.com/xx45/dayjs",
+    },
+    "url": "https://github.com/xx45",
+    "username": "xx45",
+  },
+  Object {
+    "avatar": "https://avatars0.githubusercontent.com/u/47359?s=96&v=4",
+    "name": "The Apache Software Foundation",
+    "repo": Object {
+      "description": "A powerful, interactive charting and visualization library for browser",
+      "name": "incubator-echarts",
+      "url": "https://github.com/apache/incubator-echarts",
+    },
+    "url": "https://github.com/apache",
+    "username": "apache",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/15658638?s=96&v=4",
+    "repo": Object {
+      "description": "A WebGL accelerated, browser based JavaScript library for training and deploying ML models.",
+      "name": "tfjs",
+      "url": "https://github.com/tensorflow/tfjs",
+    },
+    "url": "https://github.com/tensorflow",
+    "username": "tensorflow",
+  },
+  Object {
+    "avatar": "https://avatars0.githubusercontent.com/u/6128107?s=96&v=4",
+    "name": "vuejs",
+    "repo": Object {
+      "description": "🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "name": "vue",
+      "url": "https://github.com/vuejs/vue",
+    },
+    "url": "https://github.com/vuejs",
+    "username": "vuejs",
+  },
+  Object {
+    "avatar": "https://avatars3.githubusercontent.com/u/7907400?s=96&v=4",
+    "name": "NHN Entertainment",
+    "repo": Object {
+      "description": "🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.",
+      "name": "tui.editor",
+      "url": "https://github.com/nhnent/tui.editor",
+    },
+    "url": "https://github.com/nhnent",
+    "username": "nhnent",
+  },
+  Object {
+    "avatar": "https://avatars2.githubusercontent.com/u/13629408?s=96&v=4",
+    "name": "Kubernetes",
+    "repo": Object {
+      "description": "General-purpose web UI for Kubernetes clusters",
+      "name": "dashboard",
+      "url": "https://github.com/kubernetes/dashboard",
+    },
+    "url": "https://github.com/kubernetes",
+    "username": "kubernetes",
+  },
+  Object {
+    "avatar": "https://avatars0.githubusercontent.com/u/20395345?s=96&v=4",
+    "name": "layerJS",
+    "repo": Object {
+      "description": "layerJS: Javascript UI composition framework",
+      "name": "layerJS",
+      "url": "https://github.com/layerJS/layerJS",
+    },
+    "url": "https://github.com/layerJS",
+    "username": "layerJS",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/1961952?s=96&v=4",
+    "name": "Alibaba",
+    "repo": Object {
+      "description": "🎩 A universal React-compatible render engine.",
+      "name": "rax",
+      "url": "https://github.com/alibaba/rax",
+    },
+    "url": "https://github.com/alibaba",
+    "username": "alibaba",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/32314?s=96&v=4",
+    "name": "Tom MacWright",
+    "repo": Object {
+      "description": "presentations for busy messy hackers",
+      "name": "big",
+      "url": "https://github.com/tmcw/big",
+    },
+    "url": "https://github.com/tmcw",
+    "username": "tmcw",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/698437?s=96&v=4",
+    "name": "Airbnb",
+    "repo": Object {
+      "description": "JavaScript Style Guide",
+      "name": "javascript",
+      "url": "https://github.com/airbnb/javascript",
+    },
+    "url": "https://github.com/airbnb",
+    "username": "airbnb",
+  },
+  Object {
+    "avatar": "https://avatars2.githubusercontent.com/u/20297227?s=96&v=4",
+    "name": "cangdu",
+    "repo": Object {
+      "description": "基于 node.js + Mongodb 构建的后台系统",
+      "name": "node-elm",
+      "url": "https://github.com/bailicangdu/node-elm",
+    },
+    "url": "https://github.com/bailicangdu",
+    "username": "bailicangdu",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/6250754?s=96&v=4",
+    "repo": Object {
+      "description": "Mist. Browse and use Ðapps on the Ethereum network.",
+      "name": "mist",
+      "url": "https://github.com/ethereum/mist",
+    },
+    "url": "https://github.com/ethereum",
+    "username": "ethereum",
+  },
+  Object {
+    "avatar": "https://avatars3.githubusercontent.com/u/139426?s=96&v=4",
+    "name": "Angular",
+    "repo": Object {
+      "description": "AngularJS - HTML enhanced for web apps!",
+      "name": "angular.js",
+      "url": "https://github.com/angular/angular.js",
+    },
+    "url": "https://github.com/angular",
+    "username": "angular",
+  },
+  Object {
+    "avatar": "https://avatars0.githubusercontent.com/u/18461506?s=96&v=4",
+    "name": "Tencent",
+    "repo": Object {
+      "description": "小程序组件化开发框架",
+      "name": "wepy",
+      "url": "https://github.com/Tencent/wepy",
+    },
+    "url": "https://github.com/Tencent",
+    "username": "Tencent",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/150330?s=96&v=4",
+    "name": "Kyle Simpson",
+    "repo": Object {
+      "description": "Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.",
+      "name": "Functional-Light-JS",
+      "url": "https://github.com/getify/Functional-Light-JS",
+    },
+    "url": "https://github.com/getify",
+    "username": "getify",
+  },
+  Object {
+    "avatar": "https://avatars1.githubusercontent.com/u/905434?s=96&v=4",
+    "name": "Ruan YiFeng",
+    "repo": Object {
+      "description": "a collection of simple demos of React.js",
+      "name": "react-demos",
+      "url": "https://github.com/ruanyf/react-demos",
+    },
+    "url": "https://github.com/ruanyf",
+    "username": "ruanyf",
+  },
+]
+`;
+
+exports[`fetchRepositories() should match snapshot 1`] = `
+Array [
+  Object {
+    "author": "kusti8",
+    "currentPeriodStars": 1186,
+    "description": "A React environment for cross platform native desktop apps",
+    "forks": 139,
+    "language": "JavaScript",
+    "name": "proton-native",
+    "stars": 5604,
+    "url": "https://github.com/kusti8/proton-native",
+  },
+  Object {
+    "author": "sallar",
+    "currentPeriodStars": 597,
+    "description": "Generate an image of all your Github contributions",
+    "forks": 54,
+    "language": "JavaScript",
+    "name": "github-contributions-chart",
+    "stars": 2008,
+    "url": "https://github.com/sallar/github-contributions-chart",
+  },
+  Object {
+    "author": "RelaxedJS",
+    "currentPeriodStars": 543,
+    "description": "Create PDF documents using web technologies",
+    "forks": 144,
+    "language": "JavaScript",
+    "name": "ReLaXed",
+    "stars": 6018,
+    "url": "https://github.com/RelaxedJS/ReLaXed",
+  },
+  Object {
+    "author": "xx45",
+    "currentPeriodStars": 404,
+    "description": "⏰Fast 2KB immutable date library alternative to Moment.js with the same modern API",
+    "forks": 243,
+    "language": "JavaScript",
+    "name": "dayjs",
+    "stars": 8593,
+    "url": "https://github.com/xx45/dayjs",
+  },
+  Object {
+    "author": "nhnent",
+    "currentPeriodStars": 237,
+    "description": "🍞📅A JavaScript calendar that everything you need.",
+    "forks": 169,
+    "language": "JavaScript",
+    "name": "tui.calendar",
+    "stars": 4275,
+    "url": "https://github.com/nhnent/tui.calendar",
+  },
+  Object {
+    "author": "layerJS",
+    "currentPeriodStars": 208,
+    "description": "layerJS: Javascript UI composition framework",
+    "forks": 19,
+    "language": "JavaScript",
+    "name": "layerJS",
+    "stars": 759,
+    "url": "https://github.com/layerJS/layerJS",
+  },
+  Object {
+    "author": "tmcw",
+    "currentPeriodStars": 165,
+    "description": "presentations for busy messy hackers",
+    "forks": 125,
+    "language": "JavaScript",
+    "name": "big",
+    "stars": 2122,
+    "url": "https://github.com/tmcw/big",
+  },
+  Object {
+    "author": "vuejs",
+    "currentPeriodStars": 115,
+    "description": "🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+    "forks": 13754,
+    "language": "JavaScript",
+    "name": "vue",
+    "stars": 93459,
+    "url": "https://github.com/vuejs/vue",
+  },
+  Object {
+    "author": "facebook",
+    "currentPeriodStars": 92,
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "forks": 17933,
+    "language": "JavaScript",
+    "name": "react",
+    "stars": 95285,
+    "url": "https://github.com/facebook/react",
+  },
+  Object {
+    "author": "facebook",
+    "currentPeriodStars": 90,
+    "description": "Create React apps with no build configuration.",
+    "forks": 9899,
+    "language": "JavaScript",
+    "name": "create-react-app",
+    "stars": 48272,
+    "url": "https://github.com/facebook/create-react-app",
+  },
+  Object {
+    "author": "justjavac",
+    "currentPeriodStars": 83,
+    "description": "📚 免费的计算机编程类中文书籍，欢迎投稿",
+    "forks": 11675,
+    "language": "JavaScript",
+    "name": "free-programming-books-zh_CN",
+    "stars": 32260,
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+  },
+  Object {
+    "author": "vuejs",
+    "currentPeriodStars": 81,
+    "description": "📝 Minimalistic Vue-powered static site generator",
+    "forks": 482,
+    "language": "JavaScript",
+    "name": "vuepress",
+    "stars": 6570,
+    "url": "https://github.com/vuejs/vuepress",
+  },
+  Object {
+    "author": "axios",
+    "currentPeriodStars": 80,
+    "description": "Promise based HTTP client for the browser and node.js",
+    "forks": 2937,
+    "language": "JavaScript",
+    "name": "axios",
+    "stars": 41097,
+    "url": "https://github.com/axios/axios",
+  },
+  Object {
+    "author": "airbnb",
+    "currentPeriodStars": 73,
+    "description": "JavaScript Style Guide",
+    "forks": 13462,
+    "language": "JavaScript",
+    "name": "javascript",
+    "stars": 70515,
+    "url": "https://github.com/airbnb/javascript",
+  },
+  Object {
+    "author": "GoogleChrome",
+    "currentPeriodStars": 73,
+    "description": "Headless Chrome Node API",
+    "forks": 2366,
+    "language": "JavaScript",
+    "name": "puppeteer",
+    "stars": 31492,
+    "url": "https://github.com/GoogleChrome/puppeteer",
+  },
+  Object {
+    "author": "Meituan-Dianping",
+    "currentPeriodStars": 74,
+    "description": "基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。",
+    "forks": 744,
+    "language": "JavaScript",
+    "name": "mpvue",
+    "stars": 8876,
+    "url": "https://github.com/Meituan-Dianping/mpvue",
+  },
+  Object {
+    "author": "marktext",
+    "currentPeriodStars": 72,
+    "description": "📝Next generation markdown editor, running on platforms of MacOS Windows and Linux.",
+    "forks": 230,
+    "language": "JavaScript",
+    "name": "marktext",
+    "stars": 4654,
+    "url": "https://github.com/marktext/marktext",
+  },
+  Object {
+    "author": "typicode",
+    "currentPeriodStars": 69,
+    "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+    "forks": 2609,
+    "language": "JavaScript",
+    "name": "json-server",
+    "stars": 31346,
+    "url": "https://github.com/typicode/json-server",
+  },
+  Object {
+    "author": "nodejs",
+    "currentPeriodStars": 65,
+    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+    "forks": 10240,
+    "language": "JavaScript",
+    "name": "node",
+    "stars": 48530,
+    "url": "https://github.com/nodejs/node",
+  },
+  Object {
+    "author": "hujiulong",
+    "currentPeriodStars": 69,
+    "description": "📍 一个处理地理坐标系的js库，用来修正百度地图、高德地图及其它互联网地图坐标系不统一的问题",
+    "forks": 45,
+    "language": "JavaScript",
+    "name": "gcoord",
+    "stars": 385,
+    "url": "https://github.com/hujiulong/gcoord",
+  },
+  Object {
+    "author": "mdx-js",
+    "currentPeriodStars": 70,
+    "description": "A fully-featured MDX parser, loader and JSX renderer for ambitious projects",
+    "forks": 36,
+    "language": "JavaScript",
+    "name": "mdx",
+    "stars": 1975,
+    "url": "https://github.com/mdx-js/mdx",
+  },
+  Object {
+    "author": "banterfm",
+    "currentPeriodStars": 65,
+    "description": "Reduces the size of GraphQL responses by consolidating duplicate values",
+    "forks": 5,
+    "language": "JavaScript",
+    "name": "graphql-crunch",
+    "stars": 227,
+    "url": "https://github.com/banterfm/graphql-crunch",
+  },
+  Object {
+    "author": "facebook",
+    "currentPeriodStars": 58,
+    "description": "A framework for building native apps with React.",
+    "forks": 14396,
+    "language": "JavaScript",
+    "name": "react-native",
+    "stars": 63491,
+    "url": "https://github.com/facebook/react-native",
+  },
+  Object {
+    "author": "Tencent",
+    "currentPeriodStars": 59,
+    "description": "小程序组件化开发框架",
+    "forks": 1378,
+    "language": "JavaScript",
+    "name": "wepy",
+    "stars": 10237,
+    "url": "https://github.com/Tencent/wepy",
+  },
+  Object {
+    "author": "mui-org",
+    "currentPeriodStars": 59,
+    "description": "React components that implement Google's Material Design.",
+    "forks": 6510,
+    "language": "JavaScript",
+    "name": "material-ui",
+    "stars": 35606,
+    "url": "https://github.com/mui-org/material-ui",
+  },
+]
+`;

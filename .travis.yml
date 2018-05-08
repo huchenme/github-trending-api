@@ -5,7 +5,10 @@ cache:
 node_js:
   - '9'
 before_install: yarn global add now
-script: yarn deploy --token $NOW_TOKEN
-after_script: yarn alias --token $NOW_TOKEN
-branches:
-  only: master
+before_script: yarn validate
+script: yarn build:prod
+deploy:
+  provider: script
+  script: yarn deploy --token $NOW_TOKEN && yarn alias --token $NOW_TOKEN
+  on:
+    branch: master
