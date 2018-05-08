@@ -7,7 +7,10 @@ node_js:
   - '9'
 env:
   - NODE_ENV=production
-before_install: yarn global add now
+before_install:
+  - rm -rf $HOME/.cache/yarn
+  - rm -rf node_modules
+  - yarn global add now
 before_script:
   - yarn validate
   - yarn clean
