@@ -5,7 +5,9 @@ cache:
 node_js:
   - '9'
 before_install: yarn global add now
-before_script: yarn validate
+before_script:
+  - yarn validate
+  - yarn clean
 script: yarn build:prod
 deploy:
   provider: script
