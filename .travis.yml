@@ -1,16 +1,17 @@
 language: node_js
-cache:
-  directories:
-    - ~/.npm
+cache: yarn
 node_js:
   - '9'
+env:
+  - NODE_ENV=production
 before_install: yarn global add now
 before_script:
   - yarn validate
   - yarn clean
-script: yarn rollup:build:prod
+script: yarn rollup:build
 deploy:
   provider: script
+  skip_cleanup: true
   script: bash scripts/now.sh
   on:
     branch: master
