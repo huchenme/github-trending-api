@@ -6,9 +6,9 @@
 
 [![npm (scoped)](https://img.shields.io/npm/v/@huchenme/github-trending.svg)](https://www.npmjs.com/package/@huchenme/github-trending)
 [![npm](https://img.shields.io/npm/dm/@huchenme/github-trending.svg)](https://npmcharts.com/compare/@huchenme/github-trending)
-[![size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.cjs.js?label=size)](https://unpkg.com/@huchenme/github-trending/dist/)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.cjs.js&compression=gzip&label=gzip%20size)](https://unpkg.com/@huchenme/github-trending/dist/)
-[![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20es-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
+[![size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.esm.js?label=size)](https://unpkg.com/@huchenme/github-trending/dist/)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.esm.js&compression=gzip&label=gzip%20size)](https://unpkg.com/@huchenme/github-trending/dist/)
+[![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)
