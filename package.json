@@ -2,8 +2,8 @@
   "name": "@huchenme/github-trending",
   "version": "0.0.0-semantic-released",
   "description": "Get GitHub trending data",
-  "main": "dist/github-trending-api.cjs.js",
-  "module": "dist/github-trending-api.esm.js",
+  "main": "dist/github-trending.cjs.js",
+  "module": "dist/github-trending.esm.js",
   "publishConfig": {
     "access": "public"
   },
@@ -13,7 +13,7 @@
     "deploy": "now --public",
     "alias": "now alias",
     "contributors:add": "all-contributors add",
-    "precommit": "lint-staged",
+    "precommit": "yarn test && lint-staged",
     "test": "jest",
     "lint": "eslint ./src",
     "validate": "npm-run-all lint test",

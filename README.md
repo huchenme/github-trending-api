@@ -3,10 +3,17 @@
 [![Travis](https://img.shields.io/travis/huchenme/github-trending-api.svg)](https://travis-ci.org/huchenme/github-trending-api)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sallar/github-contributions-canvas/blob/master/LICENSE)
+
+[![npm (scoped)](https://img.shields.io/npm/v/@huchenme/github-trending.svg)](https://www.npmjs.com/package/@huchenme/github-trending)
+[![npm](https://img.shields.io/npm/dm/@huchenme/github-trending.svg)](https://npmcharts.com/compare/@huchenme/github-trending)
+[![size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.cjs.js?label=size)](https://unpkg.com/@huchenme/github-trending/dist/)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.cjs.js&compression=gzip&label=gzip%20size)](https://unpkg.com/@huchenme/github-trending/dist/)
+[![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20es-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)
 
-![hero image](images/hero.jpeg)
+![hero image](https://github.com/huchenme/github-trending-api/raw/master/images/hero.jpeg)
 
 :octocat: A simple API that returns number of Github trending repositories and developers.
 
