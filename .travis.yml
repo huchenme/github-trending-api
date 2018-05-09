@@ -11,6 +11,9 @@ before_script:
   - yarn validate
   - yarn clean
 script: yarn rollup:build:prod
+after_success:
+  - npm install -g travis-deploy-once
+  - travis-deploy-once "npm run semantic-release"
 deploy:
   provider: script
   skip_cleanup: true
