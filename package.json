@@ -1,9 +1,12 @@
 {
-  "name": "github-trending-api",
-  "version": "0.0.0-development",
+  "name": "@huchenme/github-trending",
+  "version": "0.0.0-semantic-released",
   "description": "Get GitHub trending data",
   "main": "dist/github-trending-api.cjs.js",
   "module": "dist/github-trending-api.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "node ./dist/server.js",
     "dev": "babel-node --presets @babel/preset-env ./src/server.js",
