@@ -10,8 +10,8 @@
 [![size](http://img.badgesize.io/https://unpkg.com/@huchenme/github-trending/dist/github-trending.esm.js?label=size)](https://unpkg.com/@huchenme/github-trending/dist/)
 [![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 ![hero image](https://github.com/huchenme/github-trending-api/raw/master/images/hero.jpeg)
 
