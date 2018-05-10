@@ -21,43 +21,27 @@
 
 ## Table of Contents
 
+<!-- prettier-ignore-start -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-* [REST API](#rest-api)
-  * [Trending Repositories](#trending-repositories)
-  * [Trending Developers](#trending-developers)
-  * [List Languages](#list-languages)
-* [NPM Package](#npm-package)
-  * [Install](#install)
-  * [Usage](#usage)
-  * [API](#api)
-  * [fetchAllLanguages()](#fetchalllanguages)
-  * [fetchRepositories(_params_)](#fetchrepositories_params_)
-  * [fetchDevelopers(_params_)](#fetchdevelopers_params_)
-* [Contributors](#contributors)
-* [License](#license)
+- [REST API](#rest-api)
+  - [Trending Repositories](#trending-repositories)
+  - [Trending Developers](#trending-developers)
+  - [List Languages](#list-languages)
+- [NPM Package](#npm-package)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [API](#api)
+  - [fetchAllLanguages()](#fetchalllanguages)
+  - [fetchRepositories(_params_)](#fetchrepositories_params_)
+  - [fetchDevelopers(_params_)](#fetchdevelopers_params_)
+- [Contributors](#contributors)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-* [REST API](#rest-api)
-  * [Trending Repositories](#trending-repositories)
-  * [Trending Developers](#trending-developers)
-  * [List Languages](#list-languages)
-* [NPM Package](#npm-package)
-  * [Install](#install)
-  * [Usage](#usage)
-  * [API](#api)
-  * [fetchAllLanguages()](#fetchalllanguages)
-  * [fetchRepositories(_params_)](#fetchrepositories_params_)
-  * [fetchDevelopers(_params_)](#fetchdevelopers_params_)
-* [Contributors](#contributors)
-* [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- prettier-ignore-end -->
 
 ## REST API
 
