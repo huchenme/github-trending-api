@@ -10,12 +10,14 @@ branches:
     - master
 before_install:
   - yarn global add now
+  - yarn global add codecov
 before_script:
   - yarn validate
   - yarn clean
 script: yarn rollup:build:prod
 after_success:
-  - npm install -g travis-deploy-once
+  - codecov
+  - yarn global add travis-deploy-once
   - travis-deploy-once "npm run semantic-release"
 deploy:
   provider: script

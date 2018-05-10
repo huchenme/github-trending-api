@@ -1,7 +1,7 @@
 import express from 'express';
 import cache from 'memory-cache';
 import cors from 'cors';
-import { fetchAllLanguages, fetchRepositories, fetchDevelopers } from './index';
+import { fetchAllLanguages, fetchRepositories, fetchDevelopers } from './fetch';
 
 const app = express();
 app.use(cors());

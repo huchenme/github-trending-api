@@ -5,7 +5,7 @@ import {
   fetchAllLanguages,
   fetchRepositories,
   fetchDevelopers,
-} from '../index';
+} from '../fetch';
 
 jest.mock('node-fetch');
 

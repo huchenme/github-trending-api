@@ -3,6 +3,7 @@
     [
       "@babel/preset-env",
       {
+        "useBuiltIns": "usage",
         "modules": false
       }
     ]
