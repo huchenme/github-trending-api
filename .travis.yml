@@ -19,9 +19,4 @@ after_success:
   - codecov
   - yarn global add travis-deploy-once
   - travis-deploy-once "npm run semantic-release"
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: bash scripts/now.sh
-  on:
-    branch: master
+
