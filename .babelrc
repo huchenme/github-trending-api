@@ -3,12 +3,19 @@
     [
       "@babel/preset-env",
       {
-        "useBuiltIns": "usage",
         "modules": false
       }
     ]
   ],
-  "plugins": ["lodash"],
+  "plugins": [
+    "lodash",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useBuiltIns": true
+      }
+    ]
+  ],
   "env": {
     "test": {
       "presets": ["@babel/preset-env"]

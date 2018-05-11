@@ -14,6 +14,7 @@ export default [
     plugins: [
       babel({
         exclude: 'node_modules/**',
+        runtimeHelpers: true,
       }),
       process.env.NODE_ENV === 'production' && uglify(),
     ],
@@ -33,6 +34,7 @@ export default [
       babel({
         exclude: 'node_modules/**',
         babelrc: false,
+        runtimeHelpers: true,
         presets: [
           [
             '@babel/preset-env',

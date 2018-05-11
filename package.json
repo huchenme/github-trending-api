@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/huchenme/github-trending-api#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.0.0-beta.46",
+    "@babel/runtime": "^7.0.0-beta.46",
     "cheerio": "^1.0.0-rc.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
@@ -45,6 +45,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
     "@babel/node": "^7.0.0-beta.46",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.46",
     "@babel/preset-env": "^7.0.0-beta.46",
     "all-contributors-cli": "^4.11.1",
     "babel-core": "^7.0.0-0",

@@ -35,8 +35,8 @@
   - [Usage](#usage)
   - [API](#api)
   - [fetchAllLanguages()](#fetchalllanguages)
-  - [fetchRepositories(_params_)](#fetchrepositories_params_)
-  - [fetchDevelopers(_params_)](#fetchdevelopers_params_)
+  - [fetchRepositories(params)](#fetchrepositoriesparams)
+  - [fetchDevelopers(params)](#fetchdevelopersparams)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -203,7 +203,7 @@ Return popular languages and all languages.
 }
 ```
 
-### fetchRepositories(_params_)
+### fetchRepositories(params)
 
 Receive an array of trending repositories.
 
@@ -229,7 +229,7 @@ Receive an array of trending repositories.
 ]
 ```
 
-### fetchDevelopers(_params_)
+### fetchDevelopers(params)
 
 Receive an array of trending developers.
 
