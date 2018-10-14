@@ -1,6 +1,6 @@
 {
   "name": "@huchenme/github-trending",
-  "version": "0.0.0-semantic-released",
+  "version": "0.0.0-development",
   "description": "Get GitHub trending data",
   "main": "dist/github-trending.cjs.js",
   "module": "dist/github-trending.esm.js",
@@ -21,7 +21,8 @@
     "clean": "rimraf dist",
     "rollup:build": "rollup -c",
     "rollup:build:prod": "NODE_ENV=production rollup -c",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -70,7 +71,8 @@
     "rollup": "^0.66.6",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-uglify": "^3.0.0",
-    "semantic-release": "^15.9.17"
+    "semantic-release": "^15.9.17",
+    "travis-deploy-once": "^5.0.9"
   },
   "lint-staged": {
     "README.md": [
