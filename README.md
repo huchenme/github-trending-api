@@ -57,8 +57,8 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
 
 **Parameters:**
 
-* `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
-* `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
+- `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
+- `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
 
 **Response:**
 
@@ -73,7 +73,14 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
     "language": "Go",
     "stars": 3320,
     "forks": 118,
-    "currentPeriodStars": 1624
+    "currentPeriodStars": 1624,
+    "builtBy": [
+      {
+        "href": "https://github.com/viatsko",
+        "avatar": "https://avatars0.githubusercontent.com/u/376065?s=40&v=4",
+        "username": "viatsko"
+      }
+    ]
   }
   ...
 ]
@@ -89,8 +96,8 @@ https://github-trending-api.now.sh/developers?language=javascript&since=weekly
 
 **Parameters:**
 
-* `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
-* `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
+- `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
+- `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
 
 **Response:**
 
@@ -209,8 +216,8 @@ Receive an array of trending repositories.
 
 **params**:
 
-* `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](languages.json).
-* `since`: `daily`, `weekly` or `monthly`, default to `daily`.
+- `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](languages.json).
+- `since`: `daily`, `weekly` or `monthly`, default to `daily`.
 
 ```js
 [
@@ -223,7 +230,14 @@ Receive an array of trending repositories.
     language: 'Go',
     stars: 3320,
     forks: 118,
-    currentPeriodStars: 1624
+    currentPeriodStars: 1624,
+    "builtBy": [
+      {
+        "href": "https://github.com/viatsko",
+        "avatar": "https://avatars0.githubusercontent.com/u/376065?s=40&v=4",
+        "username": "viatsko"
+      }
+    ]
   }
   ...
 ]
@@ -235,8 +249,8 @@ Receive an array of trending developers.
 
 **params**:
 
-* `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](languages.json).
-* `since`: `daily`, `weekly` or `monthly`, default to `daily`.
+- `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](languages.json).
+- `since`: `daily`, `weekly` or `monthly`, default to `daily`.
 
 ```js
 [

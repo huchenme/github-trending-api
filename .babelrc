@@ -7,15 +7,7 @@
       }
     ]
   ],
-  "plugins": [
-    "lodash",
-    [
-      "@babel/plugin-transform-runtime",
-      {
-        "useBuiltIns": true
-      }
-    ]
-  ],
+  "plugins": ["lodash", "@babel/plugin-transform-runtime"],
   "env": {
     "test": {
       "presets": ["@babel/preset-env"]

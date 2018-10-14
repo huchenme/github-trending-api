@@ -75,6 +75,22 @@ export async function fetchRepositories({
             .text()
             .trim() || '';
 
+        const builtBy = $repo
+          .find('[data-hovercard-type="user"]')
+          .map((i, user) => {
+            return {
+              username: $(user)
+                .children('img')
+                .attr('alt')
+                .slice(1),
+              href: `${GITHUB_URL}${user.attribs.href}`,
+              avatar: $(user)
+                .children('img')
+                .attr('src'),
+            };
+          })
+          .get();
+
         return omitNil({
           author: title.split(' / ')[0],
           name: title.split(' / ')[1],
@@ -106,6 +122,7 @@ export async function fetchRepositories({
             currentPeriodStarsString.split(' ')[0].replace(',', '') || 0,
             10
           ),
+          builtBy,
         });
       })
   );
