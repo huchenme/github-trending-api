@@ -76,13 +76,15 @@ export async function fetchRepositories({
             .trim() || '';
 
         const builtBy = $repo
+          .find('span:contains("Built by")')
+          .parent()
           .find('[data-hovercard-type="user"]')
           .map((i, user) => {
+            const altString = $(user)
+              .children('img')
+              .attr('alt');
             return {
-              username: $(user)
-                .children('img')
-                .attr('alt')
-                .slice(1),
+              username: altString ? altString.slice(1) : null,
               href: `${GITHUB_URL}${user.attribs.href}`,
               avatar: $(user)
                 .children('img')
