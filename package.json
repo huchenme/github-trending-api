@@ -11,8 +11,6 @@
     "start": "node ./dist/server.js",
     "babel-node": "babel-node --presets @babel/preset-env ./src/server.js",
     "dev": "nodemon --exec npm run babel-node",
-    "deploy": "now --public",
-    "alias": "now alias",
     "contributors:add": "all-contributors add",
     "precommit": "yarn test && lint-staged",
     "test": "jest --coverage",
@@ -22,7 +20,11 @@
     "rollup:build": "rollup -c",
     "rollup:build:prod": "NODE_ENV=production rollup -c",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "prenow": "npm run clean && npm run rollup:build:prod",
+    "now": "npm-run-all now:*",
+    "now:deploy": "now --public",
+    "now:alias": "now alias"
   },
   "repository": {
     "type": "git",
