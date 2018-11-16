@@ -53,7 +53,10 @@ export async function fetchRepositories({
   language = '',
   since = 'daily',
 } = {}) {
-  const data = await fetch(`${GITHUB_URL}/trending/${language}?since=${since}`);
+  const url = `${GITHUB_URL}/trending/${encodeURIComponent(
+    language
+  )}?since=${encodeURIComponent(since)}`;
+  const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (
     $('.repo-list li')
@@ -132,7 +135,9 @@ export async function fetchRepositories({
 
 export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
   const data = await fetch(
-    `${GITHUB_URL}/trending/developers/${language}?since=${since}`
+    `${GITHUB_URL}/trending/developers/${encodeURIComponent(
+      language
+    )}?since=${encodeURIComponent(since)}`
   );
   const $ = cheerio.load(await data.text());
   return $('.explore-content li')
