@@ -96,6 +96,15 @@ export async function fetchRepositories({
           })
           .get();
 
+        const colorNode = $repo.find('.repo-language-color');
+        const langColor = colorNode.length
+          ? colorNode.css('background-color')
+          : null;
+
+        const langNode = $repo.find('[itemprop=programmingLanguage]');
+
+        const lang = langNode.length ? langNode.text().trim() : null;
+
         return omitNil({
           author: title.split(' / ')[0],
           name: title.split(' / ')[1],
@@ -105,10 +114,8 @@ export async function fetchRepositories({
               .find('.py-1 p')
               .text()
               .trim() || '',
-          language: $repo
-            .find('[itemprop=programmingLanguage]')
-            .text()
-            .trim(),
+          language: lang,
+          languageColor: langColor,
           stars: parseInt(
             $repo
               .find(`[href="${relativeUrl}/stargazers"]`)
