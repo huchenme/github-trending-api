@@ -90,8 +90,5 @@
       "all-contributors generate",
       "git add"
     ]
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
