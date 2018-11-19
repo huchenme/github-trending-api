@@ -171,16 +171,16 @@ import {
   fetchDevelopers,
 } from '@huchenme/github-trending';
 
-fetchAllLanguages().then(repositories => {
-  console.log(repositories);
+fetchAllLanguages().then(languages => {
+  console.log(languages);
 });
 
 fetchRepositories({ language: 'ruby', since: 'monthly' }).then(repositories => {
   console.log(repositories);
 });
 
-fetchDevelopers({ language: 'javascript' }).then(repositories => {
-  console.log(repositories);
+fetchDevelopers({ language: 'javascript' }).then(developers => {
+  console.log(developers);
 });
 ```
 
