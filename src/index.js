@@ -5,7 +5,7 @@ const SERVER_URL = 'https://github-trending-api.now.sh';
 function buildUrl(baseUrl, params = {}) {
   const queryString = Object.keys(params)
     .map(key => {
-      return `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`;
+      return `${key}=${params[key]}`;
     })
     .join('&');
 
