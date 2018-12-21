@@ -1972,7 +1972,7 @@ Object {
 exports[`fetchDevelopers() should match snapshot 1`] = `
 Array [
   Object {
-    "avatar": "https://avatars2.githubusercontent.com/u/6154722?s=96&v=4",
+    "avatar": "https://avatars2.githubusercontent.com/u/6154722",
     "name": "Microsoft",
     "repo": Object {
       "description": "Visual Studio Code",
@@ -1983,7 +1983,7 @@ Array [
     "username": "Microsoft",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/950417?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/950417",
     "name": "Michael Driscoll",
     "repo": Object {
       "description": "The Illustrated TLS Connection: Every byte explained",
@@ -1994,7 +1994,7 @@ Array [
     "username": "syncsynchalt",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/8899226?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/8899226",
     "name": "Igglybuff",
     "repo": Object {
       "description": "A curated list of awesome warez and piracy links",
@@ -2005,7 +2005,7 @@ Array [
     "username": "Igglybuff",
   },
   Object {
-    "avatar": "https://avatars0.githubusercontent.com/u/205375?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/205375",
     "name": "Dan Burzo",
     "repo": Object {
       "description": "🌐 → 📖 A command-line tool to grab web pages as beautifully formatted PDFs",
@@ -2016,7 +2016,7 @@ Array [
     "username": "danburzo",
   },
   Object {
-    "avatar": "https://avatars2.githubusercontent.com/u/69631?s=96&v=4",
+    "avatar": "https://avatars2.githubusercontent.com/u/69631",
     "name": "Facebook",
     "repo": Object {
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
@@ -2027,7 +2027,7 @@ Array [
     "username": "facebook",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/124647?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/124647",
     "name": "Diego Giagio",
     "repo": Object {
       "description": "Create self-contained single binary applications",
@@ -2038,7 +2038,7 @@ Array [
     "username": "dgiagio",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/6485007?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/6485007",
     "name": "SocialCops",
     "repo": Object {
       "description": "Camelot: PDF Table Extraction for Humans",
@@ -2049,7 +2049,7 @@ Array [
     "username": "socialcopsdev",
   },
   Object {
-    "avatar": "https://avatars0.githubusercontent.com/u/1342004?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/1342004",
     "name": "Google",
     "repo": Object {
       "description": "Material Design icons by Google",
@@ -2060,7 +2060,7 @@ Array [
     "username": "google",
   },
   Object {
-    "avatar": "https://avatars0.githubusercontent.com/u/10245193?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/10245193",
     "name": "Multimedia Laboratory, CUHK",
     "repo": Object {
       "description": "Open MMLab Detection Toolbox",
@@ -2071,7 +2071,7 @@ Array [
     "username": "open-mmlab",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/20487725?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/20487725",
     "name": "The Algorithms",
     "repo": Object {
       "description": "All Algorithms implemented in Python",
@@ -2082,7 +2082,7 @@ Array [
     "username": "TheAlgorithms",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/119893?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/119893",
     "name": "Kenneth Reitz",
     "repo": Object {
       "description": "Pythonic HTML Parsing for Humans™",
@@ -2093,7 +2093,7 @@ Array [
     "username": "kennethreitz",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/15658638?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/15658638",
     "repo": Object {
       "description": "An Open Source Machine Learning Framework for Everyone",
       "name": "tensorflow",
@@ -2103,7 +2103,7 @@ Array [
     "username": "tensorflow",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/176013?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/176013",
     "name": "Wes Bos",
     "repo": Object {
       "description": "30 Day Vanilla JS Challenge",
@@ -2114,7 +2114,7 @@ Array [
     "username": "wesbos",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/2249551?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/2249551",
     "name": "Carlos Fenollosa",
     "repo": Object {
       "description": "How to create an OS from scratch",
@@ -2125,7 +2125,7 @@ Array [
     "username": "cfenollosa",
   },
   Object {
-    "avatar": "https://avatars0.githubusercontent.com/u/6128107?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/6128107",
     "name": "vuejs",
     "repo": Object {
       "description": "🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
@@ -2136,7 +2136,7 @@ Array [
     "username": "vuejs",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/1024025?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/1024025",
     "name": "Linus Torvalds",
     "repo": Object {
       "description": "Linux kernel source tree",
@@ -2147,7 +2147,7 @@ Array [
     "username": "torvalds",
   },
   Object {
-    "avatar": "https://avatars0.githubusercontent.com/u/47359?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/47359",
     "name": "The Apache Software Foundation",
     "repo": Object {
       "description": "A powerful, interactive charting and visualization library for browser",
@@ -2158,7 +2158,7 @@ Array [
     "username": "apache",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/170270?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/170270",
     "name": "Sindre Sorhus",
     "repo": Object {
       "description": "😎 Curated list of awesome lists",
@@ -2169,7 +2169,7 @@ Array [
     "username": "sindresorhus",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/150458?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/150458",
     "name": "mntmn",
     "repo": Object {
       "description": "MNT VA2000, an Open Source Amiga 2/3/4000 Graphics Card (Zorro II/III), written in Verilog",
@@ -2180,7 +2180,7 @@ Array [
     "username": "mntmn",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/4921183?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/4921183",
     "name": "Kamran Ahmed",
     "repo": Object {
       "description": "Roadmap to becoming a web developer in 2018",
@@ -2191,7 +2191,7 @@ Array [
     "username": "kamranahmedse",
   },
   Object {
-    "avatar": "https://avatars1.githubusercontent.com/u/16903644?s=96&v=4",
+    "avatar": "https://avatars1.githubusercontent.com/u/16903644",
     "name": "Kevin Naughton Jr.",
     "repo": Object {
       "description": "Everything you need to know to get the job.",
@@ -2202,7 +2202,7 @@ Array [
     "username": "kdn251",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/43479428?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/43479428",
     "name": "30 seconds",
     "repo": Object {
       "description": "Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
@@ -2213,7 +2213,7 @@ Array [
     "username": "30-seconds",
   },
   Object {
-    "avatar": "https://avatars2.githubusercontent.com/u/43819884?s=96&v=4",
+    "avatar": "https://avatars2.githubusercontent.com/u/43819884",
     "name": "Hacktoberfest2018",
     "repo": Object {
       "description": "Add any Program in any language you like or add a hello world Program ❣️ if you like give us ⭐️",
@@ -2224,7 +2224,7 @@ Array [
     "username": "Hacktoberfest-2018",
   },
   Object {
-    "avatar": "https://avatars0.githubusercontent.com/u/13265495?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/13265495",
     "name": "HUA Yang",
     "repo": Object {
       "description": "2018/2019/校招/春招/秋招/算法/机器学习(Machine Learning)/深度学习(Deep Learning)/自然语言处理(NLP)/C/C++/Python/面试笔记",
@@ -2235,7 +2235,7 @@ Array [
     "username": "imhuay",
   },
   Object {
-    "avatar": "https://avatars3.githubusercontent.com/u/6295529?s=96&v=4",
+    "avatar": "https://avatars3.githubusercontent.com/u/6295529",
     "name": "FOSSASIA",
     "repo": Object {
       "description": "The Open Event Organizer Server to Manage Events",
@@ -2254,12 +2254,12 @@ Array [
     "author": "syncsynchalt",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/950417?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/950417",
         "href": "https://github.com/syncsynchalt",
         "username": "syncsynchalt",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/9561039?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/9561039",
         "href": "https://github.com/MichaelBuhler",
         "username": "MichaelBuhler",
       },
@@ -2277,27 +2277,27 @@ Array [
     "author": "Igglybuff",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/8899226?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/8899226",
         "href": "https://github.com/Igglybuff",
         "username": "Igglybuff",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/44121886?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/44121886",
         "href": "https://github.com/Kamil729",
         "username": "Kamil729",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/44124989?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/44124989",
         "href": "https://github.com/cafeaulait11",
         "username": "cafeaulait11",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/27877342?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/27877342",
         "href": "https://github.com/gocs",
         "username": "gocs",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/17493676?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/17493676",
         "href": "https://github.com/cyian-1756",
         "username": "cyian-1756",
       },
@@ -2315,27 +2315,27 @@ Array [
     "author": "Hacktoberfest-2018",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/22680912?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/22680912",
         "href": "https://github.com/Aniket965",
         "username": "Aniket965",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/32489939?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/32489939",
         "href": "https://github.com/shubhamcoder97",
         "username": "shubhamcoder97",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/24938377?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/24938377",
         "href": "https://github.com/Ujjwal-9",
         "username": "Ujjwal-9",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/25277821?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/25277821",
         "href": "https://github.com/vanshoberoi",
         "username": "vanshoberoi",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/43858927?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/43858927",
         "href": "https://github.com/PARASPECIALFORCES",
         "username": "PARASPECIALFORCES",
       },
@@ -2353,12 +2353,12 @@ Array [
     "author": "danburzo",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/205375?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/205375",
         "href": "https://github.com/danburzo",
         "username": "danburzo",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/525676?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/525676",
         "href": "https://github.com/JuhQ",
         "username": "JuhQ",
       },
@@ -2376,12 +2376,12 @@ Array [
     "author": "dgiagio",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/124647?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/124647",
         "href": "https://github.com/dgiagio",
         "username": "dgiagio",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/1684189?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/1684189",
         "href": "https://github.com/jeramyRR",
         "username": "jeramyRR",
       },
@@ -2399,27 +2399,27 @@ Array [
     "author": "socialcopsdev",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/4329421?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/4329421",
         "href": "https://github.com/vinayak-mehta",
         "username": "vinayak-mehta",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/4353562?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/4353562",
         "href": "https://github.com/tksumanth1994",
         "username": "tksumanth1994",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/6290791?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/6290791",
         "href": "https://github.com/vaibhavmule",
         "username": "vaibhavmule",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/20693145?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/20693145",
         "href": "https://github.com/johnnymetz",
         "username": "johnnymetz",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/16806374?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/16806374",
         "href": "https://github.com/Oshawk",
         "username": "Oshawk",
       },
@@ -2437,27 +2437,27 @@ Array [
     "author": "TheAlgorithms",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/14276147?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/14276147",
         "href": "https://github.com/harshildarji",
         "username": "harshildarji",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/14369357?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/14369357",
         "href": "https://github.com/dynamitechetan",
         "username": "dynamitechetan",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/23243382?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/23243382",
         "href": "https://github.com/christianbender",
         "username": "christianbender",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/17557934?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/17557934",
         "href": "https://github.com/daniel-s-ingram",
         "username": "daniel-s-ingram",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/3709715?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/3709715",
         "href": "https://github.com/cclauss",
         "username": "cclauss",
       },
@@ -2475,22 +2475,22 @@ Array [
     "author": "open-mmlab",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/9102141?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/9102141",
         "href": "https://github.com/hellock",
         "username": "hellock",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/24663779?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/24663779",
         "href": "https://github.com/OceanPang",
         "username": "OceanPang",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/1900250?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/1900250",
         "href": "https://github.com/lindahua",
         "username": "lindahua",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/9253073?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/9253073",
         "href": "https://github.com/myownskyW7",
         "username": "myownskyW7",
       },
@@ -2508,27 +2508,27 @@ Array [
     "author": "cfenollosa",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/2249551?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/2249551",
         "href": "https://github.com/cfenollosa",
         "username": "cfenollosa",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/6963409?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/6963409",
         "href": "https://github.com/Ghifari160",
         "username": "Ghifari160",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/26511689?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/26511689",
         "href": "https://github.com/ariisboss",
         "username": "ariisboss",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/873280?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/873280",
         "href": "https://github.com/sapsaldog",
         "username": "sapsaldog",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/9648361?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/9648361",
         "href": "https://github.com/erginbilgin",
         "username": "erginbilgin",
       },
@@ -2546,27 +2546,27 @@ Array [
     "author": "kennethreitz",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/119893?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/119893",
         "href": "https://github.com/kennethreitz",
         "username": "kennethreitz",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/192984?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/192984",
         "href": "https://github.com/aitoehigie",
         "username": "aitoehigie",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/647359?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/647359",
         "href": "https://github.com/tomchristie",
         "username": "tomchristie",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/22898667?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/22898667",
         "href": "https://github.com/taoufik07",
         "username": "taoufik07",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/24975007?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/24975007",
         "href": "https://github.com/BNMetrics",
         "username": "BNMetrics",
       },
@@ -2584,27 +2584,27 @@ Array [
     "author": "firstcontributions",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/8488446?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/8488446",
         "href": "https://github.com/Roshanjossey",
         "username": "Roshanjossey",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/7047079?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/7047079",
         "href": "https://github.com/sara-02",
         "username": "sara-02",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/2655379?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/2655379",
         "href": "https://github.com/mippzon",
         "username": "mippzon",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/15963091?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/15963091",
         "href": "https://github.com/Busterz",
         "username": "Busterz",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/148100?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/148100",
         "href": "https://github.com/invalid-email-address",
         "username": "invalid-email-address",
       },
@@ -2620,27 +2620,27 @@ Array [
     "author": "kdn251",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/9070583?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/9070583",
         "href": "https://github.com/fatosmorina",
         "username": "fatosmorina",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/16903644?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/16903644",
         "href": "https://github.com/kdn251",
         "username": "kdn251",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/8622362?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/8622362",
         "href": "https://github.com/sqrthree",
         "username": "sqrthree",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/10773353?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/10773353",
         "href": "https://github.com/jsroyal",
         "username": "jsroyal",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/26959437?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/26959437",
         "href": "https://github.com/leviding",
         "username": "leviding",
       },
@@ -2658,27 +2658,27 @@ Array [
     "author": "imhuay",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/13265495?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/13265495",
         "href": "https://github.com/imhuay",
         "username": "imhuay",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/10709657?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/10709657",
         "href": "https://github.com/Ir1d",
         "username": "Ir1d",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/17057603?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/17057603",
         "href": "https://github.com/wendingp",
         "username": "wendingp",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/2548560?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/2548560",
         "href": "https://github.com/GinRyan",
         "username": "GinRyan",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/20659405?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/20659405",
         "href": "https://github.com/lijunjie127",
         "username": "lijunjie127",
       },
@@ -2696,27 +2696,27 @@ Array [
     "author": "30-seconds",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/8281875?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/8281875",
         "href": "https://github.com/Chalarangelo",
         "username": "Chalarangelo",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/35068020?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/35068020",
         "href": "https://github.com/30secondsofcode",
         "username": "30secondsofcode",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/25749162?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/25749162",
         "href": "https://github.com/fejes713",
         "username": "fejes713",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/16862997?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/16862997",
         "href": "https://github.com/flxwu",
         "username": "flxwu",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/22450188?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/22450188",
         "href": "https://github.com/atomiks",
         "username": "atomiks",
       },
@@ -2734,22 +2734,22 @@ Array [
     "author": "mntmn",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/150458?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/150458",
         "href": "https://github.com/mntmn",
         "username": "mntmn",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/232698?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/232698",
         "href": "https://github.com/jeapostrophe",
         "username": "jeapostrophe",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/3588994?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/3588994",
         "href": "https://github.com/wasamasa",
         "username": "wasamasa",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/3154475?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/3154475",
         "href": "https://github.com/sternenseemann",
         "username": "sternenseemann",
       },
@@ -2767,22 +2767,22 @@ Array [
     "author": "dawnlabs",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/8397708?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/8397708",
         "href": "https://github.com/mfix22",
         "username": "mfix22",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/10369094?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/10369094",
         "href": "https://github.com/jakedex",
         "username": "jakedex",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/10078572?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/10078572",
         "href": "https://github.com/briandennis",
         "username": "briandennis",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/10191084?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/10191084",
         "href": "https://github.com/andrewda",
         "username": "andrewda",
       },
@@ -2800,27 +2800,27 @@ Array [
     "author": "wesbos",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/176013?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/176013",
         "href": "https://github.com/wesbos",
         "username": "wesbos",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/4278345?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/4278345",
         "href": "https://github.com/lfades",
         "username": "lfades",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/18017067?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/18017067",
         "href": "https://github.com/peggyrayzis",
         "username": "peggyrayzis",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/9010389?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/9010389",
         "href": "https://github.com/scrumptiousdev",
         "username": "scrumptiousdev",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/1567498?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/1567498",
         "href": "https://github.com/schickling",
         "username": "schickling",
       },
@@ -2838,27 +2838,27 @@ Array [
     "author": "viatsko",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/376065?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/376065",
         "href": "https://github.com/viatsko",
         "username": "viatsko",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/37667437?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/37667437",
         "href": "https://github.com/Muljayan",
         "username": "Muljayan",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/1163252?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/1163252",
         "href": "https://github.com/jschr",
         "username": "jschr",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/12969662?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/12969662",
         "href": "https://github.com/aspittel",
         "username": "aspittel",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/3685876?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/3685876",
         "href": "https://github.com/lannonbr",
         "username": "lannonbr",
       },
@@ -2876,27 +2876,27 @@ Array [
     "author": "Microsoft",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/961950?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/961950",
         "href": "https://github.com/bitcrazed",
         "username": "bitcrazed",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/11957179?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/11957179",
         "href": "https://github.com/pyaillet",
         "username": "pyaillet",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/42466421?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/42466421",
         "href": "https://github.com/nikopen",
         "username": "nikopen",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/25039690?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/25039690",
         "href": "https://github.com/joelalju",
         "username": "joelalju",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/17982949?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/17982949",
         "href": "https://github.com/arkwrn",
         "username": "arkwrn",
       },
@@ -2914,27 +2914,27 @@ Array [
     "author": "open-mmlab",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/9102141?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/9102141",
         "href": "https://github.com/hellock",
         "username": "hellock",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/4398342?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/4398342",
         "href": "https://github.com/yl-1993",
         "username": "yl-1993",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/15061590?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/15061590",
         "href": "https://github.com/ycxioooong",
         "username": "ycxioooong",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/1900250?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/1900250",
         "href": "https://github.com/lindahua",
         "username": "lindahua",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/24663779?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/24663779",
         "href": "https://github.com/OceanPang",
         "username": "OceanPang",
       },
@@ -2952,27 +2952,27 @@ Array [
     "author": "Picovoice",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/25811709?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/25811709",
         "href": "https://github.com/kenarsa",
         "username": "kenarsa",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/1844350?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/1844350",
         "href": "https://github.com/dyah10",
         "username": "dyah10",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/37279507?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/37279507",
         "href": "https://github.com/amiranhari",
         "username": "amiranhari",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/2060653?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/2060653",
         "href": "https://github.com/veeableful",
         "username": "veeableful",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/14126548?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/14126548",
         "href": "https://github.com/fabioknoedtbcgdv",
         "username": "fabioknoedtbcgdv",
       },
@@ -2990,27 +2990,27 @@ Array [
     "author": "kamranahmedse",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/4921183?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/4921183",
         "href": "https://github.com/kamranahmedse",
         "username": "kamranahmedse",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/4408379?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/4408379",
         "href": "https://github.com/lex111",
         "username": "lex111",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/34530026?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/34530026",
         "href": "https://github.com/acps",
         "username": "acps",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/911566?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/911566",
         "href": "https://github.com/gvwilson",
         "username": "gvwilson",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/3355748?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/3355748",
         "href": "https://github.com/HashemKhalifa",
         "username": "HashemKhalifa",
       },
@@ -3026,27 +3026,27 @@ Array [
     "author": "vuejs",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/499550?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/499550",
         "href": "https://github.com/yyx990803",
         "username": "yyx990803",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/8401776?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/8401776",
         "href": "https://github.com/Hanks10100",
         "username": "Hanks10100",
       },
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/2603918?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/2603918",
         "href": "https://github.com/defcc",
         "username": "defcc",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/72989?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/72989",
         "href": "https://github.com/kazupon",
         "username": "kazupon",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/664177?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/664177",
         "href": "https://github.com/posva",
         "username": "posva",
       },
@@ -3064,12 +3064,12 @@ Array [
     "author": "marcosgriselli",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars2.githubusercontent.com/u/14804033?s=40&v=4",
+        "avatar": "https://avatars2.githubusercontent.com/u/14804033",
         "href": "https://github.com/marcosgriselli",
         "username": "marcosgriselli",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/16073987?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/16073987",
         "href": "https://github.com/iamcgd",
         "username": "iamcgd",
       },
@@ -3087,27 +3087,27 @@ Array [
     "author": "tensorflow",
     "builtBy": Array [
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/17151892?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/17151892",
         "href": "https://github.com/tensorflower-gardener",
         "username": "tensorflower-gardener",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/16824702?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/16824702",
         "href": "https://github.com/caisq",
         "username": "caisq",
       },
       Object {
-        "avatar": "https://avatars3.githubusercontent.com/u/463737?s=40&v=4",
+        "avatar": "https://avatars3.githubusercontent.com/u/463737",
         "href": "https://github.com/vrv",
         "username": "vrv",
       },
       Object {
-        "avatar": "https://avatars0.githubusercontent.com/u/7946809?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/7946809",
         "href": "https://github.com/gunan",
         "username": "gunan",
       },
       Object {
-        "avatar": "https://avatars1.githubusercontent.com/u/577277?s=40&v=4",
+        "avatar": "https://avatars1.githubusercontent.com/u/577277",
         "href": "https://github.com/martinwicke",
         "username": "martinwicke",
       },

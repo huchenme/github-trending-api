@@ -78,7 +78,7 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
     "builtBy": [
       {
         "href": "https://github.com/viatsko",
-        "avatar": "https://avatars0.githubusercontent.com/u/376065?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/376065",
         "username": "viatsko"
       }
     ]
@@ -109,7 +109,7 @@ https://github-trending-api.now.sh/developers?language=javascript&since=weekly
     "username": "google",
     "name": "Google",
     "url": "https://github.com/google",
-    "avatar": "https://avatars0.githubusercontent.com/u/1342004?s=96&v=4",
+    "avatar": "https://avatars0.githubusercontent.com/u/1342004",
     "repo": {
       "name": "traceur-compiler",
       "description":
@@ -236,7 +236,7 @@ Receive an array of trending repositories.
     "builtBy": [
       {
         "href": "https://github.com/viatsko",
-        "avatar": "https://avatars0.githubusercontent.com/u/376065?s=40&v=4",
+        "avatar": "https://avatars0.githubusercontent.com/u/376065",
         "username": "viatsko"
       }
     ]
@@ -261,7 +261,7 @@ Receive an array of trending developers.
     username: 'google',
     name: 'Google',
     url: 'https://github.com/google',
-    avatar: 'https://avatars0.githubusercontent.com/u/1342004?s=96&v=4',
+    avatar: 'https://avatars0.githubusercontent.com/u/1342004',
     repo: {
       name: 'traceur-compiler',
       description:

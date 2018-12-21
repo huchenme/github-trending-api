@@ -21,6 +21,13 @@ function omitNil(object) {
   return omitBy(object, isNil);
 }
 
+function removeDefaultAvatarSize(src) {
+  if (!src) {
+    return src;
+  }
+  return src.replace(/\?s=.*$/, '');
+}
+
 export async function fetchAllLanguages() {
   const data = await fetch(`${GITHUB_URL}/trending/`);
   const $ = cheerio.load(await data.text());
@@ -53,9 +60,7 @@ export async function fetchRepositories({
   language = '',
   since = 'daily',
 } = {}) {
-  const url = `${GITHUB_URL}/trending/${encodeURIComponent(
-    language
-  )}?since=${encodeURIComponent(since)}`;
+  const url = `${GITHUB_URL}/trending/${language}?since=${since}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (
@@ -86,12 +91,13 @@ export async function fetchRepositories({
             const altString = $(user)
               .children('img')
               .attr('alt');
+            const avatarUrl = $(user)
+              .children('img')
+              .attr('src');
             return {
               username: altString ? altString.slice(1) : null,
               href: `${GITHUB_URL}${user.attribs.href}`,
-              avatar: $(user)
-                .children('img')
-                .attr('src'),
+              avatar: removeDefaultAvatarSize(avatarUrl),
             };
           })
           .get();
@@ -142,9 +148,7 @@ export async function fetchRepositories({
 
 export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
   const data = await fetch(
-    `${GITHUB_URL}/trending/developers/${encodeURIComponent(
-      language
-    )}?since=${encodeURIComponent(since)}`
+    `${GITHUB_URL}/trending/developers/${language}?since=${since}`
   );
   const $ = cheerio.load(await data.text());
   return $('.explore-content li')
@@ -171,7 +175,7 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
         username,
         name,
         url: `${GITHUB_URL}${relativeUrl}`,
-        avatar: $dev.find('img').attr('src'),
+        avatar: removeDefaultAvatarSize($dev.find('img').attr('src')),
         repo: {
           name: $repo
             .find('.repo-snipit-name span.repo')

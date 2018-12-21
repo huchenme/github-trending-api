@@ -1,6 +1,8 @@
+import url from 'url';
 import express from 'express';
 import cache from 'memory-cache';
 import cors from 'cors';
+
 import { fetchAllLanguages, fetchRepositories, fetchDevelopers } from './fetch';
 
 const app = express();
@@ -18,7 +20,23 @@ app.get('/languages', async (req, res) => {
 
 app.get('/repositories', async (req, res) => {
   try {
-    const { language, since } = req.query;
+    const parsedUrl = url.parse(req.originalUrl);
+    const queryString = parsedUrl.query;
+    const params = {};
+    if (queryString) {
+      for (const param of queryString.split('&')) {
+        // eslint-disable-next-line prefer-const
+        let [key, value] = param.split('=');
+
+        // Missing `=` should be `null`:
+        // http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
+        value = value === undefined ? null : value;
+
+        params[key] = value;
+      }
+    }
+
+    const { language, since } = params;
     const cacheKey = `repositories::${language || 'nolang'}::${since ||
       'daily'}`;
     const cached = cache.get(cacheKey);
