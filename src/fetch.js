@@ -22,6 +22,7 @@ function omitNil(object) {
 }
 
 function removeDefaultAvatarSize(src) {
+  /* istanbul ignore if */
   if (!src) {
     return src;
   }
@@ -81,7 +82,7 @@ export async function fetchRepositories({
           $repo
             .find('.float-sm-right')
             .text()
-            .trim() || '';
+            .trim() || /* istanbul ignore next */ '';
 
         const builtBy = $repo
           .find('span:contains("Built by")')
@@ -95,7 +96,9 @@ export async function fetchRepositories({
               .children('img')
               .attr('src');
             return {
-              username: altString ? altString.slice(1) : null,
+              username: altString
+                ? altString.slice(1)
+                : /* istanbul ignore next */ null,
               href: `${GITHUB_URL}${user.attribs.href}`,
               avatar: removeDefaultAvatarSize(avatarUrl),
             };
@@ -109,7 +112,9 @@ export async function fetchRepositories({
 
         const langNode = $repo.find('[itemprop=programmingLanguage]');
 
-        const lang = langNode.length ? langNode.text().trim() : null;
+        const lang = langNode.length
+          ? langNode.text().trim()
+          : /* istanbul ignore next */ null;
 
         return omitNil({
           author: title.split(' / ')[0],
@@ -119,25 +124,26 @@ export async function fetchRepositories({
             $repo
               .find('.py-1 p')
               .text()
-              .trim() || '',
+              .trim() || /* istanbul ignore next */ '',
           language: lang,
           languageColor: langColor,
           stars: parseInt(
             $repo
               .find(`[href="${relativeUrl}/stargazers"]`)
               .text()
-              .replace(',', '') || 0,
+              .replace(',', '') || /* istanbul ignore next */ 0,
             10
           ),
           forks: parseInt(
             $repo
               .find(`[href="${relativeUrl}/network"]`)
               .text()
-              .replace(',', '') || 0,
+              .replace(',', '') || /* istanbul ignore next */ 0,
             10
           ),
           currentPeriodStars: parseInt(
-            currentPeriodStarsString.split(' ')[0].replace(',', '') || 0,
+            currentPeriodStarsString.split(' ')[0].replace(',', '') ||
+              /* istanbul ignore next */ 0,
             10
           ),
           builtBy,
@@ -185,7 +191,7 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
             $repo
               .find('.repo-snipit-description')
               .text()
-              .trim() || '',
+              .trim() || /* istanbul ignore next */ '',
           url: `${GITHUB_URL}${$repo.attr('href')}`,
         },
       });
