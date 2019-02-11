@@ -48,7 +48,7 @@ export async function fetchAllLanguages() {
       const $a = $(a);
       return {
         urlParam: getLang($a.attr('href')),
-        name: $a.children('.select-menu-item-text').text(),
+        name: $a.children('[data-menu-button-text]').text(),
       };
     });
   return {
