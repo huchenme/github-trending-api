@@ -36,7 +36,7 @@
   - [fetchAllLanguages()](#fetchalllanguages)
   - [fetchRepositories(params)](#fetchrepositoriesparams)
   - [fetchDevelopers(params)](#fetchdevelopersparams)
-- [Contributors](#contributors)
+- [Projects using github-trending-api](#projects-using-github-trending-api)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -271,6 +271,11 @@ Receive an array of trending developers.
   ...
 ]
 ```
+
+## Projects using github-trending-api
+
+- **[hacker-bar-extension](https://github.com/huchenme/hacker-tab-extension)** ([Chrome Store](https://chrome.google.com/webstore/detail/hacker-tab/ibomigipadcieapbemkegkmadbbanbgm)): Chrome extension to view GitHub trending projects on new tab.
+- **[github-trending-plus](https://github.com/zircleUI/github-trending-plus)** ([Live](https://github-trending-plus.surge.sh/)): ✨ Experimental Github trending UI.
 
 ## License
 
