@@ -40,7 +40,7 @@ app.get('/repositories', async (req, res) => {
     const cacheKey = `repositories::${language || 'nolang'}::${since ||
       'daily'}`;
     const cached = cache.get(cacheKey);
-    if (Boolean(cached) && cache.length > 0) {
+    if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
     }
     const data = await fetchRepositories({ language, since });
@@ -57,7 +57,7 @@ app.get('/developers', async (req, res) => {
     const { language, since } = req.query;
     const cacheKey = `developers::${language || 'nolang'}::${since || 'daily'}`;
     const cached = cache.get(cacheKey);
-    if (Boolean(cached) && cache.length > 0) {
+    if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
     }
     const data = await fetchDevelopers({ language, since });
