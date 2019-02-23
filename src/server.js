@@ -5,6 +5,8 @@ import cors from 'cors';
 
 import { fetchAllLanguages, fetchRepositories, fetchDevelopers } from './fetch';
 
+const PORT = process.env.PORT || 8080;
+
 const app = express();
 app.use(cors());
 
@@ -78,6 +80,6 @@ app.post('/memclear', (req, res) => {
   res.sendStatus(200);
 });
 
-app.listen(8080, () => {
-  console.log('Server started.');
+app.listen(PORT, () => {
+  console.log(`Listening on ${PORT}`);
 });
