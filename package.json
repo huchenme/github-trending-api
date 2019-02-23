@@ -21,7 +21,7 @@
     "clean": "rimraf dist",
     "rollup:build": "rollup -c",
     "rollup:build:prod": "NODE_ENV=production rollup -c",
-    "build": "npm run rollup:build:prod",
+    "heroku-postbuild": "npm run rollup:build:prod",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
     "prenow": "npm run clean && npm run rollup:build:prod",
