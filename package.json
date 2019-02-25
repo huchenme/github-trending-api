@@ -7,6 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "node ./dist/server.js",
     "babel-node": "babel-node --presets @babel/preset-env ./src/server.js",
@@ -18,6 +21,7 @@
     "clean": "rimraf dist",
     "rollup:build": "rollup -c",
     "rollup:build:prod": "NODE_ENV=production rollup -c",
+    "heroku-postbuild": "npm run rollup:build:prod",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
     "prenow": "npm run clean && npm run rollup:build:prod",
