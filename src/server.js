@@ -1,6 +1,7 @@
 import url from 'url';
 import express from 'express';
 import cache from 'memory-cache';
+import cacheControl from 'express-cache-controller';
 import cors from 'cors';
 
 import { fetchAllLanguages, fetchRepositories, fetchDevelopers } from './fetch';
@@ -9,6 +10,7 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 app.use(cors());
+app.use(cacheControl());
 
 app.get('/languages', async (req, res) => {
   const cached = cache.get('languages');
@@ -17,6 +19,10 @@ app.get('/languages', async (req, res) => {
   }
   const data = await fetchAllLanguages();
   cache.put('languages', data, 1000 * 3600 * 24); // Store for a day
+
+  res.cacheControl = {
+    maxAge: 3600,
+  };
   res.json(data);
 });
 
@@ -42,6 +48,11 @@ app.get('/repositories', async (req, res) => {
     const cacheKey = `repositories::${language || 'nolang'}::${since ||
       'daily'}`;
     const cached = cache.get(cacheKey);
+
+    res.cacheControl = {
+      maxAge: 120,
+    };
+
     if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
     }
@@ -59,6 +70,11 @@ app.get('/developers', async (req, res) => {
     const { language, since } = req.query;
     const cacheKey = `developers::${language || 'nolang'}::${since || 'daily'}`;
     const cached = cache.get(cacheKey);
+
+    res.cacheControl = {
+      maxAge: 120,
+    };
+
     if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
     }
