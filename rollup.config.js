@@ -1,5 +1,5 @@
 import babel from 'rollup-plugin-babel';
-import uglify from 'rollup-plugin-uglify';
+import { terser } from 'rollup-plugin-terser';
 // eslint-disable-next-line import/extensions
 import pkg from './package.json';
 
@@ -16,7 +16,7 @@ export default [
         exclude: 'node_modules/**',
         runtimeHelpers: true,
       }),
-      process.env.NODE_ENV === 'production' && uglify(),
+      process.env.NODE_ENV === 'production' && terser(),
     ],
   },
   {
