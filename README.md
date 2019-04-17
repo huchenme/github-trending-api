@@ -49,6 +49,7 @@
 Flutter完整项目，WanAndroid客户端，BLoC、RxDart 、国际化、主题色、启动页、引导页，拥有较好的项目结构&比较规范的代码！
 - **[vsc-github-trending](https://github.com/4gray/vsc-github-trending)**: ([VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=4gray.vsc-github-trending#overview)): Explore Github Trending repositories directly from Visual Studio Code
 - **[TinyGitHub](https://github.com/k-lpmg/TinyGitHub)**: iOS app for GitHub with explore trending.
+- **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
 
 ## REST API
 
