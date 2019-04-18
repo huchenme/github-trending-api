@@ -170,16 +170,23 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
         /^\((.+)\)$/i
       );
       $dev.find('.f3 a span').remove();
+
       const username = $dev
         .find('.f3 a')
         .text()
         .trim();
+
+      const type = $dev
+        .find('img')
+        .parent()
+        .attr('data-hovercard-type');
 
       const $repo = $dev.find('.repo-snipit');
 
       return omitNil({
         username,
         name,
+        type,
         url: `${GITHUB_URL}${relativeUrl}`,
         avatar: removeDefaultAvatarSize($dev.find('img').attr('src')),
         repo: {
