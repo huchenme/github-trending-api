@@ -1,6 +1,16 @@
-# Github Unofficial Trending API
+<h1 align="center">Github Unofficial Trending API</h1>
 
-> :octocat: A simple API that returns number of Github trending repositories and developers.
+<p align="center">:octocat: A simple API that returns number of Github trending repositories and developers.</p>
+
+<div align="center">
+  <img src="images/hero.svg" alt="hero image" width="400"/>
+  <br>
+  <p>
+    <em>Credits: Illustration by <a href="https://undraw.co/">unDraw</a></em>
+  </p>
+</div>
+
+<br />
 
 [![Travis](https://img.shields.io/travis/huchenme/github-trending-api.svg)](https://travis-ci.org/huchenme/github-trending-api)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
