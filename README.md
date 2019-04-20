@@ -59,6 +59,7 @@
 - **[vsc-github-trending](https://github.com/4gray/vsc-github-trending)**: ([VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=4gray.vsc-github-trending#overview)): Explore Github Trending repositories directly from Visual Studio Code
 - **[TinyGitHub](https://github.com/k-lpmg/TinyGitHub)**: iOS app for GitHub with explore trending.
 - **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
+- **[GitNews](git.news)**: Trending repositories from GitHub, HackerNews & Reddit (Mobile & Desktop)
 
 ## REST API
 
