@@ -136,7 +136,7 @@ export async function fetchRepositories({
           ),
           forks: parseInt(
             $repo
-              .find(`[href="${relativeUrl}/network"]`)
+              .find(`[href="${relativeUrl}/network/members"]`)
               .text()
               .replace(',', '') || /* istanbul ignore next */ 0,
             10
