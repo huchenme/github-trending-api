@@ -21,6 +21,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@huchenme/github-trending.svg)](https://www.npmjs.com/package/@huchenme/github-trending)
 [![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
 
+**[API Status](https://stats.uptimerobot.com/K6yKjcKlM)**
 
 ---
 
