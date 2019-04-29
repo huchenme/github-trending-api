@@ -59,7 +59,7 @@
 - **[flutter_wanandroid](https://github.com/Sky24n/flutter_wanandroid)**:
   Flutter 完整项目，WanAndroid 客户端，BLoC、RxDart 、国际化、主题色、启动页、引导页，拥有较好的项目结构&比较规范的代码！
 - **[vsc-github-trending](https://github.com/4gray/vsc-github-trending)**: ([VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=4gray.vsc-github-trending#overview)): Explore Github Trending repositories directly from Visual Studio Code
-- **[TinyGitHub](https://github.com/k-lpmg/TinyGitHub)**: iOS app for GitHub with explore trending.
+- **[GiTiny](https://github.com/k-lpmg/GiTiny)**([AppStore](https://itunes.apple.com/app/tiny-github/id1461424565)): iOS app for GitHub with exploring trending.
 - **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
 
