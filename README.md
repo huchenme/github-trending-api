@@ -61,6 +61,7 @@
 - **[vsc-github-trending](https://github.com/4gray/vsc-github-trending)**: ([VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=4gray.vsc-github-trending#overview)): Explore Github Trending repositories directly from Visual Studio Code
 - **[GiTiny](https://github.com/k-lpmg/GiTiny)**([AppStore](https://itunes.apple.com/app/tiny-github/id1461424565)): iOS app for GitHub with exploring trending.
 - **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
+- **[GitNews](https://git.news)**: Trending repositories from GitHub, HackerNews & Reddit (Mobile & Desktop).
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
 
 ## REST API
