@@ -22,8 +22,6 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@huchenme/github-trending.svg)](https://www.npmjs.com/package/@huchenme/github-trending)
 [![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
 
-**[API Status](https://stats.uptimerobot.com/K6yKjcKlM)**
-
 ---
 
 ## Table of Contents
@@ -34,6 +32,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Projects using github-trending-api](#projects-using-github-trending-api)
+- [API Status](#rapi-status)
 - [REST API](#rest-api)
   - [Trending Repositories](#trending-repositories)
   - [Trending Developers](#trending-developers)
@@ -63,6 +62,10 @@
 - **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
 - **[GitNews](https://git.news)**: Trending repositories from GitHub, HackerNews & Reddit (Mobile & Desktop).
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
+
+## API Status
+
+API status is available at [uptimerobot](https://stats.uptimerobot.com/K6yKjcKlM).
 
 ## REST API
 
