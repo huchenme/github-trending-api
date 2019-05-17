@@ -47,7 +47,9 @@ app.get('/repositories', async (req, res) => {
     const { language, since } = params;
     const cacheKey = `repositories::${language || 'nolang'}::${since ||
       'daily'}`;
+    const cacheKeyPerm = `perm::${cacheKey}`;
     const cached = cache.get(cacheKey);
+    const cachedPerm = cache.get(cacheKeyPerm);
 
     res.cacheControl = {
       maxAge: 120,
@@ -57,8 +59,13 @@ app.get('/repositories', async (req, res) => {
       return res.json(cached);
     }
     const data = await fetchRepositories({ language, since });
-    cache.put(cacheKey, data, 1000 * 3600); // Store for a hour
-    res.json(data);
+    if (data && data.length > 0) {
+      cache.put(cacheKey, data, 1000 * 3600); // Store for a hour
+      cache.put(cacheKeyPerm, data);
+      return res.json(data);
+    } else {
+      return res.json(cachedPerm || data);
+    }
   } catch (err) {
     console.error(err);
     res.status(500).send(err.toJSON());

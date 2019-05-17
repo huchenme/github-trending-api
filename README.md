@@ -32,7 +32,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Projects using github-trending-api](#projects-using-github-trending-api)
-- [API Status](#rapi-status)
+- [API Status](#api-status)
 - [REST API](#rest-api)
   - [Trending Repositories](#trending-repositories)
   - [Trending Developers](#trending-developers)
@@ -110,6 +110,8 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
   ...
 ]
 ```
+
+> Note that [GitHub trending page](http://github.com/trending) sometimes is empty, in that case this API returns `[]` in response, your application should be able to handle it or read from previous cache.
 
 ### Trending Developers
 
