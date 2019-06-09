@@ -26,6 +26,10 @@
 
 ## Table of Contents
 
+<details>
+
+<summary><b>Expand Table of Contents</b></summary>
+
 <!-- prettier-ignore-start -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -48,6 +52,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- prettier-ignore-end -->
+</details>
 
 ## Projects using github-trending-api
 
@@ -70,6 +75,10 @@ API status is available at [uptimerobot](https://stats.uptimerobot.com/K6yKjcKlM
 ## REST API
 
 See the full API documentation in [Apiary](https://githubtrendingapi.docs.apiary.io/#).
+
+## Tutorial
+
+[How to scrape any website and build an API using cheerio.js](https://medium.com/@chen/how-to-scrape-any-website-and-build-an-api-using-cheerio-js-6a3f0c651d2e?source=friends_link&sk=7b76d9abf0b6c572042238906e281228)
 
 ### Trending Repositories
 
