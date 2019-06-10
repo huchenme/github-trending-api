@@ -3,14 +3,12 @@
     [
       "@babel/preset-env",
       {
-        "modules": false
+        "targets": {
+          "node": "8",
+          "browsers": "> 0.25%, not dead"
+        }
       }
     ]
   ],
-  "plugins": ["lodash", "@babel/plugin-transform-runtime"],
-  "env": {
-    "test": {
-      "presets": ["@babel/preset-env"]
-    }
-  }
+  "plugins": ["lodash", "@babel/plugin-transform-runtime"]
 }

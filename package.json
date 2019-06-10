@@ -10,25 +10,6 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "scripts": {
-    "start": "node ./dist/server.js",
-    "babel-node": "babel-node --presets @babel/preset-env ./src/server.js",
-    "dev": "nodemon --exec npm run babel-node",
-    "contributors:add": "all-contributors add",
-    "test": "jest --coverage",
-    "lint": "eslint ./src",
-    "validate": "npm-run-all lint test",
-    "clean": "rimraf dist",
-    "rollup:build": "rollup -c",
-    "rollup:build:prod": "NODE_ENV=production rollup -c",
-    "heroku-postbuild": "npm run rollup:build:prod",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once",
-    "build": "npm run clean && npm run rollup:build:prod",
-    "now": "npm-run-all now:*",
-    "now:deploy": "now --public",
-    "now:alias": "now alias"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/huchenme/github-trending-api.git"
@@ -39,46 +20,57 @@
     "api",
     "node"
   ],
-  "author": "Hu Chen <chen@huchen.me>",
+  "author": "Hu Chen <chen@huchen.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/huchenme/github-trending-api/issues"
+    "url": "https://github.com/huchenme/github-trending-api/issues",
+    "email": "chen@huchen.dev"
   },
   "homepage": "https://github.com/huchenme/github-trending-api#readme",
   "dependencies": {
-    "@babel/runtime": "^7.4.3",
+    "@babel/runtime": "^7.4.5",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-cache-controller": "^1.1.0",
     "lodash": "^4.17.11",
     "memory-cache": "^0.2.0",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/node": "^7.2.2",
-    "@babel/plugin-transform-runtime": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "all-contributors-cli": "^6.2.0",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
     "babel-core": "^7.0.0-0",
-    "babel-jest": "^24.7.1",
+    "babel-jest": "^24.8.0",
     "babel-plugin-lodash": "^3.3.4",
     "doctoc": "^1.4.0",
     "eslint": "^5.16.0",
-    "eslint-config-kentcdodds": "^14.3.2",
+    "eslint-config-kentcdodds": "14.3.2",
     "husky": "^2.4.0",
-    "jest": "^24.7.1",
-    "lint-staged": "^8.1.5",
-    "nodemon": "^1.18.11",
+    "jest": "^24.8.0",
+    "lint-staged": "^8.2.0",
+    "nodemon": "^1.19.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.17.0",
+    "prettier": "^1.18.2",
     "rimraf": "^2.6.3",
-    "rollup": "^1.10.0",
+    "rollup": "^1.14.6",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-terser": "^5.0.0",
-    "semantic-release": "^15.13.3",
+    "semantic-release": "^15.13.12",
     "travis-deploy-once": "^5.0.11"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint ./src",
+    "validate": "npm-run-all lint test",
+    "prebuild": "rimraf dist",
+    "build": "NODE_ENV=production rollup -c",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once",
+    "start": "node ./dist/server.cjs.js"
   },
   "lint-staged": {
     "README.md": [
@@ -89,15 +81,15 @@
     "**/!(README).+(md|js|json)": [
       "prettier --write",
       "git add"
-    ],
-    ".all-contributorsrc": [
-      "all-contributors generate",
-      "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test && lint-staged"
+      "pre-commit": "yarn validate && lint-staged"
     }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
