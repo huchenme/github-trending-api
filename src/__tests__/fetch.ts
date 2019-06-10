@@ -9,8 +9,10 @@ import {
 
 jest.mock('node-fetch');
 
+const mockedFetch = (fetch as unknown) as jest.Mock;
+
 describe('fetchAllLanguages()', () => {
-  fetch.mockReturnValueOnce({
+  mockedFetch.mockReturnValueOnce({
     text: jest.fn().mockReturnValue(mockRepositories),
   });
 
@@ -20,7 +22,7 @@ describe('fetchAllLanguages()', () => {
 });
 
 describe('fetchRepositories()', () => {
-  fetch.mockReturnValueOnce({
+  mockedFetch.mockReturnValueOnce({
     text: jest.fn().mockReturnValue(mockRepositories),
   });
 
@@ -30,7 +32,7 @@ describe('fetchRepositories()', () => {
 });
 
 describe('fetchDevelopers()', () => {
-  fetch.mockReturnValueOnce({
+  mockedFetch.mockReturnValueOnce({
     text: jest.fn().mockReturnValue(mockDevelopers),
   });
 

@@ -21,7 +21,7 @@ function omitNil(object) {
   return omitBy(object, isNil);
 }
 
-function removeDefaultAvatarSize(src) {
+function removeDefaultAvatarSize(src?: string): string {
   /* istanbul ignore if */
   if (!src) {
     return src;
@@ -131,19 +131,19 @@ export async function fetchRepositories({
             $repo
               .find(`[href="${relativeUrl}/stargazers"]`)
               .text()
-              .replace(',', '') || /* istanbul ignore next */ 0,
+              .replace(',', '') || /* istanbul ignore next */ '0',
             10
           ),
           forks: parseInt(
             $repo
               .find(`[href="${relativeUrl}/network/members"]`)
               .text()
-              .replace(',', '') || /* istanbul ignore next */ 0,
+              .replace(',', '') || /* istanbul ignore next */ '0',
             10
           ),
           currentPeriodStars: parseInt(
             currentPeriodStarsString.split(' ')[0].replace(',', '') ||
-              /* istanbul ignore next */ 0,
+              /* istanbul ignore next */ '0',
             10
           ),
           builtBy,
