@@ -4,9 +4,6 @@
   "description": "Get GitHub trending data",
   "main": "dist/github-trending.cjs.js",
   "module": "dist/github-trending.esm.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "engines": {
     "node": ">=8.0.0"
   },
