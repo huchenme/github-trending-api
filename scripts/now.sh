@@ -1,1 +1,0 @@
-yarn deploy --token $NOW_TOKEN && yarn alias --token $NOW_TOKEN

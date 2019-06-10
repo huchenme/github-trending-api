@@ -10,8 +10,7 @@ before_install:
   - yarn global add codecov
 before_script:
   - yarn validate
-  - yarn clean
-script: yarn rollup:build:prod
+script: yarn build
 after_success:
   - codecov
   - npm run travis-deploy-once "npm run semantic-release"
