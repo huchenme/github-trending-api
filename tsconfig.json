@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // Emit folder
+    "outDir": "dist",
+    // Generates corresponding '.d.ts' file.
+    "declaration": true,
+    // Target latest version of ECMAScript.
+    "target": "esnext",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    // Allow default imports from modules with no default export.
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*.ts"]
+}
