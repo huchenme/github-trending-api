@@ -72,7 +72,7 @@
     "typescript": "^3.5.1"
   },
   "scripts": {
-    "dev": "nodemon --exec \"babel-node --extensions .ts ./src/server.ts\"",
+    "dev": "nodemon --exec \"babel-node --extensions .ts ./src/server.ts\" --watch src",
     "test": "jest --coverage",
     "eslint": "eslint . --ext .ts,.js",
     "type-check": "tsc --noEmit",
