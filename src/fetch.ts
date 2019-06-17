@@ -29,7 +29,7 @@ function removeDefaultAvatarSize(src?: string): string {
   return src.replace(/\?s=.*$/, '');
 }
 
-export async function fetchAllLanguages() {
+export async function fetchAllLanguages(): Promise<any> {
   const data = await fetch(`${GITHUB_URL}/trending/`);
   const $ = cheerio.load(await data.text());
   const getLang = href => getMatchString(href, /\/trending\/([^?/]+)/i);
@@ -60,22 +60,22 @@ export async function fetchAllLanguages() {
 export async function fetchRepositories({
   language = '',
   since = 'daily',
-} = {}) {
+} = {}): Promise<any> {
   const url = `${GITHUB_URL}/trending/${language}?since=${since}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (
-    $('.repo-list li')
+    $('.Box article.Box-row')
       .get()
       // eslint-disable-next-line complexity
-      .map(repo => {
+      .map((repo): any => {
         const $repo = $(repo);
         const title = $repo
-          .find('h3')
+          .find('.h3')
           .text()
           .trim();
         const relativeUrl = $repo
-          .find('h3')
+          .find('.h3')
           .find('a')
           .attr('href');
         const currentPeriodStarsString =
@@ -86,9 +86,8 @@ export async function fetchRepositories({
 
         const builtBy = $repo
           .find('span:contains("Built by")')
-          .parent()
           .find('[data-hovercard-type="user"]')
-          .map((i, user) => {
+          .map((i, user): any => {
             const altString = $(user)
               .children('img')
               .attr('alt');
@@ -122,7 +121,7 @@ export async function fetchRepositories({
           url: `${GITHUB_URL}${relativeUrl}`,
           description:
             $repo
-              .find('.py-1 p')
+              .find('p.my-1')
               .text()
               .trim() || /* istanbul ignore next */ '',
           language: lang,
@@ -152,36 +151,37 @@ export async function fetchRepositories({
   );
 }
 
-export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
+export async function fetchDevelopers({
+  language = '',
+  since = 'daily',
+} = {}): Promise<any> {
   const data = await fetch(
     `${GITHUB_URL}/trending/developers/${language}?since=${since}`
   );
   const $ = cheerio.load(await data.text());
-  return $('.explore-content li')
+  return $('.Box article.Box-row')
     .get()
-    .map(dev => {
+    .map((dev): any => {
       const $dev = $(dev);
-      const relativeUrl = $dev.find('.f3 a').attr('href');
+      const relativeUrl = $dev.find('.h3 a').attr('href');
       const name = getMatchString(
         $dev
-          .find('.f3 a span')
+          .find('.h3 a')
           .text()
           .trim(),
         /^\((.+)\)$/i
       );
-      $dev.find('.f3 a span').remove();
 
-      const username = $dev
-        .find('.f3 a')
-        .text()
-        .trim();
+      const username = relativeUrl.slice(1);
 
       const type = $dev
         .find('img')
         .parent()
         .attr('data-hovercard-type');
 
-      const $repo = $dev.find('.repo-snipit');
+      const $repo = $dev.find('.mb-2');
+
+      $repo.find('svg').remove();
 
       return omitNil({
         username,
@@ -191,15 +191,15 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
         avatar: removeDefaultAvatarSize($dev.find('img').attr('src')),
         repo: {
           name: $repo
-            .find('.repo-snipit-name span.repo')
+            .find('a')
             .text()
             .trim(),
           description:
             $repo
-              .find('.repo-snipit-description')
+              .find('.f6')
               .text()
               .trim() || /* istanbul ignore next */ '',
-          url: `${GITHUB_URL}${$repo.attr('href')}`,
+          url: `${GITHUB_URL}${$repo.find('a').attr('href')}`,
         },
       });
     });
