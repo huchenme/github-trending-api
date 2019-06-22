@@ -32,7 +32,7 @@ app.get(
 );
 
 app.get(
-  '/repositories',
+  '(/|/repositories)',
   async (req: Request, res: Response): Promise<ApiResponse> => {
     try {
       const parsedUrl = url.parse(req.originalUrl);
@@ -114,6 +114,10 @@ app.post(
     res.sendStatus(200);
   }
 );
+
+app.use((req, res) => {
+  res.sendStatus(404);
+});
 
 app.listen(
   PORT,
