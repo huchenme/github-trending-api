@@ -2369,6 +2369,7 @@ exports[`fetchRepositories() should match snapshot 1`] = `
 Array [
   Object {
     "author": "lydiahallie",
+    "avatar": "https://github.com/lydiahallie.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/29451794",
@@ -2405,6 +2406,7 @@ Array [
   },
   Object {
     "author": "TrillCyborg",
+    "avatar": "https://github.com/TrillCyborg.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars2.githubusercontent.com/u/3090527",
@@ -2443,6 +2445,7 @@ Array [
   },
   Object {
     "author": "kefranabg",
+    "avatar": "https://github.com/kefranabg.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars0.githubusercontent.com/u/9840435",
@@ -2476,6 +2479,7 @@ Array [
   },
   Object {
     "author": "CyC2018",
+    "avatar": "https://github.com/CyC2018.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars1.githubusercontent.com/u/36260787",
@@ -2514,6 +2518,7 @@ Array [
   },
   Object {
     "author": "jackfrued",
+    "avatar": "https://github.com/jackfrued.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/49554879",
@@ -2552,6 +2557,7 @@ Array [
   },
   Object {
     "author": "donnemartin",
+    "avatar": "https://github.com/donnemartin.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars0.githubusercontent.com/u/5458997",
@@ -2590,6 +2596,7 @@ Array [
   },
   Object {
     "author": "xingshaocheng",
+    "avatar": "https://github.com/xingshaocheng.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/4962837",
@@ -2626,6 +2633,7 @@ Array [
   },
   Object {
     "author": "Snailclimb",
+    "avatar": "https://github.com/Snailclimb.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars0.githubusercontent.com/u/29880145",
@@ -2664,6 +2672,7 @@ Array [
   },
   Object {
     "author": "doocs",
+    "avatar": "https://github.com/doocs.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/21008209",
@@ -2702,6 +2711,7 @@ Array [
   },
   Object {
     "author": "0voice",
+    "avatar": "https://github.com/0voice.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/18027560",
@@ -2718,6 +2728,7 @@ Array [
   },
   Object {
     "author": "ottomatica",
+    "avatar": "https://github.com/ottomatica.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/742934",
@@ -2751,6 +2762,7 @@ Array [
   },
   Object {
     "author": "sfyc23",
+    "avatar": "https://github.com/sfyc23.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars1.githubusercontent.com/u/7067207",
@@ -2789,6 +2801,7 @@ Array [
   },
   Object {
     "author": "olivia-ai",
+    "avatar": "https://github.com/olivia-ai.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/15371828",
@@ -2812,6 +2825,7 @@ Array [
   },
   Object {
     "author": "rasbt",
+    "avatar": "https://github.com/rasbt.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars1.githubusercontent.com/u/5618407",
@@ -2850,6 +2864,7 @@ Array [
   },
   Object {
     "author": "algorithm-visualizer",
+    "avatar": "https://github.com/algorithm-visualizer.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/1618732",
@@ -2888,6 +2903,7 @@ Array [
   },
   Object {
     "author": "sindresorhus",
+    "avatar": "https://github.com/sindresorhus.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/170270",
@@ -2926,6 +2942,7 @@ Array [
   },
   Object {
     "author": "target",
+    "avatar": "https://github.com/target.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars1.githubusercontent.com/u/11381794",
@@ -2959,6 +2976,7 @@ Array [
   },
   Object {
     "author": "phiresky",
+    "avatar": "https://github.com/phiresky.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars2.githubusercontent.com/u/2303841",
@@ -2977,6 +2995,7 @@ Array [
   },
   Object {
     "author": "microsoft",
+    "avatar": "https://github.com/microsoft.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars2.githubusercontent.com/u/18221333",
@@ -3015,6 +3034,7 @@ Array [
   },
   Object {
     "author": "BishopFox",
+    "avatar": "https://github.com/BishopFox.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars0.githubusercontent.com/u/44028017",
@@ -3053,6 +3073,7 @@ Array [
   },
   Object {
     "author": "platinum-engineering",
+    "avatar": "https://github.com/platinum-engineering.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars3.githubusercontent.com/u/25569623",
@@ -3076,6 +3097,7 @@ Array [
   },
   Object {
     "author": "ajalt",
+    "avatar": "https://github.com/ajalt.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars0.githubusercontent.com/u/1109214",
@@ -3114,6 +3136,7 @@ Array [
   },
   Object {
     "author": "TheAlgorithms",
+    "avatar": "https://github.com/TheAlgorithms.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars1.githubusercontent.com/u/14276147",
@@ -3152,6 +3175,7 @@ Array [
   },
   Object {
     "author": "flschweiger",
+    "avatar": "https://github.com/flschweiger.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars0.githubusercontent.com/u/11478053",
@@ -3170,6 +3194,7 @@ Array [
   },
   Object {
     "author": "gothinkster",
+    "avatar": "https://github.com/gothinkster.png",
     "builtBy": Array [
       Object {
         "avatar": "https://avatars2.githubusercontent.com/u/556934",
