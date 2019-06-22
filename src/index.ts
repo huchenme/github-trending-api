@@ -56,3 +56,5 @@ export async function fetchRandomRepositories(
   const json = res.json();
   return sampleSize(json, size);
 }
+
+export { default as languages } from './languages';

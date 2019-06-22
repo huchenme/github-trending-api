@@ -38,6 +38,7 @@
 - [Projects using github-trending-api](#projects-using-github-trending-api)
 - [API Status](#api-status)
 - [REST API](#rest-api)
+- [Tutorial](#tutorial)
   - [Trending Repositories](#trending-repositories)
   - [Trending Developers](#trending-developers)
   - [List Languages](#list-languages)
@@ -52,6 +53,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- prettier-ignore-end -->
+
 </details>
 
 ## Projects using github-trending-api
@@ -101,6 +103,7 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
   {
     "author": "google",
     "name": "gvisor",
+    "avatar": "https://github.com/google.png",
     "url": "https://github.com/google/gvisor",
     "description": "Container Runtime Sandbox",
     "language": "Go",
@@ -252,7 +255,7 @@ Receive an array of trending repositories.
 
 **params**:
 
-- `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](languages.json).
+- `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](./src/languages.ts).
 - `since`: `daily`, `weekly` or `monthly`, default to `daily`.
 
 ```js
@@ -261,6 +264,7 @@ Receive an array of trending repositories.
   {
     author: 'google',
     name: 'gvisor',
+    avatar: 'https://github.com/google.png',
     url: 'https://github.com/google/gvisor',
     description: 'Container Runtime Sandbox',
     language: 'Go',

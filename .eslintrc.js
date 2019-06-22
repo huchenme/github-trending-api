@@ -21,10 +21,12 @@ module.exports = {
     'no-console': 'off',
     'consistent-return': 'off',
   },
-  overrides: {
-    files: ['**/__tests__/**/*.ts'],
-    rules: {
-      '@typescript-eslint/explicit-function-return-type': 'off',
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.ts'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': 'off',
+      },
     },
-  },
+  ],
 };
