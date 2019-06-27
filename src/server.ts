@@ -4,7 +4,8 @@ import cache from 'memory-cache';
 import cacheControl from 'express-cache-controller';
 import cors from 'cors';
 
-import { fetchAllLanguages, fetchRepositories, fetchDevelopers } from './fetch';
+import languages from './languages';
+import { fetchRepositories, fetchDevelopers } from './fetch';
 
 const PORT = process.env.PORT || 8080;
 
@@ -12,22 +13,19 @@ type ApiResponse = Response | void;
 
 const app = express();
 app.use(cors());
-app.use(cacheControl());
+app.use(
+  cacheControl({
+    maxAge: 60 * 10,
+  })
+);
 
 app.get(
   '/languages',
-  async (req: Request, res: Response): Promise<ApiResponse> => {
-    const cached = cache.get('languages');
-    if (Boolean(cached)) {
-      return res.json(cached);
-    }
-    const data = await fetchAllLanguages();
-    cache.put('languages', data, 1000 * 3600 * 24); // Store for a day
-
+  (req: Request, res: Response): ApiResponse => {
     res.cacheControl = {
-      maxAge: 3600,
+      maxAge: 60 * 60 * 24,
     };
-    res.json(data);
+    res.json(languages);
   }
 );
 
@@ -115,9 +113,11 @@ app.post(
   }
 );
 
-app.use((req, res) => {
-  res.sendStatus(404);
-});
+app.use(
+  (_, res): ApiResponse => {
+    res.sendStatus(404);
+  }
+);
 
 app.listen(
   PORT,

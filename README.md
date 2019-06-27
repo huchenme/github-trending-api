@@ -46,9 +46,9 @@
   - [Install](#install)
   - [Usage](#usage)
   - [API](#api)
-  - [fetchAllLanguages()](#fetchalllanguages)
-  - [fetchRepositories(params)](#fetchrepositoriesparams)
-  - [fetchDevelopers(params)](#fetchdevelopersparams)
+    - [languages](#languages)
+    - [fetchRepositories(params)](#fetchrepositoriesparams)
+    - [fetchDevelopers(params)](#fetchdevelopersparams)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -170,24 +170,24 @@ https://github-trending-api.now.sh/languages
 **Response:**
 
 ```json
-{
-  "popular": [
-    ...
-    {
-      "urlParam": "html",
-      "name": "HTML"
-    }
-    ...
-  ],
-  "all": [
-    ...
-    {
-      "urlParam": "javascript",
-      "name": "JavaScript"
-    }
-    ...
-  ]
-}
+[
+  {
+    "id": "1c-enterprise",
+    "name": "1C Enterprise"
+  },
+  {
+    "id": "abap",
+    "name": "ABAP"
+  },
+  {
+    "id": "abnf",
+    "name": "ABNF"
+  },
+  {
+    "id": "actionscript",
+    "name": "ActionScript"
+  }
+]
 ```
 
 ## NPM Package
@@ -204,14 +204,10 @@ $ npm install --save @huchenme/github-trending
 
 ```js
 import {
-  fetchAllLanguages,
+  languages,
   fetchRepositories,
   fetchDevelopers,
 } from '@huchenme/github-trending';
-
-fetchAllLanguages().then(languages => {
-  console.log(languages);
-});
 
 fetchRepositories({ language: 'ruby', since: 'monthly' }).then(repositories => {
   console.log(repositories);
@@ -220,36 +216,38 @@ fetchRepositories({ language: 'ruby', since: 'monthly' }).then(repositories => {
 fetchDevelopers({ language: 'javascript' }).then(developers => {
   console.log(developers);
 });
+
+console.log(languages);
 ```
 
 ### API
 
-### fetchAllLanguages()
+#### languages
 
-Return popular languages and all languages.
+List all languages
 
 ```js
-{
-  popular: [
-    ...
-    {
-      urlParam: 'html',
-      name: 'HTML'
-    }
-    ...
-  ],
-  all: [
-    ...
-    {
-      urlParam: 'javascript',
-      name: 'JavaScript'
-    }
-    ...
-  ]
-}
+[
+  {
+    id: '1c-enterprise',
+    name: '1C Enterprise',
+  },
+  {
+    id: 'abap',
+    name: 'ABAP',
+  },
+  {
+    id: 'abnf',
+    name: 'ABNF',
+  },
+  {
+    id: 'actionscript',
+    name: 'ActionScript',
+  },
+];
 ```
 
-### fetchRepositories(params)
+#### fetchRepositories(params)
 
 Receive an array of trending repositories.
 
@@ -284,7 +282,7 @@ Receive an array of trending repositories.
 ]
 ```
 
-### fetchDevelopers(params)
+#### fetchDevelopers(params)
 
 Receive an array of trending developers.
 

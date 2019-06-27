@@ -12,14 +12,6 @@ function buildUrl(baseUrl, params = {}): string {
   return queryString === '' ? baseUrl : `${baseUrl}?${queryString}`;
 }
 
-export async function fetchAllLanguages(): Promise<any> {
-  const res = await fetch(`${SERVER_URL}/languages`);
-  if (!res.ok) {
-    throw new Error('Something went wrong');
-  }
-  return res.json();
-}
-
 export async function fetchRepositories(params): Promise<any> {
   const res = await fetch(buildUrl(`${SERVER_URL}/repositories`, params));
   if (!res.ok) {
