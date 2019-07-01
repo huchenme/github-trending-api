@@ -2,6 +2,7 @@
   "name": "@huchenme/github-trending",
   "version": "0.0.0-development",
   "description": "Get GitHub trending data",
+  "sideEffects": false,
   "main": "dist/github-trending.cjs.js",
   "module": "dist/github-trending.esm.js",
   "types": "dist/index.d.ts",
