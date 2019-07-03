@@ -22,14 +22,6 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@huchenme/github-trending.svg)](https://www.npmjs.com/package/@huchenme/github-trending)
 [![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/) [![Greenkeeper badge](https://badges.greenkeeper.io/huchenme/github-trending-api.svg)](https://greenkeeper.io/)
 
-### Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/github-trending-api#backer)]
-
-<a href="https://opencollective.com/github-trending-api#backers" target="_blank"><img src="https://opencollective.com/github-trending-api/backers.svg?width=890"></a>
-
-<a href="https://www.buymeacoffee.com/huchenme" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
 ---
 
 ## Table of Contents
@@ -44,6 +36,7 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Projects using github-trending-api](#projects-using-github-trending-api)
+- [Backers](#backers)
 - [API Status](#api-status)
 - [REST API](#rest-api)
 - [Tutorial](#tutorial)
@@ -77,6 +70,14 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 - **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
 - **[GitNews](https://git.news)**: Trending repositories from GitHub, HackerNews & Reddit (Mobile & Desktop).
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/github-trending-api#backer)]
+
+<a href="https://opencollective.com/github-trending-api#backers" target="_blank"><img src="https://opencollective.com/github-trending-api/backers.svg?width=890"></a>
+
+<a href="https://www.buymeacoffee.com/huchenme" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## API Status
 
