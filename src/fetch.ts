@@ -33,7 +33,7 @@ export async function fetchRepositories({
           .find('.h3')
           .text()
           .trim();
-        const [username, repoName] = title.split(' / ');
+        const [username, repoName] = title.split('/').map((v): string=>v.trim());
         const relativeUrl = $repo
           .find('.h3')
           .find('a')
@@ -89,15 +89,19 @@ export async function fetchRepositories({
           languageColor: langColor,
           stars: parseInt(
             $repo
-              .find(`[href="${relativeUrl}/stargazers"]`)
+              .find("span[aria-label='star']")
+              .parent()
               .text()
+              .trim()
               .replace(',', '') || /* istanbul ignore next */ '0',
             10
           ),
           forks: parseInt(
             $repo
-              .find(`[href="${relativeUrl}/network/members"]`)
+              .find("span[aria-label='fork']")
+              .parent()
               .text()
+              .trim()
               .replace(',', '') || /* istanbul ignore next */ '0',
             10
           ),
