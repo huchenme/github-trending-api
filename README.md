@@ -12,7 +12,7 @@
 
 <br />
 
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/huchenme/github-trending-api.svg)](https://github.com/huchenme/github-trending-api/issues)
+[![Financial Contributors on Open Collective](https://opencollective.com/github-trending-api/all/badge.svg?label=financial+contributors)](https://opencollective.com/github-trending-api) [![GitHub closed issues](https://img.shields.io/github/issues-closed/huchenme/github-trending-api.svg)](https://github.com/huchenme/github-trending-api/issues)
 [![Travis](https://img.shields.io/travis/huchenme/github-trending-api.svg)](https://travis-ci.org/huchenme/github-trending-api)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![coverage](https://img.shields.io/codecov/c/github/huchenme/github-trending-api.svg)](https://codecov.io/github/huchenme/github-trending-api)
@@ -319,6 +319,36 @@ Receive an array of trending developers.
   ...
 ]
 ```
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/huchenme/github-trending-api/graphs/contributors"><img src="https://opencollective.com/github-trending-api/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/github-trending-api/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/github-trending-api"><img src="https://opencollective.com/github-trending-api/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/github-trending-api/contribute)]
+
+<a href="https://opencollective.com/github-trending-api/organization/0/website"><img src="https://opencollective.com/github-trending-api/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/1/website"><img src="https://opencollective.com/github-trending-api/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/2/website"><img src="https://opencollective.com/github-trending-api/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/3/website"><img src="https://opencollective.com/github-trending-api/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/4/website"><img src="https://opencollective.com/github-trending-api/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/5/website"><img src="https://opencollective.com/github-trending-api/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/6/website"><img src="https://opencollective.com/github-trending-api/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/7/website"><img src="https://opencollective.com/github-trending-api/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/8/website"><img src="https://opencollective.com/github-trending-api/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/github-trending-api/organization/9/website"><img src="https://opencollective.com/github-trending-api/organization/9/avatar.svg"></a>
 
 ## License
 
