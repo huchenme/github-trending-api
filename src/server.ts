@@ -4,7 +4,7 @@ import cache from 'memory-cache';
 import cacheControl from 'express-cache-controller';
 import cors from 'cors';
 
-import languages from './languages';
+import languages from './languages.json';
 import { fetchRepositories, fetchDevelopers } from './fetch';
 
 const PORT = process.env.PORT || 8080;

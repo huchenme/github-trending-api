@@ -50,6 +50,11 @@
     - [languages](#languages)
     - [fetchRepositories(params)](#fetchrepositoriesparams)
     - [fetchDevelopers(params)](#fetchdevelopersparams)
+- [Contributors](#contributors)
+  - [Code Contributors](#code-contributors)
+  - [Financial Contributors](#financial-contributors)
+    - [Individuals](#individuals)
+    - [Organizations](#organizations)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -101,7 +106,7 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
 
 **Parameters:**
 
-- `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](languages.json).
+- `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](./src/languages.json).
 - `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
 
 **Response:**

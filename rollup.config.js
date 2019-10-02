@@ -2,6 +2,7 @@ import path from 'path';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import resolve from 'rollup-plugin-node-resolve';
+import json from 'rollup-plugin-json';
 import pkg from './package.json';
 
 const external = id => !id.startsWith('.') && !path.isAbsolute(id);
@@ -27,6 +28,7 @@ export default [
       { file: pkg.module, format: 'es' },
     ],
     plugins: [
+      json(),
       resolvePlugin,
       babelPlugin,
       process.env.NODE_ENV === 'production' && terser(),
@@ -36,6 +38,6 @@ export default [
     input: 'src/server.ts',
     external,
     output: [{ file: 'dist/server.cjs.js', format: 'cjs' }],
-    plugins: [resolvePlugin, babelPlugin],
+    plugins: [json(), resolvePlugin, babelPlugin],
   },
 ];
