@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import { sample, sampleSize } from 'lodash';
+import languages from './languages.json';
 
 const SERVER_URL = 'https://github-trending-api.now.sh';
 
@@ -37,10 +38,7 @@ export async function fetchRandomRepository(params): Promise<any> {
   return sample(json);
 }
 
-export async function fetchRandomRepositories(
-  size: number = 1,
-  params
-): Promise<any> {
+export async function fetchRandomRepositories(size = 1, params): Promise<any> {
   const res = await fetch(buildUrl(`${SERVER_URL}/repositories`, params));
   if (!res.ok) {
     throw new Error('Something went wrong');
@@ -49,4 +47,4 @@ export async function fetchRandomRepositories(
   return sampleSize(json, size);
 }
 
-export { default as languages } from './languages';
+export { languages };

@@ -33,7 +33,9 @@ export async function fetchRepositories({
           .find('.h3')
           .text()
           .trim();
-        const [username, repoName] = title.split('/').map((v): string=>v.trim());
+        const [username, repoName] = title
+          .split('/')
+          .map((v): string => v.trim());
         const relativeUrl = $repo
           .find('.h3')
           .find('a')

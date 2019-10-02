@@ -11,7 +11,9 @@
     // Import non-ES modules as default imports.
     "esModuleInterop": true,
     // Allow default imports from modules with no default export.
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    // Allow JSON
+    "resolveJsonModule": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*.ts"]
