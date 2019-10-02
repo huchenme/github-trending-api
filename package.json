@@ -34,7 +34,8 @@
     "express-cache-controller": "^1.1.0",
     "lodash": "^4.17.11",
     "memory-cache": "^0.2.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "opencollective-postinstall": "^2.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -85,7 +86,8 @@
     "build:js": "NODE_ENV=production rollup -c",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
-    "start": "node ./dist/server.cjs.js"
+    "start": "node ./dist/server.cjs.js",
+    "postinstall": "opencollective-postinstall || true"
   },
   "lint-staged": {
     "README.md": [
@@ -106,5 +108,9 @@
   "prettier": {
     "singleQuote": true,
     "trailingComma": "es5"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/github-trending-api"
   }
 }
