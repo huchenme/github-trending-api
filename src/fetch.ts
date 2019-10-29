@@ -91,7 +91,7 @@ export async function fetchRepositories({
           languageColor: langColor,
           stars: parseInt(
             $repo
-              .find("span[aria-label='star']")
+              .find("svg[aria-label='star']")
               .parent()
               .text()
               .trim()
