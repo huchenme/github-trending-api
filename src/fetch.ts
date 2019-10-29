@@ -91,7 +91,7 @@ export async function fetchRepositories({
           languageColor: langColor,
           stars: parseInt(
             $repo
-              .find("span[aria-label='star']")
+              .find("svg[aria-label='star']")
               .parent()
               .text()
               .trim()
@@ -100,7 +100,7 @@ export async function fetchRepositories({
           ),
           forks: parseInt(
             $repo
-              .find("span[aria-label='fork']")
+              .find("svg[aria-label='repo-forked']")
               .parent()
               .text()
               .trim()
