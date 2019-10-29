@@ -100,7 +100,7 @@ export async function fetchRepositories({
           ),
           forks: parseInt(
             $repo
-              .find("span[aria-label='fork']")
+              .find("svg[aria-label='repo-forked']")
               .parent()
               .text()
               .trim()
