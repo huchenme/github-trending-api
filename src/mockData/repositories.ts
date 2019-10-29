@@ -6,6 +6,12 @@ const html = `
 
 
 
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,7 +27,7 @@ const html = `
 
 
   <link crossorigin="anonymous" media="all" integrity="sha512-TD/1gdStKo77Iu1A+WNb+2YoRJv7l1hZVO0/0h+eJ5wyGxiTvIbLRko1dQ1jEa9w5BK3poi18st9OPel71zK8A==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-94d2de65a56b07e193e50e91873678b6.css" />
-  
+  <link crossorigin="anonymous" media="all" integrity="sha512-y6ClXuNSXHX02KTSpyAB44/9EYuqesDamipEk7dPNLuJNpS2cp9emQ9spRMyEqHniLQv/gT+3LNh5ClmcmjqTQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-212da8d2e327716b925d34199c85916c.css" />
     <link crossorigin="anonymous" media="all" integrity="sha512-6P5/Hau5yhVn31dqdwL9mqPJIsdzQea/3+QHoPD+vidz6FNURNpHQ556gMUOo/W2ZUp6DZl1Za2wJ4LsTH9Aqw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-0bbc5579e186946594908b0f0f43138d.css" />
     
     
@@ -30,7 +36,7 @@ const html = `
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Trending  repositories on GitHub today</title>
+  <title>Trending  repositories on GitHub today · GitHub</title>
     <meta name="description" content="GitHub is where people build software. More than 40 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -65,9 +71,9 @@ const html = `
     <meta property="twitter:image:height" content="1200">
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDYxODQ0OTM3OjRmYzFhMzIxNTc2ZDI2ZmNlYTU4NWFjMTE3YWYzYjNkNTk4NDg1ZDg1MzdjMTFmOWM0ZTY5NjZlNGU4MDQ1YWU=--5d99a3b86974d802b3b48e63cc8fb6c80d69fedb">
-  <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="3459:34409:9AE18C:E6EC51:5DB84FF9" data-pjax-transient>
+  
+  
+  <meta name="request-id" content="3464:14122:1E207:2BB13:5DB858EF" data-pjax-transient>
 
 
   
@@ -78,29 +84,29 @@ const html = `
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="3459:34409:9AE18C:E6EC51:5DB84FF9" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="3478401960568091137" /><meta name="octolytics-actor-id" content="24879428" /><meta name="octolytics-actor-login" content="theArgex" /><meta name="octolytics-actor-hash" content="99c1995abec688ec9fc29ca3873933f09faed4917a14d83ff106e4f618185a1f" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="3464:14122:1E207:2BB13:5DB858EF" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="4403401645404739823" />
 
 
 
 
+    <meta name="google-analytics" content="UA-3769691-2">
 
-  <meta class="js-ga-set" name="userId" content="4a2213a66c1d02b5bce2bb5d622ab40e">
 
-<meta class="js-ga-set" name="dimension1" content="Logged In">
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
 
 
 
   
 
       <meta name="hostname" content="github.com">
-    <meta name="user-login" content="theArgex">
+    <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MTM5ZjNkYzM1YmRiZjk0OTQ4ZDU4ZjRkMjI0OWVjOWNkMzIyZDEzZDZjNDBkNTNjNmEwN2MzMzJkYmQ2ODNhN3x7InJlbW90ZV9hZGRyZXNzIjoiMTc4LjE5Ny4yMzEuMTYwIiwicmVxdWVzdF9pZCI6IjM0NTk6MzQ0MDk6OUFFMThDOkU2RUM1MTo1REI4NEZGOSIsInRpbWVzdGFtcCI6MTU3MjM2MDIwMSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="ZGQwODA1NjRhM2U0Y2FhNzU3M2M0OTIzOGJhOWQyYjdiYmJlYmE4NDQzNTE4N2Q4ZDFiNDIyMDA3NDM1ZjRiMHx7InJlbW90ZV9hZGRyZXNzIjoiMTc4LjE5Ny4yMzEuMTYwIiwicmVxdWVzdF9pZCI6IjM0NjQ6MTQxMjI6MUUyMDc6MkJCMTM6NURCODU4RUYiLCJ0aW1lc3RhbXAiOjE1NzIzNjI0NzksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
-    <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
+    <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
 
-  <meta name="html-safe-nonce" content="74d47e359bea82d5646be7cfc18749b0b7036e11">
+  <meta name="html-safe-nonce" content="873fefc0444553298145259b30499059eddfe2fe">
 
   <meta http-equiv="x-pjax-version" content="d838e825444ffc4b7e98a644ae5a667b">
   
@@ -122,19 +128,17 @@ const html = `
 
 
 
-  <meta name="webauthn-auth-enabled" content="true">
 
-  <meta name="webauthn-registration-enabled" content="true">
 
   <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
 
   </head>
 
-  <body class="logged-in env-production page-responsive">
+  <body class="logged-out env-production page-responsive">
     
 
   <div class="position-relative js-header-wrapper ">
-    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
     <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
       <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
     </span>
@@ -144,23 +148,142 @@ const html = `
     
 
 
-          <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+        <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
 
-    <div class="Header-item d-none d-lg-flex">
-      <a class="Header-link" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
-  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
 
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a href="/join?source=header"
+              class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3a28ea978039e657967298bd838e64128278e321718ef02682c4d9aa843a2fa3"
+              data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+              Sign&nbsp;up
+            </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+          </button>
+        </div>
     </div>
 
-    <div class="Header-item d-lg-none">
-      <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
-        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
-      </button>
-    </div>
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
 
-    <div class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-        <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0   js-site-search position-relative js-jump-to"
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a>
+                      <li class="edge-item-fix"><a href="/features/package-registry" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Package Registry">Package registry</a>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0   js-site-search position-relative js-jump-to"
   role="combobox"
   aria-owns="jump-to-results"
   aria-label="Search or jump to"
@@ -168,21 +291,21 @@ const html = `
   aria-expanded="false"
 >
   <div class="position-relative">
-    <!-- '" --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-unscoped-search-url="/search" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- ' " --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-unscoped-search-url="/search" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus "
           data-hotkey="s,/"
           name="q"
           value=""
-          placeholder="Search or jump to…"
-          data-unscoped-placeholder="Search or jump to…"
-          data-scoped-placeholder="Search or jump to…"
+          placeholder="Search GitHub"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=u1SvTm0l3MAEtuqitQR9tj8pWk1ngmtbt2wwbZIZtX4k+q5+zL7F0pMmo6vJQ53KpoExBPdI3VucEVkuCQ9CeA=="
+          aria-label="Search GitHub"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=lxa5VWu6902j5cjDzFFUyUQxmbRhIkIwLLOJnOzbcRSixaXgN+HcKCeTbi7cf4o3ah6CGsR/XXsRhLboTwYjOA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -298,9 +421,6 @@ const html = `
 </li>
 
 
-    <li class="d-flex flex-justify-center flex-items-center p-0 f5 js-jump-to-suggestion">
-      <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
-    </li>
 </ul>
 
             </div>
@@ -308,358 +428,24 @@ const html = `
 </form>  </div>
 </div>
 
-
-      <nav class="d-flex flex-column flex-lg-row flex-self-stretch flex-lg-self-auto" aria-label="Global">
-    <a class="Header-link d-block d-lg-none py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:dashboard:user" aria-label="Dashboard" href="/dashboard">
-      Dashboard
-</a>
-  <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
-    Pull requests
-</a>
-  <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
-    Issues
-</a>
-    <div class="mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15">
-      <a class="js-selected-navigation-item Header-link" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
-        Marketplace
-</a>      
-
-    </div>
-
-  <a class="js-selected-navigation-item selected Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:explore" aria-current="page" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
-    Explore
-</a>
-
-
-    <a class="Header-link d-block d-lg-none mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" href="https://github.com/theArgex">
-      <img class="avatar" height="20" width="20" alt="@theArgex" src="https://avatars3.githubusercontent.com/u/24879428?s=60&amp;v=4" />
-      theArgex
-</a>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zfBuz57noPzbfsX5dYhBnuX/lS696PSouoD6Rcl/9p/xjkfKpvDSzcOYNROlIQ2DsdGBuDMz3XX+/W/wz5G2xQ==" />
-      <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
-        <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
-        Sign out
-      </button>
-</form></nav>
-
-    </div>
-
-    <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative">
-      <a class="Header-link" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
-  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-
-    </div>
-
-
-    <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
-      
-
-    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:24879428" href="/notifications">
-        <span class="mail-status "></span>
-        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
-</a>
-    </div>
-
-
-    <div class="Header-item position-relative d-none d-lg-flex">
-      <details class="details-overlay details-reset">
-  <summary class="Header-link"
-      aria-label="Create new…"
-      data-ga-click="Header, create new, icon:add">
-    <svg class="octicon octicon-plus" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg> <span class="dropdown-caret"></span>
-  </summary>
-  <details-menu class="dropdown-menu dropdown-menu-sw">
-    
-<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
-  New repository
-</a>
-
-  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
-    Import repository
-  </a>
-
-<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
-  New gist
-</a>
-
-  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
-    New organization
-  </a>
-
-
-
-  <a role="menuitem" class="dropdown-item" href="/new/project" data-ga-click="Header, create new project">
-    New project
-  </a>
-
-  </details-menu>
-</details>
-
-    </div>
-
-    <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-      
-<details class="details-overlay details-reset">
-  <summary class="Header-link"
-    aria-label="View profile and more"
-    data-ga-click="Header, show menu, icon:avatar">
-    <img alt="@theArgex" class="avatar" src="https://avatars0.githubusercontent.com/u/24879428?s=40&amp;v=4" height="20" width="20">
-      <include-fragment hidden src="/users/theArgex/feature_preview/indicator_check"></include-fragment>
-    <span class="dropdown-caret"></span>
-  </summary>
-  <details-menu class="dropdown-menu dropdown-menu-sw mt-2" style="width: 180px">
-    <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/theArgex" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">theArgex</strong></a></div>
-    <div role="none" class="dropdown-divider"></div>
-
-      <div class="pl-3 pr-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
-        
-<div class="js-user-status-container
-    user-status-compact rounded-1 px-2 py-1 mt-2
-    border
-  " data-team-hovercards-enabled>
-  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" >
-      <div class="d-flex">
-        <div class="f6 lh-condensed user-status-header
-          d-inline-block v-align-middle
-            user-status-emoji-only-header circle
-            pr-2
-"
-            style="max-width: 29px"
-          >
-          <div class="user-status-emoji-container flex-shrink-0 mr-1  lh-condensed-ultra v-align-bottom" style="margin-top: 2px;">
-            <div><g-emoji class="g-emoji" alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji></div>
           </div>
-        </div>
-        <div class="
-          d-inline-block v-align-middle
-          
-          
-           css-truncate css-truncate-target 
-           user-status-message-wrapper f6"
-           style="line-height: 20px;" >
-          <div class="d-inline-block text-gray-dark v-align-text-top text-left">
-                <span>Working from home</span>
-          </div>
-        </div>
+
+        <a href="/login?return_to=%2Ftrending"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="89e49a045dadced02784f99d7cce697509515ad631cfb4d165d4deee6f73df71"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join?source=header"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="89e49a045dadced02784f99d7cce697509515ad631cfb4d165d4deee6f73df71"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
       </div>
-    </summary>
-    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="e+GLrFhas9KG2zq7J/AO97r/qRvA5dAo8Hl1BTQ/CdCXmCd5pWnfhfQvcMDeO9daPfwWGPLyRce9wEiW1iw2Xg==" />
-        <div class="Box-header bg-gray border-bottom p-3">
-          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
-            <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-          </button>
-          <h3 class="Box-title f5 text-bold text-gray-dark">Edit status</h3>
-        </div>
-        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value=":house:">
-        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
-        <div class="px-3 py-2 text-gray-dark">
-          <div class="js-characters-remaining-container position-relative mt-2">
-            <div class="input-group d-table form-group my-0 js-user-status-form-group">
-              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
-                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker btn-open-emoji-picker p-0">
-                  <span class="js-user-status-original-emoji" hidden><div><g-emoji class="g-emoji" alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji></div></span>
-                  <span class="js-user-status-custom-emoji"><div><g-emoji class="g-emoji" alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji></div></span>
-                  <span class="js-user-status-no-emoji-icon" hidden>
-                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 01-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 01-1.45-2.17A6.59 6.59 0 011.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 018 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
-                  </span>
-                </button>
-              </span>
-              <text-expander keys=": @" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
-                <input
-                  type="text"
-                  autocomplete="off"
-                  data-no-org-url="/autocomplete/user-suggestions"
-                  data-org-url="/suggestions?mention_suggester=1"
-                  data-maxlength="80"
-                  class="d-table-cell width-full form-control js-user-status-message-field js-characters-remaining-field"
-                  placeholder="What's happening?"
-                  name="message"
-                  value="Working from home"
-                  aria-label="What is your current status?">
-              </text-expander>
-              <div class="error">Could not update your status, please try again.</div>
-            </div>
-            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
-              80 remaining
-            </div>
-          </div>
-          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
-          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height: 33vh">
-            <div class="user-status-suggestions js-user-status-suggestions collapsed overflow-hidden">
-              <h4 class="f6 text-normal my-3">Suggestions:</h4>
-              <div class="mx-3 mt-2 clearfix">
-                  <div class="float-left col-6">
-                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          On vacation
-                        </div>
-                      </button>
-                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          Out sick
-                        </div>
-                      </button>
-                  </div>
-                  <div class="float-left col-6">
-                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          Working from home
-                        </div>
-                      </button>
-                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
-                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
-                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
-                        </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
-                          Focusing
-                        </div>
-                      </button>
-                  </div>
-              </div>
-            </div>
-            <div class="user-status-limited-availability-container">
-              <div class="form-checkbox my-0">
-                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true-compact-true" id="limited-availability-truncate-true-compact-true">
-                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true-compact-true">
-                  Busy
-                </label>
-                <p class="note" id="limited-availability-help-text-truncate-true-compact-true">
-                  When others mention you, assign you, or request your review,
-                  GitHub will let them know that you have limited availability.
-                </p>
-              </div>
-            </div>
-          </div>
-            
-
-<div class="d-inline-block f5 mr-2 pt-3 pb-2" >
-  <div class="d-inline-block mr-1">
-    Clear status
+    </div>
   </div>
-
-  <details class="js-user-status-expire-drop-down f6 dropdown details-reset details-overlay d-inline-block mr-2">
-    <summary class="f5 btn-link link-gray-dark border px-2 py-1 rounded-1" aria-haspopup="true">
-      <div class="js-user-status-expiration-interval-selected d-inline-block v-align-baseline">
-        Never
-      </div>
-      <div class="dropdown-caret"></div>
-    </summary>
-
-    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width: 220px; max-height: 15.5em">
-      <li>
-        <button type="button" class="btn-link dropdown-item js-user-status-expire-button ws-normal" title="Never">
-          <span class="d-inline-block text-bold mb-1">Never</span>
-          <div class="f6 lh-condensed">Keep this status until you clear your status or edit your status.</div>
-        </button>
-      </li>
-      <li class="dropdown-divider" role="none"></li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-10-29T16:13:21+01:00">
-            in 30 minutes
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-10-29T16:43:21+01:00">
-            in 1 hour
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-10-29T19:43:21+01:00">
-            in 4 hours
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2019-10-29T23:59:59+01:00">
-            today
-          </button>
-        </li>
-        <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2019-11-03T23:59:59+01:00">
-            this week
-          </button>
-        </li>
-    </ul>
-  </details>
-  <input class="js-user-status-expiration-date-input" type="hidden" name="expires_at" value="">
-</div>
-
-          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
-        </div>
-        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
-          <button type="submit"  class="width-full btn btn-primary mr-2 js-user-status-submit">
-            Set status
-          </button>
-          <button type="button"  class="width-full js-clear-user-status-button btn ml-2 js-user-status-exists">
-            Clear status
-          </button>
-        </div>
-</form>    </details-dialog>
-  </details>
-</div>
-
-      </div>
-      <div role="none" class="dropdown-divider"></div>
-
-
-    <a role="menuitem" class="dropdown-item" href="/theArgex" data-ga-click="Header, go to profile, text:your profile">Your profile</a>
-
-    <a role="menuitem" class="dropdown-item" href="/theArgex?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a>
-
-    <a role="menuitem" class="dropdown-item" href="/theArgex?tab=projects" data-ga-click="Header, go to projects, text:your projects">Your projects</a>
-
-    <a role="menuitem" class="dropdown-item" href="/theArgex?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a>
-      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists">Your gists</a>
-
-
-
-
-
-    <div role="none" class="dropdown-divider"></div>
-      
-<div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
-  <button
-    type="button"
-    class="dropdown-item btn-link"
-    role="menuitem"
-    data-feature-preview-trigger-url="/users/theArgex/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;809878567.1571746305&quot;,&quot;originating_request_id&quot;:&quot;3459:34409:9AE18C:E6EC51:5DB84FF9&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:&quot;https://github.com/login?return_to=%2Ftrending&quot;,&quot;user_id&quot;:24879428}}"
-    data-feature-preview-close-hmac="353b24f53d141403f047d39806f25d18d7d2fa2e2d522ef44e033e0597751481"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;809878567.1571746305&quot;,&quot;originating_request_id&quot;:&quot;3459:34409:9AE18C:E6EC51:5DB84FF9&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:&quot;https://github.com/login?return_to=%2Ftrending&quot;,&quot;user_id&quot;:24879428}}"
-    data-hydro-click-hmac="0ae6128d7df7c4a69efb7fe7dac95912cc45bd2f16c6a83effbf7ee6820b3c13"
-  >
-    Feature preview
-  </button>
-    <include-fragment hidden src="/users/theArgex/feature_preview/indicator_check"></include-fragment>
-</div>
-
-    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
-    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="a+lrs8IynMngM4npCNxnd/Gea55dooiEsktOrK+awz9Xl0K2+iXu+PjVeQPYdStqpbB/CNN5oVn2NtsZqXSDZQ==" />
-      
-      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
-        Sign out
-      </button>
-</form>  </details-menu>
-</details>
-
-    </div>
-
-  </header>
-
-      
+</header>
 
   </div>
 
@@ -760,16 +546,6 @@ const html = `
     <div class="select-menu-list" data-pjax>
 
       <div data-filterable-for="text-filter-field" data-filterable-type="substring">
-          <a class="select-menu-item " href="https://github.com/trending/c?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
-            <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-
-
-            <span class="select-menu-item-text " data-menu-button-text="">
-              C
-</span>
-
-</a>
-
           <a class="select-menu-item " href="https://github.com/trending/c++?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
             <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
 
@@ -780,12 +556,22 @@ const html = `
 
 </a>
 
-          <a class="select-menu-item " href="https://github.com/trending/go?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
+          <a class="select-menu-item " href="https://github.com/trending/html?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
             <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
 
 
             <span class="select-menu-item-text " data-menu-button-text="">
-              Go
+              HTML
+</span>
+
+</a>
+
+          <a class="select-menu-item " href="https://github.com/trending/java?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
+            <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+
+
+            <span class="select-menu-item-text " data-menu-button-text="">
+              Java
 </span>
 
 </a>
@@ -800,6 +586,16 @@ const html = `
 
 </a>
 
+          <a class="select-menu-item " href="https://github.com/trending/php?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
+            <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+
+
+            <span class="select-menu-item-text " data-menu-button-text="">
+              PHP
+</span>
+
+</a>
+
           <a class="select-menu-item " href="https://github.com/trending/python?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
             <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
 
@@ -810,22 +606,12 @@ const html = `
 
 </a>
 
-          <a class="select-menu-item " href="https://github.com/trending/shell?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
+          <a class="select-menu-item " href="https://github.com/trending/ruby?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
             <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
 
 
             <span class="select-menu-item-text " data-menu-button-text="">
-              Shell
-</span>
-
-</a>
-
-          <a class="select-menu-item " href="https://github.com/trending/typescript?since=daily" aria-checked="false" data-pjax="" role="menuitemradio">
-            <svg aria-label="check" height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" role="img"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-
-
-            <span class="select-menu-item-text " data-menu-button-text="">
-              TypeScript
+              Ruby
 </span>
 
 </a>
@@ -6125,17 +5911,10 @@ const html = `
     <div>
         <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/brunosimon/folio-2019/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="x/20rrJwkFNaTxjH0QanROaIgtmbsOmro8nEnhqu3dWuTkDy/mU9RAqkktQ6QYpxJ1rZ9lT7ybWtPSk4W0t96Q==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar brunosimon/folio-2019" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/brunosimon/folio-2019/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TnfAfkhsSAKA8KUlaCD6SnYSUtEYKqndGCcE/KllkpnJ8mI2+R1DZLpk4Io0QoCD5wgFoiZ+Q5baNqKRiV7OtA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star brunosimon/folio-2019" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:196761128,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c92b9a23ed7d92cf75d401a24a9e4606b98f9532b7b43afb0f48522f8f7a6340" href="/login?return_to=%2Fbrunosimon%2Ffolio-2019">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6165,7 +5944,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/brunosimon/folio-2019/stargazers.folio-2019">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        742
+        744
 </a>
 
 
@@ -6194,17 +5973,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/neex/phuip-fpizdam/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2thS6SEjjZAVw8zY/U/4Jc/gv2FASboc4dXufhLFdkPiPUXn1Ps3Y9YbElC4RpYIb6i5+7f+VYrze29BWPfi1Q==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar neex/phuip-fpizdam" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/neex/phuip-fpizdam/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tFMuzhxpp1O65aeZ8ikLC07YW4A0yszqazffeVrPAFVia1o20JFBN7ycDv/3QDD372KndKJcbfSN3MN8M4PB8g==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star neex/phuip-fpizdam" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:210457246,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c83396af784ea7bc8d70cb871a9e1e43658b9f386a298f44da15de80f1922dc0" href="/login?return_to=%2Fneex%2Fphuip-fpizdam">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6237,7 +6009,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/neex/phuip-fpizdam/stargazers.phuip-fpizdam">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        1,154
+        1,155
 </a>
 
 
@@ -6267,17 +6039,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/polynote/polynote/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8rhXf6J5btMdU2hv9liydzHdP2iOJiXP8QZuk9Y1/UPaO4Qf4rFFHRRQpbTsxprZFe4/ojtqJskC+XoeCud/gA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar polynote/polynote" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/polynote/polynote/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="b46k58uTrnNnIXfkrF5MqJyG4amXGb82NvkGz75musJwaahfd6i8MXEw0ILen6F1cYqgAdlLF5DpYkjzS9X8Cg==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star polynote/polynote" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:165446099,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b98ea10daf0b6ed58eac79fb4cf74d3a1e6a4875a2f1da1f135e8660bfb2b376" href="/login?return_to=%2Fpolynote%2Fpolynote">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6310,14 +6075,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/polynote/polynote/stargazers.polynote">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        2,007
+        2,011
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/polynote/polynote/network/members.polynote">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        122
+        123
 </a>
 
 
@@ -6343,17 +6108,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/muhammederdem/vue-interactive-paycard/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8woKSZ2P3PWk7HWvGZ7B6TX12N/VJeKjDnDjCj+Pr2iNt/Qix1pMzIZpgQU9UCpYlV4IQoCpZ75ei9GAkg6JSw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar muhammederdem/vue-interactive-paycard" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/muhammederdem/vue-interactive-paycard/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QpRue+Nu6+T98bUIuvo2XG+SClMsKslh5obeDsA5awjIFFOhozmcjS6fl2XRvGAxDeV9NrzptBUe/uiUJjHpxA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star muhammederdem/vue-interactive-paycard" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:216243012,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="10cc308f28b5e6fbf566ca3c5871e2ebdae52b47c83a53ba535e35925add5c31" href="/login?return_to=%2Fmuhammederdem%2Fvue-interactive-paycard">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6386,7 +6144,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/muhammederdem/vue-interactive-paycard/stargazers.vue-interactive-paycard">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        2,286
+        2,301
 </a>
 
 
@@ -6416,17 +6174,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/microsoft/PowerToys/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0PaYRVRjvxjObf7+c0kUTo4Sypx6GLbyvynkcja5Y2XsZFlDsGhidkbbRXC9lxF4pv/NZNNzHWzoT9Q8cYrMaw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar microsoft/PowerToys" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/microsoft/PowerToys/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LhIqVTfULD7Go1dhjim5t/X7bXV6yX2sJKIzti77XZRrR/bXdgSbdW3YlM/R0ob2p1194QYuHyHQG91NOYIORQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star microsoft/PowerToys" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:184456251,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a5da5a2ef958e8d712a5d7afb1116d9b12669e5f8b3324b398177268065fb473" href="/login?return_to=%2Fmicrosoft%2FPowerToys">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6459,7 +6210,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/microsoft/PowerToys/stargazers.PowerToys">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        11,095
+        11,100
 </a>
 
 
@@ -6492,17 +6243,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/shadowsocks/shadowsocks-android/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UJC5xlvTIOjy3rJspnv4uso0ruYjdFzAS3h/qBr4IfaMi6LYDu9pKl1jtwCaH9yI7r++TJ387fSh1bTnT6BBUw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar shadowsocks/shadowsocks-android" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/shadowsocks/shadowsocks-android/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OrxozOPDXepW84exeqUiSunJ7X+UgCONqLAhs6NIAY9vCFjjAti3JeznJTYIfysez1CTgzSp+C2wQQDc1VLF9Q==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star shadowsocks/shadowsocks-android" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:7190986,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f5302d25334782719a406c32d9e4d4c89304bf31e4b38f2bd5eb1209a2befe20" href="/login?return_to=%2Fshadowsocks%2Fshadowsocks-android">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6568,17 +6312,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/google-research/dex-lang/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VcYa7iCVHKPTxl2WTMxZVzkBVm4WCCl1g6e1POedlGr5RaPQWL11J6VNmzjKIJlIWJKzwIsgfGh/SGblvg6lPQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar google-research/dex-lang" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/google-research/dex-lang/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6CQ1Mrj33NO1fWBCgNf0RopXMx5/nbouVbdSVTRTHqczTD/7rhrgYlOxEXNM3q7l3zo1z0Vfd7L5hNoKD0go+A==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star google-research/dex-lang" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:217529714,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d4d5f5328fe7a50d01d66ae38c8dedd727bb0b87947148c8c8c6f74bcfe66835" href="/login?return_to=%2Fgoogle-research%2Fdex-lang">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6643,17 +6380,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/hyb1996/Auto.js/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KY2pzQVz8D3mwM8Fcydpzwd/Vr9yvBOMe2paQVlJrAe2dKMkeJBT32vMEbVdpnGvmgMWgP0hGzvKwtdmTNsIJw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar hyb1996/Auto.js" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/hyb1996/Auto.js/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Fsi1G3X8txhlfqckmnIzPTHRCP38cpwbQyJa1/2vaT4CiWYHpiDo4DDf/KMvE9SAngfUR0r97/V8HbqjpZmDPw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star hyb1996/Auto.js" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:80171078,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0885d3f51503180db3447ba9367e76c1a4e1dcce24fdb23047b365604b9360ed" href="/login?return_to=%2Fhyb1996%2FAuto.js">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6686,14 +6416,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/hyb1996/Auto.js/stargazers.Auto.js">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        3,838
+        3,844
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/hyb1996/Auto.js/network/members.Auto.js">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        782
+        783
 </a>
 
 
@@ -6718,17 +6448,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/ruanyf/free-books/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RmOceJUvMQ7drUGSEQjQo32+d5E6XSdRJenPh3fCZcUYRTv87srbE8kf5FX6Hg7GJoYYH8yVfMDxeZW4SORxIw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar ruanyf/free-books" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/ruanyf/free-books/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yaVjDAiSDEtB+E/igHWSr0GfVMvFyRWe1ndZGn3lTED26U+gnwNkXqYWRpNAEuKqV4a9DGvXPXcHOSCxefne4w==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star ruanyf/free-books" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:203130239,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="79c17c59281deba3ddb77f8abab7254751c500722391989b7d6c26d521b0ec35" href="/login?return_to=%2Fruanyf%2Ffree-books">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6756,14 +6479,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/ruanyf/free-books/stargazers.free-books">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        7,427
+        7,430
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/ruanyf/free-books/network/members.free-books">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        1,162
+        1,163
 </a>
 
 
@@ -6788,17 +6511,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/hsoft/collapseos/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XVBi/9GALb2ciEV6A5YP1W8MbLrprJ3L8/SHanYgANFUvZNrizuLPPJ+uDn1rxNt30w/I7CnPniPA7dkklbgkw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar hsoft/collapseos" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/hsoft/collapseos/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sANjabDY51TjvWOhvyS41HUL+Ht3hefQV3gCIOpo8y3+D2cPuJBAExIri2Sy9dSNXmKjRdE6xW/3Se+QkZZIqg==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star hsoft/collapseos" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:174231735,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5a0fd8cb6e24e948f1ff4cb7165498f39d7ffc8c063952dfee4d5b9e567d2ce0" href="/login?return_to=%2Fhsoft%2Fcollapseos">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6864,17 +6580,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/spatie/simple-excel/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2ejRC/SE7C5NcGtEUzjsuYWqR7Tvc4aTp3Mr8OUvXy/Cqv2Z6WUaYb/MKHS6NkAcYM70XquIBBvvVCxaFIJiDw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar spatie/simple-excel" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/spatie/simple-excel/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="buw2zpiuNqgws3RFP62oUxwzReXeJop+grbIT3UL9sSM/dhxO58nn1nJkLiZr0mTuSIeUNUIp7KJL2mT+7z8zQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star spatie/simple-excel" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:216833389,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="42d81f306388a1abea19bd77fce2ae303662230936ee99203e90e636c0db4795" href="/login?return_to=%2Fspatie%2Fsimple-excel">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6907,7 +6616,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/spatie/simple-excel/stargazers.simple-excel">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        212
+        213
 </a>
 
 
@@ -6940,17 +6649,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/pubkey/rxdb/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="oJKZ6KvFzEZaAOaZDiLB/AYRre71HoPdEzLMilNQBT1gHP00KDIeIvv+TvlT06yGCtg1XRZ0ms9Vf3eqJiD7mw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar pubkey/rxdb" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/pubkey/rxdb/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2jRacJWMHakrriEcs81RvU3aUlB8CHWupCvlzpde/FkVyivO6dfbjGP7qnUezo58v466WlGLI69Ec7cGF5/Q1A==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star pubkey/rxdb" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:75425073,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="db2b8f1c1010bd3a6cbf4a3fa999b94b97e24363f0543c62d7cfca6b8b40834d" href="/login?return_to=%2Fpubkey%2Frxdb">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -6984,7 +6686,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/pubkey/rxdb/stargazers.rxdb">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        11,727
+        11,732
 </a>
 
 
@@ -7017,17 +6719,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/hoanhan101/ultimate-go/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xk2iFuhjIRLlHdP+o/5eI28yn2tdqSPOxK5LiNlU4PZ537Z8zYaWboQFBMlHUHnPwf6EEcBXvBNpEPNgKbwNWA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar hoanhan101/ultimate-go" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/hoanhan101/ultimate-go/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PdxnkJ6WPxriZ9McMDjgwiCuSPqfFx6M3INLgqv5t7y8Ew+pIjSES/D21JJjEKp0T9B8OnTb/eTah4z+qxqZtQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star hoanhan101/ultimate-go" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:131371773,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="453f8be96833f1dd67a4106d62b4f6ae35fe5efea26841a52fba57a1fe52646c" href="/login?return_to=%2Fhoanhan101%2Fultimate-go">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7060,14 +6755,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/hoanhan101/ultimate-go/stargazers.ultimate-go">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        5,074
+        5,082
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/hoanhan101/ultimate-go/network/members.ultimate-go">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        337
+        338
 </a>
 
 
@@ -7093,17 +6788,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/ytdl-org/youtube-dl/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OF08F7XS7m0uMfhIg/wIEaKp5YwDGQ07kDSmLspWZd017z9h4wz1PgtcG8me44QdHS0We6Fk7vTEkdP0eISxtw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar ytdl-org/youtube-dl" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/ytdl-org/youtube-dl/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KJspqjzEasz8yhQNj7Q463BZuPKCv1oI39US4OUBFRYQs4Y3ZzxR7ruDNsTv8mDFL6t/48X2fWfB6Y6Fg/3Uaw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star ytdl-org/youtube-dl" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1039520,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1bf53c914a98605ab888a88fc432de889d0059d9111d89d609b027272f659dc3" href="/login?return_to=%2Fytdl-org%2Fyoutube-dl">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7136,7 +6824,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/ytdl-org/youtube-dl/stargazers.youtube-dl">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        57,174
+        57,175
 </a>
 
 
@@ -7169,17 +6857,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/OlivierLaflamme/Cheatsheet-God/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Me2vr8cyRxJGjv4/f0HlrwSWAbEzyFHS6iN9ibdRF7llau3Z2PNuXBpF1qt7o1Rgy36W9pYP2MfPacvk3hyWBg==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar OlivierLaflamme/Cheatsheet-God" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/OlivierLaflamme/Cheatsheet-God/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="l45pAT4rZhBTUWieJgYTGjDXcwe4qrpTiA94KPGr59ugZaV33BiPt58yxzP/Kqpi6abpndJJ4ixpYCd0cTub4Q==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star OlivierLaflamme/Cheatsheet-God" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:143238763,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="41179fca89fb53c333884e740fcd0bf41d70df083019fc24b78ef336f94fa0d0" href="/login?return_to=%2FOlivierLaflamme%2FCheatsheet-God">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7207,14 +6888,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/OlivierLaflamme/Cheatsheet-God/stargazers.Cheatsheet-God">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        1,597
+        1,599
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/OlivierLaflamme/Cheatsheet-God/network/members.Cheatsheet-God">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        499
+        500
 </a>
 
 
@@ -7240,17 +6921,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/Pierian-Data/Complete-Python-3-Bootcamp/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nf+ddd/7IRgAx0YxTfb/DUktdNbG0zI4bfTq4bcxosJS0Qmam4H9cSfrz5Oht+3HYcQQHr8Q+nfdFCqR9/Oz/g==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar Pierian-Data/Complete-Python-3-Bootcamp" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/Pierian-Data/Complete-Python-3-Bootcamp/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QWKvegBpsQwwdEGuxQrk1yFDZU0uM4RyoiQvabEPISw6m9M3oGHvBJKgrMgIXyZs+WcmiV+G57Zkb7kvHYZM9w==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star Pierian-Data/Complete-Python-3-Bootcamp" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:121291758,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2ce301259202929ad1ed88e3a745f9df76285bb38708e9cf2e4b7962028cfd02" href="/login?return_to=%2FPierian-Data%2FComplete-Python-3-Bootcamp">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7283,14 +6957,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/Pierian-Data/Complete-Python-3-Bootcamp/stargazers.Complete-Python-3-Bootcamp">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        6,285
+        6,286
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/Pierian-Data/Complete-Python-3-Bootcamp/network/members.Complete-Python-3-Bootcamp">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        23,042
+        23,043
 </a>
 
 
@@ -7314,17 +6988,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/starship/starship/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GgW3dYoPjgr0DUp1zspN0+IoHUZ6Q2DhE+HfokO24NMpQHbCzgNC+N4m/f2F1vflTIQi7B4GFvCPIFN59HPaWg==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar starship/starship" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/starship/starship/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YHGdwuhyZdc1rFGgwxTjyUs9avtalcdVQr+5PvsJo+k6MxMyfTIyV845G9hQJGhp4bpdBsms5old3KZUM1w+hQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star starship/starship" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:178991158,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="04d73bcbe125cafbc5f90028367d61eecc7acf499c3e45bdbd3f1c886c773c72" href="/login?return_to=%2Fstarship%2Fstarship">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7358,7 +7025,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/starship/starship/stargazers.starship">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        3,882
+        3,885
 </a>
 
 
@@ -7391,17 +7058,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/algorithm004-01/algorithm004-01/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OdYETjbjEpduFRCmLXmrQZuMTGeJk9h5DOCTC6jS2tR0tYF7hUUiaiQd3LvV+jMW072j9rK+uOIP6aHGKMWk8Q==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar algorithm004-01/algorithm004-01" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/algorithm004-01/algorithm004-01/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Zn6L2Ngrv4HdZuvupWjksIv6sV+z55L5Oc9jT64UL9aUb4fPQE/Pxiskdegr6jLqU1gbp5RdOcWbdL4n7726yQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star algorithm004-01/algorithm004-01" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:211467463,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c7f853a98714970216b96d012d44893cac2967a573b7fab43c9a1bf61e447716" href="/login?return_to=%2Falgorithm004-01%2Falgorithm004-01">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7431,7 +7091,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/algorithm004-01/algorithm004-01/stargazers.algorithm004-01">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        767
+        768
 </a>
 
 
@@ -7464,17 +7124,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/ardanlabs/gotraining/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="epCCW9Kspz1AsHc5IMCKjyC3QL+z7BF/LYMWfeWtCTyFZ59CCygrItxuXfXsFQBU6z2z+j/Si26xcUrP7Jn6zA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar ardanlabs/gotraining" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/ardanlabs/gotraining/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/+jZyO/9FZp3S+Ofpgd3L+9wKp7kTMTDXzavyB5jczd7+bl4MEcmjiLba0DiwwLqVBY+StWbblXDXZuzuI6p5Q==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star ardanlabs/gotraining" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:21405028,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eda8a734bc833f436d71522f19426fa90336d4094947a78a6fd7c0345a13a8a1" href="/login?return_to=%2Fardanlabs%2Fgotraining">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7507,7 +7160,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/ardanlabs/gotraining/stargazers.gotraining">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        6,203
+        6,204
 </a>
 
 
@@ -7540,17 +7193,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/geekcomputers/Python/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="POX99yd9F0Un2ImJSlYwS6rOZag8qsy5HqdWGbu7AqCxvO6sR6pTXzuH/U2aNv8GU33B8w6FJ1URz5dlUh4zIQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar geekcomputers/Python" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/geekcomputers/Python/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/4sdBndvDb7ws8L4SexVd46laD31StGp9AWmTIfUkv8+TdZZEz3whBoXtgneegIaZ1Q+O8yKu7AMHRVMAFNtxQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star geekcomputers/Python" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:2881789,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d9c2dfb137ea839b770421ce479f348cd776a5909a261da28fc2c46e43d7ae88" href="/login?return_to=%2Fgeekcomputers%2FPython">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7583,14 +7229,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/geekcomputers/Python/stargazers.Python">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        14,909
+        14,911
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/geekcomputers/Python/network/members.Python">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        7,488
+        7,489
 </a>
 
 
@@ -7616,17 +7262,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/trekhleb/javascript-algorithms/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5LiiqWX9DPKh+avJvgMsdDekLFVM4fmloFydWjQV0IFo2wJgIGYIkgBGXspTB50rvhCOCq3qB9Z6z66TBSDqiA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar trekhleb/javascript-algorithms" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/trekhleb/javascript-algorithms/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ezPaFowj4XWX/T8co3xHxeFtAmkoVdM4xbgPgofdkLSbR7L2GzOT0MaC8V45vdfuqUX7+0BiYqNeZ76fgDeUQg==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star trekhleb/javascript-algorithms" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:126577260,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ff3dc676b7036a8020d68e58e49352e8fd97ae1c1408205a01e0f0b4faafd29c" href="/login?return_to=%2Ftrekhleb%2Fjavascript-algorithms">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7660,14 +7299,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/trekhleb/javascript-algorithms/stargazers.javascript-algorithms">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        55,551
+        55,556
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/trekhleb/javascript-algorithms/network/members.javascript-algorithms">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        8,695
+        8,698
 </a>
 
 
@@ -7693,17 +7332,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/Genymobile/scrcpy/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Yv2xvpj3QdeAeQ3Y/yTgrCxsBOmA4nuSaSSqoRt7O79G246KSYPN2Obv2F719m2bWe4sybcPtD2vUM/g6relug==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar Genymobile/scrcpy" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/Genymobile/scrcpy/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="AP9bhUbpOPLMsio188BADGgfdVH4lOrJKfvoU9WV1VjOWU0pxtIutPsXJmLvlq/hpGb7k6YH/ZkWcNIUH9GntQ==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star Genymobile/scrcpy" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:111583593,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0b2aa988db700245fc4f329a993833855934b07138ca072154bb208da7e6109e" href="/login?return_to=%2FGenymobile%2Fscrcpy">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7736,14 +7368,14 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/Genymobile/scrcpy/stargazers.scrcpy">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        20,610
+        20,613
 </a>
 
 
       <a class=" muted-link d-inline-block mr-3" href="/Genymobile/scrcpy/network/members.scrcpy">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        1,795
+        1,796
 </a>
 
 
@@ -7769,17 +7401,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/bitcoin/bitcoin/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="AT5y5z1hRoWkC+CWnmrOt/7E9tvW3L4rMU7xNFxpWTzCNb6+CxQTxFERtfM2O1kngV6+YniLCjisXT/DfTflYA==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar bitcoin/bitcoin" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/bitcoin/bitcoin/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="26lpxix8NrqAfFWNYihgDXvqCo3Ga8w7GqJfoirSVbTRpCcyzJm33gjJ0NWxY3tTCRMrvoPerqvTna4T4clJlw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star bitcoin/bitcoin" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1181927,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="652ea36e465c3d63f44328377f8b97782df8b6bfecedec7b82d5278cfe84deb5" href="/login?return_to=%2Fbitcoin%2Fbitcoin">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7819,7 +7444,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/bitcoin/bitcoin/network/members.bitcoin">
         <svg aria-label="repo-forked" height="16" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
 
-        24,425
+        24,426
 </a>
 
 
@@ -7845,17 +7470,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/awesome-selfhosted/awesome-selfhosted/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="oZxPkpZugmrQV3NHwX5aDIrAsRNtyUYM2mUDWnjnpuJbUgIFp13YdjsHgJgg4TzPjMCfESQF1mdbj96gT/TVBw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar awesome-selfhosted/awesome-selfhosted" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/awesome-selfhosted/awesome-selfhosted/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T3j9zKCLv93FLeAYjkqQYwScqM/j4pe9DshY+x8uvxc5fyRYiSwfdCq5CPeElDBHsC9X38XW7Vw4gx8AWI22Dg==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star awesome-selfhosted/awesome-selfhosted" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:36633370,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8974c31b1c0d092120e9f967ad1fc857be195375b91ffb830ad8bf62daf29e0c" href="/login?return_to=%2Fawesome-selfhosted%2Fawesome-selfhosted">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -7888,7 +7506,7 @@ const html = `
       <a class=" muted-link d-inline-block mr-3" href="/awesome-selfhosted/awesome-selfhosted/stargazers.awesome-selfhosted">
         <svg aria-label="star" height="16" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
-        36,892
+        36,894
 </a>
 
 
@@ -7921,17 +7539,10 @@ const html = `
 </article>
 <article class="Box-row">
   <div class="float-right">
-      <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/haugene/docker-transmission-openvpn/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7iZXLQrPIQSYO1XTbTr6uG06JmUbjra3RJ/VfBylFG3cqKWcQqaWpGcZMcDWq53M3ylDZ8ma0mLxdmGC5JTNmw==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Unstar haugene/docker-transmission-openvpn" data-ga-click="Repository, click unstar button, action:trending#index; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Unstar
-</button></form>
-    <!-- '"  --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/haugene/docker-transmission-openvpn/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NTlPD56XgxcZGQLw6vk5QBBAWJ7RqDV6eqoAVZ7ssOCoawkcx5Hst9KAFb4xCuWRzUGkk0y8dW9FjjqpqQnm/g==" />
-      <input type="hidden" name="context" value="trending"></input>
-      <button type="submit" class="btn btn-sm  js-toggler-target" aria-label="Unstar this repository" title="Star haugene/docker-transmission-openvpn" data-ga-click="Repository, click star button, action:trending#index; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-        Star
-</button></form>  </div>
+        <a class="btn btn-sm  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:26399764,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;3464:14122:1E207:2BB13:5DB858EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="62b9f09c2448cf05bda3cc37a85bfdecadf0c56731dcfcc7a47b89b57f869491" href="/login?return_to=%2Fhaugene%2Fdocker-transmission-openvpn">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
 
   </div>
 
@@ -8011,17 +7622,6 @@ const html = `
           <svg height="30" class="octicon octicon-logo-github" viewBox="0 0 45 16" version="1.1" width="84" aria-hidden="true"><path fill-rule="evenodd" d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 00-.146-.18zM42.23 9.84c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61h-2.1c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"/></svg>
         </a>
 
-          
-  <h5 class="h5-mktg mt-4" id="subscribe-to-newsletter">Subscribe to our newsletter</h5>
-  <p class="f5 text-gray mb-3">Get product updates, company news, and more.</p>
-
-  <!-- '"  --><!-- </textarea></xmp> --></option></form><form action="/newsletter_preferences" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="nvoYfq2/B24lSOmryZjZpj+1EgvSd4WAl/QvjAFpqGOMWh5cWiruTR/iqiadCf025GOvoCY1S1iJ68iNB5JuKw==" />    <input type="hidden" name="type" id="type" value="marketing" class="form-control" />
-    <input type="hidden" name="source" id="source" value="footer" class="form-control" />
-
-    <button class="btn-mktg btn-outline-mktg mb-4" type="submit"  style="padding: 8px 12px !important;">
-      Subscribe
-    </button>
-</form>
 
       </div>
       <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
@@ -8136,6 +7736,8 @@ const html = `
 
   </body>
 </html>
+
+
 
 
 `;

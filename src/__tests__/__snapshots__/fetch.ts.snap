@@ -323,7 +323,7 @@ Array [
     "language": "JavaScript",
     "languageColor": "#f1e05a",
     "name": "folio-2019",
-    "stars": 742,
+    "stars": 744,
     "url": "https://github.com/brunosimon/folio-2019",
   },
   Object {
@@ -347,7 +347,7 @@ Array [
     "language": "Go",
     "languageColor": "#00ADD8",
     "name": "phuip-fpizdam",
-    "stars": 1154,
+    "stars": 1155,
     "url": "https://github.com/neex/phuip-fpizdam",
   },
   Object {
@@ -386,7 +386,7 @@ Array [
     "language": "Scala",
     "languageColor": "#c22d40",
     "name": "polynote",
-    "stars": 2007,
+    "stars": 2011,
     "url": "https://github.com/polynote/polynote",
   },
   Object {
@@ -410,7 +410,7 @@ Array [
     "language": "JavaScript",
     "languageColor": "#f1e05a",
     "name": "vue-interactive-paycard",
-    "stars": 2286,
+    "stars": 2301,
     "url": "https://github.com/muhammederdem/vue-interactive-paycard",
   },
   Object {
@@ -449,7 +449,7 @@ Array [
     "language": "C++",
     "languageColor": "#f34b7d",
     "name": "PowerToys",
-    "stars": 11095,
+    "stars": 11100,
     "url": "https://github.com/microsoft/PowerToys",
   },
   Object {
@@ -556,7 +556,7 @@ Array [
     "language": "Java",
     "languageColor": "#b07219",
     "name": "Auto.js",
-    "stars": 3838,
+    "stars": 3844,
     "url": "https://github.com/hyb1996/Auto.js",
   },
   Object {
@@ -588,7 +588,7 @@ Array [
     "description": "互联网上的免费书籍",
     "forks": 0,
     "name": "free-books",
-    "stars": 7427,
+    "stars": 7430,
     "url": "https://github.com/ruanyf/free-books",
   },
   Object {
@@ -666,7 +666,7 @@ Array [
     "language": "PHP",
     "languageColor": "#4F5D95",
     "name": "simple-excel",
-    "stars": 212,
+    "stars": 213,
     "url": "https://github.com/spatie/simple-excel",
   },
   Object {
@@ -700,7 +700,7 @@ Array [
     "language": "TypeScript",
     "languageColor": "#2b7489",
     "name": "rxdb",
-    "stars": 11727,
+    "stars": 11732,
     "url": "https://github.com/pubkey/rxdb",
   },
   Object {
@@ -739,7 +739,7 @@ Array [
     "language": "Go",
     "languageColor": "#00ADD8",
     "name": "ultimate-go",
-    "stars": 5074,
+    "stars": 5082,
     "url": "https://github.com/hoanhan101/ultimate-go",
   },
   Object {
@@ -778,7 +778,7 @@ Array [
     "language": "Python",
     "languageColor": "#3572A5",
     "name": "youtube-dl",
-    "stars": 57174,
+    "stars": 57175,
     "url": "https://github.com/ytdl-org/youtube-dl",
   },
   Object {
@@ -815,7 +815,7 @@ Array [
     "description": "Penetration Testing Biggest Reference Bank - OSCP / PTP & PTX Cheatsheet",
     "forks": 0,
     "name": "Cheatsheet-God",
-    "stars": 1597,
+    "stars": 1599,
     "url": "https://github.com/OlivierLaflamme/Cheatsheet-God",
   },
   Object {
@@ -844,7 +844,7 @@ Array [
     "language": "Jupyter Notebook",
     "languageColor": "#DA5B0B",
     "name": "Complete-Python-3-Bootcamp",
-    "stars": 6285,
+    "stars": 6286,
     "url": "https://github.com/Pierian-Data/Complete-Python-3-Bootcamp",
   },
   Object {
@@ -873,7 +873,7 @@ Array [
     "language": "Rust",
     "languageColor": "#dea584",
     "name": "starship",
-    "stars": 3882,
+    "stars": 3885,
     "url": "https://github.com/starship/starship",
   },
   Object {
@@ -912,7 +912,7 @@ Array [
     "language": "Java",
     "languageColor": "#b07219",
     "name": "algorithm004-01",
-    "stars": 767,
+    "stars": 768,
     "url": "https://github.com/algorithm004-01/algorithm004-01",
   },
   Object {
@@ -951,7 +951,7 @@ Array [
     "language": "Go",
     "languageColor": "#00ADD8",
     "name": "gotraining",
-    "stars": 6203,
+    "stars": 6204,
     "url": "https://github.com/ardanlabs/gotraining",
   },
   Object {
@@ -990,7 +990,7 @@ Array [
     "language": "Python",
     "languageColor": "#3572A5",
     "name": "Python",
-    "stars": 14909,
+    "stars": 14911,
     "url": "https://github.com/geekcomputers/Python",
   },
   Object {
@@ -1029,7 +1029,7 @@ Array [
     "language": "JavaScript",
     "languageColor": "#f1e05a",
     "name": "javascript-algorithms",
-    "stars": 55551,
+    "stars": 55556,
     "url": "https://github.com/trekhleb/javascript-algorithms",
   },
   Object {
@@ -1068,7 +1068,7 @@ Array [
     "language": "C",
     "languageColor": "#555555",
     "name": "scrcpy",
-    "stars": 20610,
+    "stars": 20613,
     "url": "https://github.com/Genymobile/scrcpy",
   },
   Object {
@@ -1146,7 +1146,7 @@ Array [
     "language": "JavaScript",
     "languageColor": "#f1e05a",
     "name": "awesome-selfhosted",
-    "stars": 36892,
+    "stars": 36894,
     "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
   },
   Object {
