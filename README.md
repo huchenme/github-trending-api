@@ -75,6 +75,7 @@
 - **[SwiftHub](https://github.com/khoren93/SwiftHub)**: GitHub iOS client written in RxSwift and MVVM clean architecture.
 - **[GitNews](https://git.news)**: Trending repositories from GitHub, HackerNews & Reddit (Mobile & Desktop).
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
+- **[StarGit](https://github.com/theArgex/stargit2.0)** ([Website](https://stargit.xyz)): Find trending repositories from GitHub. Built with Angular.
 
 ## Backers
 
