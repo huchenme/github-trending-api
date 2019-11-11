@@ -4,11 +4,11 @@ import { omitBy, isNil } from 'lodash';
 
 const GITHUB_URL = 'https://github.com';
 
-function omitNil(object): any {
+function omitNil(object) {
   return omitBy(object, isNil);
 }
 
-function removeDefaultAvatarSize(src?: string): string {
+function removeDefaultAvatarSize(src) {
   /* istanbul ignore if */
   if (!src) {
     return src;
@@ -19,7 +19,7 @@ function removeDefaultAvatarSize(src?: string): string {
 export async function fetchRepositories({
   language = '',
   since = 'daily',
-} = {}): Promise<any> {
+} = {}) {
   const url = `${GITHUB_URL}/trending/${language}?since=${since}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
@@ -27,15 +27,13 @@ export async function fetchRepositories({
     $('.Box article.Box-row')
       .get()
       // eslint-disable-next-line complexity
-      .map((repo): any => {
+      .map(repo => {
         const $repo = $(repo);
         const title = $repo
           .find('.h3')
           .text()
           .trim();
-        const [username, repoName] = title
-          .split('/')
-          .map((v): string => v.trim());
+        const [username, repoName] = title.split('/').map(v => v.trim());
         const relativeUrl = $repo
           .find('.h3')
           .find('a')
@@ -49,7 +47,7 @@ export async function fetchRepositories({
         const builtBy = $repo
           .find('span:contains("Built by")')
           .find('[data-hovercard-type="user"]')
-          .map((i, user): any => {
+          .map((i, user) => {
             const altString = $(user)
               .children('img')
               .attr('alt');
@@ -118,17 +116,14 @@ export async function fetchRepositories({
   );
 }
 
-export async function fetchDevelopers({
-  language = '',
-  since = 'daily',
-} = {}): Promise<any> {
+export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
   const data = await fetch(
     `${GITHUB_URL}/trending/developers/${language}?since=${since}`
   );
   const $ = cheerio.load(await data.text());
   return $('.Box article.Box-row')
     .get()
-    .map((dev): any => {
+    .map(dev => {
       const $dev = $(dev);
       const relativeUrl = $dev.find('.h3 a').attr('href');
       const name = $dev
