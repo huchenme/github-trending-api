@@ -7,7 +7,7 @@ import pkg from './package.json';
 
 const external = id => !id.startsWith('.') && !path.isAbsolute(id);
 
-const extensions = ['.js', '.jsx', '.ts', '.tsx'];
+const extensions = ['.js', '.jsx'];
 
 const resolvePlugin = resolve({
   extensions,
@@ -21,7 +21,7 @@ const babelPlugin = babel({
 
 export default [
   {
-    input: 'src/index.ts',
+    input: 'src/index.js',
     external,
     output: [
       { file: pkg.main, format: 'cjs' },
@@ -35,7 +35,7 @@ export default [
     ],
   },
   {
-    input: 'src/server.ts',
+    input: 'src/server.js',
     external,
     output: [{ file: 'dist/server.cjs.js', format: 'cjs' }],
     plugins: [json(), resolvePlugin, babelPlugin],

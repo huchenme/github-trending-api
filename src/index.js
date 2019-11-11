@@ -4,16 +4,16 @@ import languages from './languages.json';
 
 const SERVER_URL = 'https://github-trending-api.now.sh';
 
-function buildUrl(baseUrl, params = {}): string {
+function buildUrl(baseUrl, params = {}) {
   const queryString = Object.keys(params)
-    .filter((key): string | undefined => params[key])
-    .map((key): string => `${key}=${params[key]}`)
+    .filter(key => params[key])
+    .map(key => `${key}=${params[key]}`)
     .join('&');
 
   return queryString === '' ? baseUrl : `${baseUrl}?${queryString}`;
 }
 
-export async function fetchRepositories(params): Promise<any> {
+export async function fetchRepositories(params) {
   const res = await fetch(buildUrl(`${SERVER_URL}/repositories`, params));
   if (!res.ok) {
     throw new Error('Something went wrong');
@@ -21,7 +21,7 @@ export async function fetchRepositories(params): Promise<any> {
   return res.json();
 }
 
-export async function fetchDevelopers(params): Promise<any> {
+export async function fetchDevelopers(params) {
   const res = await fetch(buildUrl(`${SERVER_URL}/developers`, params));
   if (!res.ok) {
     throw new Error('Something went wrong');
@@ -29,7 +29,7 @@ export async function fetchDevelopers(params): Promise<any> {
   return res.json();
 }
 
-export async function fetchRandomRepository(params): Promise<any> {
+export async function fetchRandomRepository(params) {
   const res = await fetch(buildUrl(`${SERVER_URL}/repositories`, params));
   if (!res.ok) {
     throw new Error('Something went wrong');
@@ -38,7 +38,7 @@ export async function fetchRandomRepository(params): Promise<any> {
   return sample(json);
 }
 
-export async function fetchRandomRepositories(size = 1, params): Promise<any> {
+export async function fetchRandomRepositories(size = 1, params) {
   const res = await fetch(buildUrl(`${SERVER_URL}/repositories`, params));
   if (!res.ok) {
     throw new Error('Something went wrong');
