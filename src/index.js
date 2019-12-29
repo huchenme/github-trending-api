@@ -1,13 +1,14 @@
 import fetch from 'node-fetch';
-import { sample, sampleSize } from 'lodash';
+import { sample, sampleSize, snakeCase } from 'lodash';
 import languages from './languages.json';
+import spokenLanguages from './spoken-languages.json';
 
 const SERVER_URL = 'https://github-trending-api.now.sh';
 
 function buildUrl(baseUrl, params = {}) {
   const queryString = Object.keys(params)
     .filter(key => params[key])
-    .map(key => `${key}=${params[key]}`)
+    .map(key => `${snakeCase(key)}=${params[key]}`)
     .join('&');
 
   return queryString === '' ? baseUrl : `${baseUrl}?${queryString}`;
@@ -47,4 +48,4 @@ export async function fetchRandomRepositories(size = 1, params) {
   return sampleSize(json, size);
 }
 
-export { languages };
+export { languages, spokenLanguages };

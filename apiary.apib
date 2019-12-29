@@ -5,12 +5,13 @@ HOST: https://github-trending-api.now.sh/
 
 GitHub Trending API is a simple API to fetch trending repositories and developers.
 
-## Repositories [/repositories{?language,since}]
+## Repositories [/repositories{?language,since,spoken_language_code}]
 
 + Parameters
     + language (string, optional) - Programming language
     + since (string, optional) - Trending period: `daily`, `weekly`, `monthly`
         + Default: `daily`
+    + spoken_language_code (string, optional) - Spoken language
 
 ### List Trending Repositories [GET]
 
@@ -23,6 +24,8 @@ GitHub Trending API is a simple API to fetch trending repositories and developer
                 "avatar": "https://github.com/xingshaocheng.png",
                 "url": "https://github.com/xingshaocheng/architect-awesome",
                 "description": "后端架构师技术图谱",
+                "language": "Go",
+                "languageColor": "#3572A5",
                 "stars": 7333,
                 "forks": 1546,
                 "currentPeriodStars": 1528,
@@ -59,6 +62,8 @@ GitHub Trending API is a simple API to fetch trending repositories and developer
                 "avatar": "https://github.com/davideuler.png",
                 "url": "https://github.com/davideuler/architecture.of.internet-product",
                 "description": "互联网公司技术架构，微信/淘宝/腾讯/阿里/美团点评/百度/微博/Google/Facebook/Amazon/eBay的架构，欢迎PR补充",
+                "language": "Go",
+                "languageColor": "#3572A5",
                 "stars": 2763,
                 "forks": 416,
                 "currentPeriodStars": 1427,
@@ -177,4 +182,29 @@ GitHub Trending API is a simple API to fetch trending repositories and developer
                 "id": "actionscript",
                 "name": "ActionScript"
             }
+        ]
+
+## Spoken Languages Collection [/spoken_languages]
+
+### List Spoken Languages [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "urlParam": "ab",
+                "name": "Abkhazian"
+            },
+            {
+                "urlParam": "aa",
+                "name": "Afar"
+            },
+            {
+                "urlParam": "af",
+                "name": "Afrikaans"
+            },
+            {
+                "urlParam": "ak",
+                "name": "Akan"
+            },
         ]

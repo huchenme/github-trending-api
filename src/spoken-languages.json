@@ -1,0 +1,738 @@
+[
+  {
+    "urlParam": "ab",
+    "name": "Abkhazian"
+  },
+  {
+    "urlParam": "aa",
+    "name": "Afar"
+  },
+  {
+    "urlParam": "af",
+    "name": "Afrikaans"
+  },
+  {
+    "urlParam": "ak",
+    "name": "Akan"
+  },
+  {
+    "urlParam": "sq",
+    "name": "Albanian"
+  },
+  {
+    "urlParam": "am",
+    "name": "Amharic"
+  },
+  {
+    "urlParam": "ar",
+    "name": "Arabic"
+  },
+  {
+    "urlParam": "an",
+    "name": "Aragonese"
+  },
+  {
+    "urlParam": "hy",
+    "name": "Armenian"
+  },
+  {
+    "urlParam": "as",
+    "name": "Assamese"
+  },
+  {
+    "urlParam": "av",
+    "name": "Avaric"
+  },
+  {
+    "urlParam": "ae",
+    "name": "Avestan"
+  },
+  {
+    "urlParam": "ay",
+    "name": "Aymara"
+  },
+  {
+    "urlParam": "az",
+    "name": "Azerbaijani"
+  },
+  {
+    "urlParam": "bm",
+    "name": "Bambara"
+  },
+  {
+    "urlParam": "ba",
+    "name": "Bashkir"
+  },
+  {
+    "urlParam": "eu",
+    "name": "Basque"
+  },
+  {
+    "urlParam": "be",
+    "name": "Belarusian"
+  },
+  {
+    "urlParam": "bn",
+    "name": "Bengali"
+  },
+  {
+    "urlParam": "bh",
+    "name": "Bihari languages"
+  },
+  {
+    "urlParam": "bi",
+    "name": "Bislama"
+  },
+  {
+    "urlParam": "bs",
+    "name": "Bosnian"
+  },
+  {
+    "urlParam": "br",
+    "name": "Breton"
+  },
+  {
+    "urlParam": "bg",
+    "name": "Bulgarian"
+  },
+  {
+    "urlParam": "my",
+    "name": "Burmese"
+  },
+  {
+    "urlParam": "ca",
+    "name": "Catalan, Valencian"
+  },
+  {
+    "urlParam": "ch",
+    "name": "Chamorro"
+  },
+  {
+    "urlParam": "ce",
+    "name": "Chechen"
+  },
+  {
+    "urlParam": "ny",
+    "name": "Chichewa, Chewa, Nyanja"
+  },
+  {
+    "urlParam": "zh",
+    "name": "Chinese"
+  },
+  {
+    "urlParam": "cv",
+    "name": "Chuvash"
+  },
+  {
+    "urlParam": "kw",
+    "name": "Cornish"
+  },
+  {
+    "urlParam": "co",
+    "name": "Corsican"
+  },
+  {
+    "urlParam": "cr",
+    "name": "Cree"
+  },
+  {
+    "urlParam": "hr",
+    "name": "Croatian"
+  },
+  {
+    "urlParam": "cs",
+    "name": "Czech"
+  },
+  {
+    "urlParam": "da",
+    "name": "Danish"
+  },
+  {
+    "urlParam": "dv",
+    "name": "Divehi, Dhivehi, Maldivian"
+  },
+  {
+    "urlParam": "nl",
+    "name": "Dutch, Flemish"
+  },
+  {
+    "urlParam": "dz",
+    "name": "Dzongkha"
+  },
+  {
+    "urlParam": "en",
+    "name": "English"
+  },
+  {
+    "urlParam": "eo",
+    "name": "Esperanto"
+  },
+  {
+    "urlParam": "et",
+    "name": "Estonian"
+  },
+  {
+    "urlParam": "ee",
+    "name": "Ewe"
+  },
+  {
+    "urlParam": "fo",
+    "name": "Faroese"
+  },
+  {
+    "urlParam": "fj",
+    "name": "Fijian"
+  },
+  {
+    "urlParam": "fi",
+    "name": "Finnish"
+  },
+  {
+    "urlParam": "fr",
+    "name": "French"
+  },
+  {
+    "urlParam": "ff",
+    "name": "Fulah"
+  },
+  {
+    "urlParam": "gl",
+    "name": "Galician"
+  },
+  {
+    "urlParam": "ka",
+    "name": "Georgian"
+  },
+  {
+    "urlParam": "de",
+    "name": "German"
+  },
+  {
+    "urlParam": "el",
+    "name": "Greek, Modern"
+  },
+  {
+    "urlParam": "gn",
+    "name": "Guarani"
+  },
+  {
+    "urlParam": "gu",
+    "name": "Gujarati"
+  },
+  {
+    "urlParam": "ht",
+    "name": "Haitian, Haitian Creole"
+  },
+  {
+    "urlParam": "ha",
+    "name": "Hausa"
+  },
+  {
+    "urlParam": "he",
+    "name": "Hebrew"
+  },
+  {
+    "urlParam": "hz",
+    "name": "Herero"
+  },
+  {
+    "urlParam": "hi",
+    "name": "Hindi"
+  },
+  {
+    "urlParam": "ho",
+    "name": "Hiri Motu"
+  },
+  {
+    "urlParam": "hu",
+    "name": "Hungarian"
+  },
+  {
+    "urlParam": "ia",
+    "name": "Interlingua (International Auxil..."
+  },
+  {
+    "urlParam": "id",
+    "name": "Indonesian"
+  },
+  {
+    "urlParam": "ie",
+    "name": "Interlingue, Occidental"
+  },
+  {
+    "urlParam": "ga",
+    "name": "Irish"
+  },
+  {
+    "urlParam": "ig",
+    "name": "Igbo"
+  },
+  {
+    "urlParam": "ik",
+    "name": "Inupiaq"
+  },
+  {
+    "urlParam": "io",
+    "name": "Ido"
+  },
+  {
+    "urlParam": "is",
+    "name": "Icelandic"
+  },
+  {
+    "urlParam": "it",
+    "name": "Italian"
+  },
+  {
+    "urlParam": "iu",
+    "name": "Inuktitut"
+  },
+  {
+    "urlParam": "ja",
+    "name": "Japanese"
+  },
+  {
+    "urlParam": "jv",
+    "name": "Javanese"
+  },
+  {
+    "urlParam": "kl",
+    "name": "Kalaallisut, Greenlandic"
+  },
+  {
+    "urlParam": "kn",
+    "name": "Kannada"
+  },
+  {
+    "urlParam": "kr",
+    "name": "Kanuri"
+  },
+  {
+    "urlParam": "ks",
+    "name": "Kashmiri"
+  },
+  {
+    "urlParam": "kk",
+    "name": "Kazakh"
+  },
+  {
+    "urlParam": "km",
+    "name": "Central Khmer"
+  },
+  {
+    "urlParam": "ki",
+    "name": "Kikuyu, Gikuyu"
+  },
+  {
+    "urlParam": "rw",
+    "name": "Kinyarwanda"
+  },
+  {
+    "urlParam": "ky",
+    "name": "Kirghiz, Kyrgyz"
+  },
+  {
+    "urlParam": "kv",
+    "name": "Komi"
+  },
+  {
+    "urlParam": "kg",
+    "name": "Kongo"
+  },
+  {
+    "urlParam": "ko",
+    "name": "Korean"
+  },
+  {
+    "urlParam": "ku",
+    "name": "Kurdish"
+  },
+  {
+    "urlParam": "kj",
+    "name": "Kuanyama, Kwanyama"
+  },
+  {
+    "urlParam": "la",
+    "name": "Latin"
+  },
+  {
+    "urlParam": "lb",
+    "name": "Luxembourgish, Letzeburgesch"
+  },
+  {
+    "urlParam": "lg",
+    "name": "Ganda"
+  },
+  {
+    "urlParam": "li",
+    "name": "Limburgan, Limburger, Limburgish"
+  },
+  {
+    "urlParam": "ln",
+    "name": "Lingala"
+  },
+  {
+    "urlParam": "lo",
+    "name": "Lao"
+  },
+  {
+    "urlParam": "lt",
+    "name": "Lithuanian"
+  },
+  {
+    "urlParam": "lu",
+    "name": "Luba-Katanga"
+  },
+  {
+    "urlParam": "lv",
+    "name": "Latvian"
+  },
+  {
+    "urlParam": "gv",
+    "name": "Manx"
+  },
+  {
+    "urlParam": "mk",
+    "name": "Macedonian"
+  },
+  {
+    "urlParam": "mg",
+    "name": "Malagasy"
+  },
+  {
+    "urlParam": "ms",
+    "name": "Malay"
+  },
+  {
+    "urlParam": "ml",
+    "name": "Malayalam"
+  },
+  {
+    "urlParam": "mt",
+    "name": "Maltese"
+  },
+  {
+    "urlParam": "mi",
+    "name": "Maori"
+  },
+  {
+    "urlParam": "mr",
+    "name": "Marathi"
+  },
+  {
+    "urlParam": "mh",
+    "name": "Marshallese"
+  },
+  {
+    "urlParam": "mn",
+    "name": "Mongolian"
+  },
+  {
+    "urlParam": "na",
+    "name": "Nauru"
+  },
+  {
+    "urlParam": "nv",
+    "name": "Navajo, Navaho"
+  },
+  {
+    "urlParam": "nd",
+    "name": "North Ndebele"
+  },
+  {
+    "urlParam": "ne",
+    "name": "Nepali"
+  },
+  {
+    "urlParam": "ng",
+    "name": "Ndonga"
+  },
+  {
+    "urlParam": "nb",
+    "name": "Norwegian Bokmål"
+  },
+  {
+    "urlParam": "nn",
+    "name": "Norwegian Nynorsk"
+  },
+  {
+    "urlParam": "no",
+    "name": "Norwegian"
+  },
+  {
+    "urlParam": "ii",
+    "name": "Sichuan Yi, Nuosu"
+  },
+  {
+    "urlParam": "nr",
+    "name": "South Ndebele"
+  },
+  {
+    "urlParam": "oc",
+    "name": "Occitan"
+  },
+  {
+    "urlParam": "oj",
+    "name": "Ojibwa"
+  },
+  {
+    "urlParam": "cu",
+    "name": "Church Slavic, Old Slavonic, Chu..."
+  },
+  {
+    "urlParam": "om",
+    "name": "Oromo"
+  },
+  {
+    "urlParam": "or",
+    "name": "Oriya"
+  },
+  {
+    "urlParam": "os",
+    "name": "Ossetian, Ossetic"
+  },
+  {
+    "urlParam": "pa",
+    "name": "Punjabi, Panjabi"
+  },
+  {
+    "urlParam": "pi",
+    "name": "Pali"
+  },
+  {
+    "urlParam": "fa",
+    "name": "Persian"
+  },
+  {
+    "urlParam": "pl",
+    "name": "Polish"
+  },
+  {
+    "urlParam": "ps",
+    "name": "Pashto, Pushto"
+  },
+  {
+    "urlParam": "pt",
+    "name": "Portuguese"
+  },
+  {
+    "urlParam": "qu",
+    "name": "Quechua"
+  },
+  {
+    "urlParam": "rm",
+    "name": "Romansh"
+  },
+  {
+    "urlParam": "rn",
+    "name": "Rundi"
+  },
+  {
+    "urlParam": "ro",
+    "name": "Romanian, Moldavian, Moldovan"
+  },
+  {
+    "urlParam": "ru",
+    "name": "Russian"
+  },
+  {
+    "urlParam": "sa",
+    "name": "Sanskrit"
+  },
+  {
+    "urlParam": "sc",
+    "name": "Sardinian"
+  },
+  {
+    "urlParam": "sd",
+    "name": "Sindhi"
+  },
+  {
+    "urlParam": "se",
+    "name": "Northern Sami"
+  },
+  {
+    "urlParam": "sm",
+    "name": "Samoan"
+  },
+  {
+    "urlParam": "sg",
+    "name": "Sango"
+  },
+  {
+    "urlParam": "sr",
+    "name": "Serbian"
+  },
+  {
+    "urlParam": "gd",
+    "name": "Gaelic, Scottish Gaelic"
+  },
+  {
+    "urlParam": "sn",
+    "name": "Shona"
+  },
+  {
+    "urlParam": "si",
+    "name": "Sinhala, Sinhalese"
+  },
+  {
+    "urlParam": "sk",
+    "name": "Slovak"
+  },
+  {
+    "urlParam": "sl",
+    "name": "Slovenian"
+  },
+  {
+    "urlParam": "so",
+    "name": "Somali"
+  },
+  {
+    "urlParam": "st",
+    "name": "Southern Sotho"
+  },
+  {
+    "urlParam": "es",
+    "name": "Spanish, Castilian"
+  },
+  {
+    "urlParam": "su",
+    "name": "Sundanese"
+  },
+  {
+    "urlParam": "sw",
+    "name": "Swahili"
+  },
+  {
+    "urlParam": "ss",
+    "name": "Swati"
+  },
+  {
+    "urlParam": "sv",
+    "name": "Swedish"
+  },
+  {
+    "urlParam": "ta",
+    "name": "Tamil"
+  },
+  {
+    "urlParam": "te",
+    "name": "Telugu"
+  },
+  {
+    "urlParam": "tg",
+    "name": "Tajik"
+  },
+  {
+    "urlParam": "th",
+    "name": "Thai"
+  },
+  {
+    "urlParam": "ti",
+    "name": "Tigrinya"
+  },
+  {
+    "urlParam": "bo",
+    "name": "Tibetan"
+  },
+  {
+    "urlParam": "tk",
+    "name": "Turkmen"
+  },
+  {
+    "urlParam": "tl",
+    "name": "Tagalog"
+  },
+  {
+    "urlParam": "tn",
+    "name": "Tswana"
+  },
+  {
+    "urlParam": "to",
+    "name": "Tonga (Tonga Islands)"
+  },
+  {
+    "urlParam": "tr",
+    "name": "Turkish"
+  },
+  {
+    "urlParam": "ts",
+    "name": "Tsonga"
+  },
+  {
+    "urlParam": "tt",
+    "name": "Tatar"
+  },
+  {
+    "urlParam": "tw",
+    "name": "Twi"
+  },
+  {
+    "urlParam": "ty",
+    "name": "Tahitian"
+  },
+  {
+    "urlParam": "ug",
+    "name": "Uighur, Uyghur"
+  },
+  {
+    "urlParam": "uk",
+    "name": "Ukrainian"
+  },
+  {
+    "urlParam": "ur",
+    "name": "Urdu"
+  },
+  {
+    "urlParam": "uz",
+    "name": "Uzbek"
+  },
+  {
+    "urlParam": "ve",
+    "name": "Venda"
+  },
+  {
+    "urlParam": "vi",
+    "name": "Vietnamese"
+  },
+  {
+    "urlParam": "vo",
+    "name": "Volapük"
+  },
+  {
+    "urlParam": "wa",
+    "name": "Walloon"
+  },
+  {
+    "urlParam": "cy",
+    "name": "Welsh"
+  },
+  {
+    "urlParam": "wo",
+    "name": "Wolof"
+  },
+  {
+    "urlParam": "fy",
+    "name": "Western Frisian"
+  },
+  {
+    "urlParam": "xh",
+    "name": "Xhosa"
+  },
+  {
+    "urlParam": "yi",
+    "name": "Yiddish"
+  },
+  {
+    "urlParam": "yo",
+    "name": "Yoruba"
+  },
+  {
+    "urlParam": "za",
+    "name": "Zhuang, Chuang"
+  },
+  {
+    "urlParam": "zu",
+    "name": "Zulu"
+  }
+]

@@ -5,6 +5,8 @@ import cacheControl from 'express-cache-controller';
 import cors from 'cors';
 
 import languages from './languages.json';
+import spokenLanguages from './spoken-languages.json';
+
 import { fetchRepositories, fetchDevelopers } from './fetch';
 
 const PORT = process.env.PORT || 8080;
@@ -24,6 +26,13 @@ app.get('/languages', (req, res) => {
   res.json(languages);
 });
 
+app.get('/spoken_languages', (req, res) => {
+  res.cacheControl = {
+    maxAge: 60 * 60 * 24,
+  };
+  res.json(spokenLanguages);
+});
+
 app.get('(/|/repositories)', async (req, res) => {
   try {
     const parsedUrl = url.parse(req.originalUrl);
@@ -36,9 +45,9 @@ app.get('(/|/repositories)', async (req, res) => {
       }
     }
 
-    const { language, since } = params;
+    const { language, since, spoken_language_code: spokenLanguage } = params;
     const cacheKey = `repositories::${language || 'nolang'}::${since ||
-      'daily'}`;
+      'daily'}::${spokenLanguage || 'nolang'}}`;
     const cacheKeyPerm = `perm::${cacheKey}`;
     const cached = cache.get(cacheKey);
     const cachedPerm = cache.get(cacheKeyPerm);
@@ -50,7 +59,7 @@ app.get('(/|/repositories)', async (req, res) => {
     if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
     }
-    const data = await fetchRepositories({ language, since });
+    const data = await fetchRepositories({ language, since, spokenLanguage });
     if (data && data.length > 0) {
       cache.put(cacheKey, data, 1000 * 3600); // Store for a hour
       cache.put(cacheKeyPerm, data);

@@ -43,11 +43,13 @@
   - [Trending Repositories](#trending-repositories)
   - [Trending Developers](#trending-developers)
   - [List Languages](#list-languages)
+  - [List Spoken Languages](#list-spoken-languages)
 - [NPM Package](#npm-package)
   - [Install](#install)
   - [Usage](#usage)
   - [API](#api)
     - [languages](#languages)
+    - [spokenLanguages](#spokenlanguages)
     - [fetchRepositories(params)](#fetchrepositoriesparams)
     - [fetchDevelopers(params)](#fetchdevelopersparams)
 - [Contributors](#contributors)
@@ -76,6 +78,7 @@
 - **[GitNews](https://git.news)**: Trending repositories from GitHub, HackerNews & Reddit (Mobile & Desktop).
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
 - **[StarGit](https://github.com/theArgex/stargit2.0)** ([Website](https://stargit.xyz)): Find trending repositories from GitHub. Built with Angular.
+- **[GitTouch](https://github.com/pd4d10/git-touch)** ([App Store](https://itunes.apple.com/us/app/gittouch/id1452042346), [Google Play](https://play.google.com/store/apps/details?id=io.github.pd4d10.gittouch)): Open source GitHub App built with Flutter.
 
 ## Backers
 
@@ -109,6 +112,7 @@ https://github-trending-api.now.sh/repositories?language=javascript&since=weekly
 
 - `language`: **optional**, list trending repositories of certain programming languages, possible values are listed [here](./src/languages.json).
 - `since`: **optional**, default to `daily`, possible values: `daily`, `weekly` and `monthly`.
+- `spoken_language_code`: **optional**, list trending repositories of certain spoken languages (e.g English, Chinese), possible values are listed [here](./src/spoken-languages.json).
 
 **Response:**
 
@@ -176,8 +180,6 @@ https://github-trending-api.now.sh/developers?language=javascript&since=weekly
 
 ### List Languages
 
-Receive popular languages and all languages.
-
 **URL Endpoint:**
 
 https://github-trending-api.now.sh/languages
@@ -187,20 +189,49 @@ https://github-trending-api.now.sh/languages
 ```json
 [
   {
-    "id": "1c-enterprise",
+    "urlParam": "1c-enterprise",
     "name": "1C Enterprise"
   },
   {
-    "id": "abap",
+    "urlParam": "abap",
     "name": "ABAP"
   },
   {
-    "id": "abnf",
+    "urlParam": "abnf",
     "name": "ABNF"
   },
   {
-    "id": "actionscript",
+    "urlParam": "actionscript",
     "name": "ActionScript"
+  }
+]
+```
+
+### List Spoken Languages
+
+**URL Endpoint:**
+
+https://github-trending-api.now.sh/spoken_languages
+
+**Response:**
+
+```json
+[
+  {
+    "urlParam": "ab",
+    "name": "Abkhazian"
+  },
+  {
+    "urlParam": "aa",
+    "name": "Afar"
+  },
+  {
+    "urlParam": "af",
+    "name": "Afrikaans"
+  },
+  {
+    "urlParam": "ak",
+    "name": "Akan"
   }
 ]
 ```
@@ -220,6 +251,7 @@ $ npm install --save @huchenme/github-trending
 ```js
 import {
   languages,
+  spokenLanguages,
   fetchRepositories,
   fetchDevelopers,
 } from '@huchenme/github-trending';
@@ -233,6 +265,7 @@ fetchDevelopers({ language: 'javascript' }).then(developers => {
 });
 
 console.log(languages);
+console.log(spokenLanguages);
 ```
 
 ### API
@@ -244,20 +277,45 @@ List all languages
 ```js
 [
   {
-    id: '1c-enterprise',
+    urlParam: '1c-enterprise',
     name: '1C Enterprise',
   },
   {
-    id: 'abap',
+    urlParam: 'abap',
     name: 'ABAP',
   },
   {
-    id: 'abnf',
+    urlParam: 'abnf',
     name: 'ABNF',
   },
   {
-    id: 'actionscript',
+    urlParam: 'actionscript',
     name: 'ActionScript',
+  },
+];
+```
+
+#### spokenLanguages
+
+List all spoken languages
+
+```js
+[
+  {
+    urlParam: 'ab',
+    name: 'Abkhazian',
+  },
+  {
+    urlParam: 'aa',
+    name: 'Afar',
+  },
+  {
+    urlParam: 'af',
+    name: 'Afrikaans',
+  },
+  {
+    urlParam: 'ak',
+    name: 'Akan',
   },
 ];
 ```
@@ -268,8 +326,9 @@ Receive an array of trending repositories.
 
 **params**:
 
-- `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](./src/languages.ts).
+- `language`: possible values are the the ones from `languages` or [just find here](./src/languages.json).
 - `since`: `daily`, `weekly` or `monthly`, default to `daily`.
+- `spokenLanguageCode`: possible values are the the ones from `spokenLanguages` or [just find here](./src/spoken-languages.json).
 
 ```js
 [
@@ -303,7 +362,7 @@ Receive an array of trending developers.
 
 **params**:
 
-- `language`: possible values are the the ones from `fetchAllLanguages()` or [just find here](languages.json).
+- `language`: possible values are the the ones from `languages` or [just find here](languages.json).
 - `since`: `daily`, `weekly` or `monthly`, default to `daily`.
 
 ```js

@@ -19,8 +19,9 @@ function removeDefaultAvatarSize(src) {
 export async function fetchRepositories({
   language = '',
   since = 'daily',
+  spokenLanguage = '',
 } = {}) {
-  const url = `${GITHUB_URL}/trending/${language}?since=${since}`;
+  const url = `${GITHUB_URL}/trending/${language}?since=${since}&spoken_language_code=${spokenLanguage}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (
