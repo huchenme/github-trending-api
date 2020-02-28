@@ -85,7 +85,7 @@ export async function fetchRepositories({
             $repo
               .find('p.my-1')
               .text()
-              .trim() || /* istanbul ignore next */ '',
+              .trim() ?? '',
           language: lang,
           languageColor: langColor,
           stars: parseInt(
@@ -100,7 +100,7 @@ export async function fetchRepositories({
           ),
           forks: parseInt(
             $repo
-              .find("svg[aria-label='repo-forked']")
+              .find("svg[aria-label='fork']")
               .first()
               .parent()
               .text()
@@ -129,6 +129,10 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
     .map(dev => {
       const $dev = $(dev);
       const relativeUrl = $dev.find('.h3 a').attr('href');
+      const sponsorRelativeUrl = $dev
+        .find('span:contains("Sponsor")')
+        ?.parent()
+        ?.attr('href');
       const name = $dev
         .find('.h3 a')
         .text()
@@ -150,6 +154,9 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
         name,
         type,
         url: `${GITHUB_URL}${relativeUrl}`,
+        sponsorUrl: sponsorRelativeUrl
+          ? `${GITHUB_URL}${sponsorRelativeUrl}`
+          : undefined,
         avatar: removeDefaultAvatarSize($dev.find('img').attr('src')),
         repo: {
           name: $repo
