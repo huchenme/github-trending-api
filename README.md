@@ -79,6 +79,7 @@
 - **[mini-github](https://github.com/kezhenxu94/mini-github)**: GitHub WeChat Mini Program (可能是全网功能最全的 GitHub 微信小程序).
 - **[StarGit](https://github.com/theArgex/stargit2.0)** ([Website](https://stargit.xyz)): Find trending repositories from GitHub. Built with Angular.
 - **[GitTouch](https://github.com/pd4d10/git-touch)** ([App Store](https://itunes.apple.com/us/app/gittouch/id1452042346), [Google Play](https://play.google.com/store/apps/details?id=io.github.pd4d10.gittouch)): Open source GitHub App built with Flutter.
+- **[lazyhub](https://github.com/ryo-ma/lazyhub)**: :octocat: lazyhub - Terminal UI Client for GitHub using gocui.
 
 ## Backers
 
