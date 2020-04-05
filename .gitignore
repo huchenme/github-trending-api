@@ -63,3 +63,5 @@ typings/
 # npm5 lock file
 package-lock.json
 
+
+.now

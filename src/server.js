@@ -46,8 +46,9 @@ app.get('(/|/repositories)', async (req, res) => {
     }
 
     const { language, since, spoken_language_code: spokenLanguage } = params;
-    const cacheKey = `repositories::${language || 'nolang'}::${since ||
-      'daily'}::${spokenLanguage || 'nolang'}}`;
+    const cacheKey = `repositories::${language || 'nolang'}::${
+      since || 'daily'
+    }::${spokenLanguage || 'nolang'}}`;
     const cacheKeyPerm = `perm::${cacheKey}`;
     const cached = cache.get(cacheKey);
     const cachedPerm = cache.get(cacheKeyPerm);

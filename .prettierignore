@@ -1,0 +1,4 @@
+.now/
+.history/
+coverage/
+dist/

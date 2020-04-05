@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "github-trending-api",
   "alias": "github-trending-api.now.sh",
   "github": {
