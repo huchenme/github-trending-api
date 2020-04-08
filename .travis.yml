@@ -10,5 +10,4 @@ install:
   - yarn global add codecov
 script:
   - yarn validate
-  - yarn build
   - codecov

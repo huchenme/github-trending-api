@@ -1,3 +1,4 @@
+import querystring from 'querystring';
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import { omitBy, isNil } from 'lodash';
@@ -21,7 +22,11 @@ export async function fetchRepositories({
   since = 'daily',
   spokenLanguage = '',
 } = {}) {
-  const url = `${GITHUB_URL}/trending/${language}?since=${since}&spoken_language_code=${spokenLanguage}`;
+  const url = `${GITHUB_URL}/trending/${querystring.escape(
+    language
+  )}?since=${querystring.escape(
+    since
+  )}&spoken_language_code=${querystring.escape(spokenLanguage)}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (
