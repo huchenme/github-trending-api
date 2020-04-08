@@ -6,15 +6,9 @@ notifications:
   email: false
 node_js:
   - '12'
-before_install:
+install:
   - yarn global add codecov
-before_script:
+script:
   - yarn validate
-script: yarn build
-after_success:
+  - yarn build
   - codecov
-  - npm run travis-deploy-once "npm run semantic-release"
-branches:
-  only:
-    - master
-    - /^greenkeeper/.*$/

@@ -60,8 +60,7 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.2.0",
-    "semantic-release": "^17.0.4",
-    "travis-deploy-once": "^5.0.11"
+    "semantic-release": "^17.0.4"
   },
   "scripts": {
     "start": "now dev",
@@ -71,7 +70,6 @@
     "prebuild": "rimraf public",
     "build": "NODE_ENV=production rollup -c",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once",
     "postinstall": "opencollective-postinstall || true"
   },
   "lint-staged": {
