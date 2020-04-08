@@ -35,9 +35,9 @@ export default [
     ],
   },
   {
-    input: 'src/server.js',
+    input: 'utils/fetch.js',
     external,
-    output: [{ file: 'dist/server.cjs.js', format: 'cjs' }],
+    output: [{ file: 'public/fetch.js', format: 'cjs' }],
     plugins: [json(), resolvePlugin, babelPlugin],
   },
 ];

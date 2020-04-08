@@ -1,2 +1,4 @@
 mockData
 dist
+public
+src/server.js

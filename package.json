@@ -3,10 +3,10 @@
   "version": "0.0.0-development",
   "description": "Get GitHub trending data",
   "sideEffects": false,
-  "main": "dist/github-trending.cjs.js",
-  "module": "dist/github-trending.esm.js",
+  "main": "public/github-trending.cjs.js",
+  "module": "public/github-trending.esm.js",
   "engines": {
-    "node": ">=10.0.0"
+    "node": "12.x"
   },
   "repository": {
     "type": "git",
@@ -51,6 +51,7 @@
     "lint-staged": "^10.0.8",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2",
+    "now": "^17.1.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.2",
     "rimraf": "^3.0.2",
@@ -63,15 +64,14 @@
     "travis-deploy-once": "^5.0.11"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node ./src/server.js",
+    "start": "now dev",
     "test": "jest --coverage",
     "eslint": "eslint .",
     "validate": "npm-run-all eslint test",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf public",
     "build": "NODE_ENV=production rollup -c",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
-    "start": "node ./dist/server.cjs.js",
     "postinstall": "opencollective-postinstall || true"
   },
   "lint-staged": {
