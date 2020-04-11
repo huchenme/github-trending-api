@@ -14,36 +14,38 @@ function buildUrl(baseUrl, params = {}) {
   return queryString === '' ? baseUrl : `${baseUrl}?${queryString}`;
 }
 
-export async function fetchRepositories(params) {
-  const res = await axios(buildUrl(`${SERVER_URL}/repositories`, params));
+function checkResponse(res) {
   if (res.status !== 200) {
     throw new Error('Something went wrong');
   }
+}
+
+export async function fetchRepositories(params) {
+  const res = await axios(buildUrl(`${SERVER_URL}/repositories`, params));
+  checkResponse(res);
+
   return res.data;
 }
 
 export async function fetchDevelopers(params) {
   const res = await axios(buildUrl(`${SERVER_URL}/developers`, params));
-  if (res.status !== 200) {
-    throw new Error('Something went wrong');
-  }
+  checkResponse(res);
+
   return res.data;
 }
 
 export async function fetchRandomRepository(params) {
   const res = await axios(buildUrl(`${SERVER_URL}/repositories`, params));
-  if (res.status !== 200) {
-    throw new Error('Something went wrong');
-  }
+  checkResponse(res);
+
   const json = res.data;
   return sample(json);
 }
 
 export async function fetchRandomRepositories(size = 1, params) {
   const res = await axios(buildUrl(`${SERVER_URL}/repositories`, params));
-  if (res.status !== 200) {
-    throw new Error('Something went wrong');
-  }
+  checkResponse(res);
+
   const json = res.data;
   return sampleSize(json, size);
 }
