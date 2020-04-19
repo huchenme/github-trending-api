@@ -4,8 +4,8 @@ const cacheControl = require('express-cache-controller');
 const cors = require('cors');
 const { Router } = require('express');
 
-const languages = require('./languages.json');
-const spokenLanguages = require('./spoken-languages.json');
+const languages = require('../languages.json');
+const spokenLanguages = require('../spoken-languages.json');
 
 const { fetchRepositories, fetchDevelopers } = require('./fetch');
 
