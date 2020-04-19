@@ -7905,10 +7905,10 @@ normalize-url@^5.0.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.0.0.tgz#f46c9dc20670495e4e18fbd1b4396e41d199f63c"
   integrity sha512-bAEm2fx8Dq/a35Z6PIRkkBBJvR56BbEJvhpNtvCZ4W9FyORSna77fn+xtYFjqk5JpBS+fMnAOG/wFgkQBmB7hw==
 
-now@^17.1.1:
-  version "17.1.1"
-  resolved "https://registry.yarnpkg.com/now/-/now-17.1.1.tgz#5e5fade17c3f9c3b7e3900be3febf7c21c7d6935"
-  integrity sha512-Hmh8eMSt4FxS1YBwaLrdJuzEVm6ZtS4JCY0AZE+JTnTtDGHVaQMUI85FaPvasSIhKLa+7xf6v7lmTgM39VW/8w==
+now@^18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/now/-/now-18.0.0.tgz#e6689205346e354f822b1f5feb2c0d7d570c172f"
+  integrity sha512-MVskFV3xH1hMkpTewPCb3p0SQ17hL7EI1Zb+Ij2wYiRV3X0a6G91GdE2vvFlhsK6rhRHKHZnDQkZ0AnkpnfzHA==
 
 npm-audit-report@^1.3.2:
   version "1.3.2"
