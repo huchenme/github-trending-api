@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
+import { fetchRepositories, fetchDevelopers } from '../fetch';
 import mockRepositories from '../mockData/repositories';
 import mockDevelopers from '../mockData/developers';
-import { fetchRepositories, fetchDevelopers } from '../fetch';
 
 jest.mock('node-fetch');
 

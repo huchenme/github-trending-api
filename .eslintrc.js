@@ -4,5 +4,6 @@ module.exports = {
     'no-console': 'off',
     'consistent-return': 'off',
     'import/extensions': 'off',
+    'babel/new-cap': 'off',
   },
 };

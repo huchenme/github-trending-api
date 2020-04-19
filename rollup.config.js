@@ -5,7 +5,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import json from 'rollup-plugin-json';
 import pkg from './package.json';
 
-const external = id => !id.startsWith('.') && !path.isAbsolute(id);
+const external = (id) => !id.startsWith('.') && !path.isAbsolute(id);
 
 const extensions = ['.js', '.jsx'];
 
@@ -33,11 +33,5 @@ export default [
       babelPlugin,
       process.env.NODE_ENV === 'production' && terser(),
     ],
-  },
-  {
-    input: 'src/server.js',
-    external,
-    output: [{ file: 'dist/server.cjs.js', format: 'cjs' }],
-    plugins: [json(), resolvePlugin, babelPlugin],
   },
 ];

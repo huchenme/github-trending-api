@@ -7,8 +7,8 @@ const SERVER_URL = 'https://github-trending-api.now.sh';
 
 function buildUrl(baseUrl, params = {}) {
   const queryString = Object.keys(params)
-    .filter(key => params[key])
-    .map(key => `${snakeCase(key)}=${params[key]}`)
+    .filter((key) => params[key])
+    .map((key) => `${snakeCase(key)}=${params[key]}`)
     .join('&');
 
   return queryString === '' ? baseUrl : `${baseUrl}?${queryString}`;
