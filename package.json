@@ -3,8 +3,8 @@
   "version": "0.0.0-development",
   "description": "Get GitHub trending data",
   "sideEffects": false,
-  "main": "public/github-trending.cjs.js",
-  "module": "public/github-trending.esm.js",
+  "main": "dist/github-trending.cjs.js",
+  "module": "dist/github-trending.esm.js",
   "engines": {
     "node": "12.x"
   },
@@ -55,7 +55,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
-    "rollup": "^1.32.0",
+    "rollup": "^2.6.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
@@ -67,7 +67,7 @@
     "test": "jest --coverage",
     "eslint": "eslint .",
     "validate": "npm-run-all build eslint test",
-    "prebuild": "rimraf public",
+    "prebuild": "rimraf dist",
     "build": "NODE_ENV=production rollup -c",
     "semantic-release": "semantic-release",
     "postinstall": "opencollective-postinstall || true"

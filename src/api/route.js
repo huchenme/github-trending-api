@@ -34,7 +34,6 @@ router.get('/spoken_languages', (req, res) => {
 
 router.get('(/|/repositories)', async (req, res) => {
   try {
-    console.log('req', req.originalUrl, req.query);
     const parsedUrl = url.parse(req.originalUrl);
     const queryString = parsedUrl.query;
     const params = {};
@@ -44,8 +43,6 @@ router.get('(/|/repositories)', async (req, res) => {
         params[key] = value;
       }
     }
-
-    console.log('params', params);
 
     const { language, since, spoken_language_code: spokenLanguage } = params;
     const cacheKey = `repositories::${language || 'nolang'}::${
