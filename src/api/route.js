@@ -14,23 +14,24 @@ const router = Router();
 router.use(cors());
 router.use(
   cacheControl({
-    maxAge: 60 * 10,
+    maxAge: 600,
+    sMaxAge: 600,
   })
 );
 
 router.get('/languages', (req, res) => {
-  res.setHeader(
-    'Cache-Control',
-    'max-age=86400, s-maxage=604800, stale-while-revalidate'
-  );
+  res.cacheControl = {
+    maxAge: 60 * 60 * 24,
+    sMaxAge: 60 * 60 * 24 * 7,
+  };
   res.json(languages);
 });
 
 router.get('/spoken_languages', (req, res) => {
-  res.setHeader(
-    'Cache-Control',
-    'max-age=86400, s-maxage=604800, stale-while-revalidate'
-  );
+  res.cacheControl = {
+    maxAge: 60 * 60 * 24,
+    sMaxAge: 60 * 60 * 24 * 7,
+  };
   res.json(spokenLanguages);
 });
 
@@ -54,10 +55,10 @@ router.get('(/|/repositories)', async (req, res) => {
     const cached = cache.get(cacheKey);
     const cachedPerm = cache.get(cacheKeyPerm);
 
-    res.setHeader(
-      'Cache-Control',
-      'max-age=300, s-maxage=600, stale-while-revalidate'
-    );
+    res.cacheControl = {
+      maxAge: 300,
+      sMaxAge: 600,
+    };
 
     if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
@@ -84,10 +85,10 @@ router.get('/developers', async (req, res) => {
     const cached = cache.get(cacheKey);
     const cachedPerm = cache.get(cacheKeyPerm);
 
-    res.setHeader(
-      'Cache-Control',
-      'max-age=300, s-maxage=600, stale-while-revalidate'
-    );
+    res.cacheControl = {
+      maxAge: 300,
+      sMaxAge: 600,
+    };
 
     if (Boolean(cached) && cached.length > 0) {
       return res.json(cached);
