@@ -34,10 +34,4 @@ export default [
       process.env.NODE_ENV === 'production' && terser(),
     ],
   },
-  {
-    input: 'utils/fetch.js',
-    external,
-    output: [{ file: 'public/fetch.js', format: 'cjs' }],
-    plugins: [json(), resolvePlugin, babelPlugin],
-  },
 ];

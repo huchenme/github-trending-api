@@ -1,7 +1,6 @@
-import querystring from 'querystring';
-import cheerio from 'cheerio';
-import fetch from 'node-fetch';
-import { omitBy, isNil } from 'lodash';
+const cheerio = require('cheerio');
+const fetch = require('node-fetch');
+const { omitBy, isNil } = require('lodash');
 
 const GITHUB_URL = 'https://github.com';
 
@@ -17,16 +16,12 @@ function removeDefaultAvatarSize(src) {
   return src.replace(/\?s=.*$/, '');
 }
 
-export async function fetchRepositories({
+async function fetchRepositories({
   language = '',
   since = 'daily',
   spokenLanguage = '',
 } = {}) {
-  const url = `${GITHUB_URL}/trending/${querystring.escape(
-    language
-  )}?since=${querystring.escape(
-    since
-  )}&spoken_language_code=${querystring.escape(spokenLanguage)}`;
+  const url = `${GITHUB_URL}/trending/${language}?since=${since}&spoken_language_code=${spokenLanguage}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (
@@ -74,7 +69,7 @@ export async function fetchRepositories({
           name: repoName,
           avatar: `${GITHUB_URL}/${username}.png`,
           url: `${GITHUB_URL}${relativeUrl}`,
-          description: $repo.find('p.my-1').text().trim() ?? '',
+          description: $repo.find('p.my-1').text().trim() || '',
           language: lang,
           languageColor: langColor,
           stars: parseInt(
@@ -108,7 +103,7 @@ export async function fetchRepositories({
   );
 }
 
-export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
+async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
   const data = await fetch(
     `${GITHUB_URL}/trending/developers/${language}?since=${since}`
   );
@@ -120,8 +115,8 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
       const relativeUrl = $dev.find('.h3 a').attr('href');
       const sponsorRelativeUrl = $dev
         .find('span:contains("Sponsor")')
-        ?.parent()
-        ?.attr('href');
+        .parent()
+        .attr('href');
       const name = $dev.find('.h3 a').text().trim();
 
       const username = relativeUrl.slice(1);
@@ -151,3 +146,5 @@ export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
       });
     });
 }
+
+module.exports = { fetchRepositories, fetchDevelopers };
