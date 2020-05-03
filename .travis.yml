@@ -12,7 +12,7 @@ install:
   - yarn install
 - script:
   - yarn validate
-  - script: codecov
+  - codecov
 
 jobs:
   include:
@@ -23,6 +23,6 @@ jobs:
         skip_cleanup: true
         script:
           - yarn build
-          - npx semantic-release
+          - yarn semantic-release
         on:
           branch: master
