@@ -10,7 +10,7 @@ node_js:
 install:
   - yarn global add codecov
   - yarn install
-- script:
+script:
   - yarn validate
   - codecov
 
