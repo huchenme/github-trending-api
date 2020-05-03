@@ -15,7 +15,7 @@ jobs:
       script: yarn validate
       script: codecov
     - stage: release
-      script: skip
+      script: yarn build
       deploy:
         provider: script
         skip_cleanup: true
