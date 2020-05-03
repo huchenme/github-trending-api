@@ -184,7 +184,7 @@
     "name": "C#"
   },
   {
-    "urlParam": "c++",
+    "urlParam": "c%2B%2B",
     "name": "C++"
   },
   {
@@ -676,23 +676,23 @@
     "name": "HTML"
   },
   {
-    "urlParam": "html+django",
+    "urlParam": "html%2Bdjango",
     "name": "HTML+Django"
   },
   {
-    "urlParam": "html+ecr",
+    "urlParam": "html%2Becr",
     "name": "HTML+ECR"
   },
   {
-    "urlParam": "html+eex",
+    "urlParam": "html%2Beex",
     "name": "HTML+EEX"
   },
   {
-    "urlParam": "html+erb",
+    "urlParam": "html%2Berb",
     "name": "HTML+ERB"
   },
   {
-    "urlParam": "html+php",
+    "urlParam": "html%2Bphp",
     "name": "HTML+PHP"
   },
   {
@@ -1080,7 +1080,7 @@
     "name": "NetLinx"
   },
   {
-    "urlParam": "netlinx+erb",
+    "urlParam": "netlinx%2Berb",
     "name": "NetLinx+ERB"
   },
   {
@@ -1140,7 +1140,7 @@
     "name": "Objective-C"
   },
   {
-    "urlParam": "objective-c++",
+    "urlParam": "objective-c%2B%2B",
     "name": "Objective-C++"
   },
   {
