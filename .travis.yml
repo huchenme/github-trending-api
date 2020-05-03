@@ -18,12 +18,11 @@ jobs:
         - yarn validate
         - codecov
     - stage: release
-      script: skip
+      if: branch = master
+      script:
+        - yarn build
       deploy:
         provider: script
         skip_cleanup: true
         script:
-          - yarn build
-          - yarn semantic-release
-        on:
-          branch: master
+          - npx semantic-release
