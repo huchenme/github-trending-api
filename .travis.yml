@@ -10,12 +10,13 @@ node_js:
 install:
   - yarn global add codecov
   - yarn install
-script:
-  - yarn validate
-  - codecov
 
 jobs:
   include:
+    - stage: test
+      script:
+        - yarn validate
+        - codecov
     - stage: release
       script: skip
       deploy:
