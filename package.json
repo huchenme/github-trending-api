@@ -45,7 +45,7 @@
     "babel-plugin-lodash": "^3.3.4",
     "doctoc": "^1.4.0",
     "eslint": "^6.8.0",
-    "eslint-config-kentcdodds": "14.8.1",
+    "eslint-config-kentcdodds": "14.11.0",
     "husky": "^4.2.5",
     "jest": "^25.3.0",
     "lint-staged": "^10.1.6",
