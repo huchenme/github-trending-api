@@ -8297,10 +8297,10 @@ normalize-url@^5.0.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.0.0.tgz#f46c9dc20670495e4e18fbd1b4396e41d199f63c"
   integrity sha512-bAEm2fx8Dq/a35Z6PIRkkBBJvR56BbEJvhpNtvCZ4W9FyORSna77fn+xtYFjqk5JpBS+fMnAOG/wFgkQBmB7hw==
 
-now@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/now/-/now-18.0.0.tgz#e6689205346e354f822b1f5feb2c0d7d570c172f"
-  integrity sha512-MVskFV3xH1hMkpTewPCb3p0SQ17hL7EI1Zb+Ij2wYiRV3X0a6G91GdE2vvFlhsK6rhRHKHZnDQkZ0AnkpnfzHA==
+now@^19.0.1:
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/now/-/now-19.0.1.tgz#a4575adfed17ea049d9207c145f3ce7f60c818cf"
+  integrity sha512-Q/dUlRBPzoy6lHw9P9qnzGmXw3aBU5ypQ1JjrKwoQJoEVhU5hCa9dJCEtIiSIG5cModcirU0xJPemg54dvWPnA==
 
 npm-audit-report@^1.3.2:
   version "1.3.2"
