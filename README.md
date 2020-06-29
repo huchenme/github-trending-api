@@ -81,6 +81,7 @@
 - **[GitTouch](https://github.com/pd4d10/git-touch)** ([App Store](https://itunes.apple.com/us/app/gittouch/id1452042346), [Google Play](https://play.google.com/store/apps/details?id=io.github.pd4d10.gittouch)): Open source GitHub App built with Flutter.
 - **[lazyhub](https://github.com/ryo-ma/lazyhub)**: :octocat: lazyhub - Terminal UI Client for GitHub using gocui.
 - **[Gitrepos](https://github.com/Hyraze/gitrepos)** ([Website](https://gitrepos.now.sh)): :octocat: A simple PWA app that returns Trending Repositories & Developers from GitHub, Gitlab & HackerNews.
+- **[Trendzz](https://github.com/omarryhan/trendzz)** ([Website](https://trendzz.netlify.app)): Github trending PWA focusing on usability.
 
 ## Backers
 
