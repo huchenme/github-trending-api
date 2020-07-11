@@ -20,7 +20,7 @@
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 [![npm (scoped)](https://img.shields.io/npm/v/@huchenme/github-trending.svg)](https://www.npmjs.com/package/@huchenme/github-trending)
-[![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/) [![Greenkeeper badge](https://badges.greenkeeper.io/huchenme/github-trending-api.svg)](https://greenkeeper.io/)
+[![module formats: cjs, es](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg)](https://unpkg.com/@huchenme/github-trending/dist/)
 
 ---
 
@@ -36,6 +36,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Projects using github-trending-api](#projects-using-github-trending-api)
+- [Sponsor](#sponsor)
 - [Backers](#backers)
 - [API Status](#api-status)
 - [REST API](#rest-api)
@@ -82,6 +83,12 @@
 - **[lazyhub](https://github.com/ryo-ma/lazyhub)**: :octocat: lazyhub - Terminal UI Client for GitHub using gocui.
 - **[Gitrepos](https://github.com/Hyraze/gitrepos)** ([Website](https://gitrepos.now.sh)): :octocat: A simple PWA app that returns Trending Repositories & Developers from GitHub, Gitlab & HackerNews.
 - **[Trendzz](https://github.com/omarryhan/trendzz)** ([Website](https://trendzz.netlify.app)): Github trending PWA focusing on usability.
+
+## Sponsor
+
+[![Logo](images/sponsor.jpg)](https://vercel.com/?utm_source=github-trending-api)
+
+This API is powered by [Vercel](https://vercel.com/?utm_source=github-trending-api).
 
 ## Backers
 
