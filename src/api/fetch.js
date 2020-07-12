@@ -136,13 +136,15 @@ async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
           ? `${GITHUB_URL}${sponsorRelativeUrl}`
           : undefined,
         avatar: removeDefaultAvatarSize($dev.find('img').attr('src')),
-        repo: {
-          name: $repo.find('a').text().trim(),
-          description:
-            $repo.find('.f6.mt-1').text().trim() ||
-            /* istanbul ignore next */ '',
-          url: `${GITHUB_URL}${$repo.find('a').attr('href')}`,
-        },
+        repo: $repo.length
+          ? {
+              name: $repo.find('a').text().trim(),
+              description:
+                $repo.find('.f6.mt-1').text().trim() ||
+                /* istanbul ignore next */ '',
+              url: `${GITHUB_URL}${$repo.find('a').attr('href')}`,
+            }
+          : null,
       });
     });
 }
