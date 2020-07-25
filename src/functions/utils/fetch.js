@@ -21,7 +21,9 @@ async function fetchRepositories({
   since = 'daily',
   spokenLanguage = '',
 } = {}) {
-  const url = `${GITHUB_URL}/trending/${language}?since=${since}&spoken_language_code=${spokenLanguage}`;
+  const url = `${GITHUB_URL}/trending/${encodeURIComponent(
+    language
+  )}?since=${since}&spoken_language_code=${encodeURIComponent(spokenLanguage)}`;
   const data = await fetch(url);
   const $ = cheerio.load(await data.text());
   return (

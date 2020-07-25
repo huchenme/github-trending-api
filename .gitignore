@@ -67,3 +67,5 @@ package-lock.json
 .now
 /public
 .vercel
+# Local Netlify folder
+.netlify
