@@ -2,7 +2,7 @@ function success(json, { maxAge = 600 } = {}) {
   return {
     statusCode: 200,
     headers: {
-      'Cache-Control': `public, max-age=${maxAge}`,
+      'Cache-Control': `max-age=${maxAge}`,
     },
     body: JSON.stringify(json),
   };
