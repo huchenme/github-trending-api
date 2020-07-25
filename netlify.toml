@@ -4,10 +4,8 @@
 [[redirects]]
   from = "/"
   to = "/.netlify/functions/repositories"
-  status = 200
 
 [[redirects]]
   from = '/*'
   to = '/.netlify/functions/:splat'
-  status = 200
 
