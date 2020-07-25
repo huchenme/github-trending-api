@@ -3,6 +3,7 @@ function success(json, { maxAge = 600 } = {}) {
     statusCode: 200,
     headers: {
       'Cache-Control': `max-age=${maxAge}`,
+      'Content-Type': 'text/plain; charset=utf-8',
     },
     body: JSON.stringify(json),
   };
@@ -11,6 +12,9 @@ function success(json, { maxAge = 600 } = {}) {
 function error(err) {
   return {
     statusCode: 500,
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+    },
     body: JSON.stringify(err.toJSON()),
   };
 }
