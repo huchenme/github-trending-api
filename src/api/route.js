@@ -21,7 +21,7 @@ router.use(
 
 router.get('/languages', (req, res) => {
   res.cacheControl = {
-    maxAge: 60 * 60 * 24,
+    maxAge: 60 * 60 * 24 * 7,
     sMaxAge: 60 * 60 * 24 * 7,
   };
   res.json(languages);
@@ -29,7 +29,7 @@ router.get('/languages', (req, res) => {
 
 router.get('/spoken_languages', (req, res) => {
   res.cacheControl = {
-    maxAge: 60 * 60 * 24,
+    maxAge: 60 * 60 * 24 * 7,
     sMaxAge: 60 * 60 * 24 * 7,
   };
   res.json(spokenLanguages);
@@ -56,7 +56,7 @@ router.get('(/|/repositories)', async (req, res) => {
     const cachedPerm = cache.get(cacheKeyPerm);
 
     res.cacheControl = {
-      maxAge: 300,
+      maxAge: 600,
       sMaxAge: 600,
     };
 
@@ -86,7 +86,7 @@ router.get('/developers', async (req, res) => {
     const cachedPerm = cache.get(cacheKeyPerm);
 
     res.cacheControl = {
-      maxAge: 300,
+      maxAge: 600,
       sMaxAge: 600,
     };
 
