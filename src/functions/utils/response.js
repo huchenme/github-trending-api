@@ -1,6 +1,5 @@
 function success(json, { maxAge = 600 } = {}) {
   return {
-    statusCode: 304,
     headers: {
       'Cache-Control': `public, max-age=${maxAge}`,
       'Content-Type': 'application/json; charset=utf-8',
