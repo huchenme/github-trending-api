@@ -5,7 +5,7 @@ function success(json, { maxAge = 600, etag } = {}) {
       'Content-Type': 'application/json; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': 'Content-Type',
-      etag,
+      ETag: `W/"${etag}"`,
     },
     body: JSON.stringify(json),
   };
