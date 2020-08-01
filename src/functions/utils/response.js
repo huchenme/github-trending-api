@@ -1,10 +1,11 @@
-function success(json, { maxAge = 600 } = {}) {
+function success(json, { maxAge = 600, etag } = {}) {
   return {
     headers: {
       'Cache-Control': `public, max-age=${maxAge}`,
       'Content-Type': 'application/json; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': 'Content-Type',
+      etag,
     },
     body: JSON.stringify(json),
   };
