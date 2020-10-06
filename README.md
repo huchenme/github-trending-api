@@ -82,6 +82,7 @@
 - **[lazyhub](https://github.com/ryo-ma/lazyhub)**: :octocat: lazyhub - Terminal UI Client for GitHub using gocui.
 - **[Gitrepos](https://github.com/Hyraze/gitrepos)** ([Website](https://gitrepos.now.sh)): :octocat: A simple PWA app that returns Trending Repositories & Developers from GitHub, Gitlab & HackerNews.
 - **[Trendzz](https://github.com/omarryhan/trendzz)** ([Website](https://trendzz.netlify.app)): Github trending PWA focusing on usability.
+- **[Ceelog](https://mp.weixin.qq.com/s?__biz=MzAwOTMxMzgxMA==&mid=2647972345&idx=1&sn=8b316d6b89b9aae2454f89144ffafa61&chksm=8341f284b4367b9227901a69bcb49be191a4c1e4054a2df464a58b073745e225a943ad808db4&token=1659362714&lang=zh_CN#rd)** Github trending in WeChat Official Account Platform.
 
 ## Backers
 
