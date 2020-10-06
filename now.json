@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "alias": "github-trending-api.now.sh",
-  "github": {
-    "silent": true
-  },
-  "routes": [{ "src": "/(.*)", "dest": "/src/api/index.js" }],
-  "builds": [{ "src": "/src/api/index.js", "use": "@now/node" }]
-}

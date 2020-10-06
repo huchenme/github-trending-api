@@ -36,7 +36,6 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Projects using github-trending-api](#projects-using-github-trending-api)
-- [Sponsor](#sponsor)
 - [Backers](#backers)
 - [API Status](#api-status)
 - [REST API](#rest-api)
@@ -83,12 +82,6 @@
 - **[lazyhub](https://github.com/ryo-ma/lazyhub)**: :octocat: lazyhub - Terminal UI Client for GitHub using gocui.
 - **[Gitrepos](https://github.com/Hyraze/gitrepos)** ([Website](https://gitrepos.now.sh)): :octocat: A simple PWA app that returns Trending Repositories & Developers from GitHub, Gitlab & HackerNews.
 - **[Trendzz](https://github.com/omarryhan/trendzz)** ([Website](https://trendzz.netlify.app)): Github trending PWA focusing on usability.
-
-## Sponsor
-
-[![Logo](images/sponsor.jpg)](https://vercel.com/?utm_source=github-trending-api)
-
-This API is powered by [Vercel](https://vercel.com/?utm_source=github-trending-api).
 
 ## Backers
 
