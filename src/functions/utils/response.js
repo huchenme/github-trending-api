@@ -1,5 +1,6 @@
 function success(json, { maxAge = 0 } = {}) {
   return {
+    statusCode: 200,
     headers: {
       'Cache-Control': `public, max-age=${maxAge}`,
       'Content-Type': 'application/json; charset=utf-8',
