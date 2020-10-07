@@ -2,6 +2,7 @@ import path from 'path';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 import json from 'rollup-plugin-json';
 import pkg from './package.json';
 
@@ -19,6 +20,12 @@ const babelPlugin = babel({
   extensions,
 });
 
+const createConfig = (filename) => ({
+  input: `src/functions/${filename}.js`,
+  output: [{ file: `build/${filename}.js`, format: 'cjs' }],
+  plugins: [json(), resolvePlugin, commonjs(), babelPlugin],
+});
+
 export default [
   {
     input: 'src/index.js',
@@ -34,4 +41,10 @@ export default [
       process.env.NODE_ENV === 'production' && terser(),
     ],
   },
+  ...[
+    'developers',
+    'languages',
+    'repositories',
+    'spoken_languages',
+  ].map((filename) => createConfig(filename)),
 ];

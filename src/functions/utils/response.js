@@ -1,4 +1,4 @@
-function success(json, { maxAge = 0 } = {}) {
+export function success(json, { maxAge = 0 } = {}) {
   return {
     statusCode: 200,
     headers: {
@@ -11,7 +11,7 @@ function success(json, { maxAge = 0 } = {}) {
   };
 }
 
-function error(err) {
+export function error(err) {
   return {
     statusCode: 500,
     headers: {
@@ -22,5 +22,3 @@ function error(err) {
     body: JSON.stringify(err.toJSON()),
   };
 }
-
-module.exports = { success, error };

@@ -1,6 +1,6 @@
-const cheerio = require('cheerio');
-const fetch = require('node-fetch');
-const { omitBy, isNil } = require('lodash');
+import cheerio from 'cheerio';
+import fetch from 'node-fetch';
+import { omitBy, isNil } from 'lodash';
 
 const GITHUB_URL = 'https://github.com';
 
@@ -16,7 +16,7 @@ function removeDefaultAvatarSize(src) {
   return src.replace(/\?s=.*$/, '');
 }
 
-async function fetchRepositories({
+export async function fetchRepositories({
   language = '',
   since = 'daily',
   spokenLanguage = '',
@@ -105,7 +105,7 @@ async function fetchRepositories({
   );
 }
 
-async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
+export async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
   const data = await fetch(
     `${GITHUB_URL}/trending/developers/${language}?since=${since}`
   );
@@ -150,5 +150,3 @@ async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
       });
     });
 }
-
-module.exports = { fetchRepositories, fetchDevelopers };

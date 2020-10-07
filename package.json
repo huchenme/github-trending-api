@@ -50,6 +50,7 @@
     "jest": "^25.3.0",
     "lint-staged": "^10.1.6",
     "netlify-cli": "^2.58.0",
+    "netlify-lambda": "^2.0.1",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.3",
     "npm-run-all": "^4.1.5",
@@ -57,6 +58,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.6.1",
     "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.3.0",
@@ -67,10 +69,12 @@
     "test": "jest --coverage",
     "eslint": "eslint .",
     "validate": "npm-run-all build eslint test",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf dist && rimraf build",
     "build": "NODE_ENV=production rollup -c",
     "semantic-release": "semantic-release",
-    "postinstall": "opencollective-postinstall || true"
+    "postinstall:netlify-lambda": "netlify-lambda install",
+    "postinstall:opencollective": "opencollective-postinstall || true",
+    "postinstall": "npm-run-all postinstall:*"
   },
   "lint-staged": {
     "README.md": [

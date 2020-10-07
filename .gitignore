@@ -59,6 +59,7 @@ typings/
 
 # build folder
 /dist
+/build
 
 # npm5 lock file
 package-lock.json

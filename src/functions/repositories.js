@@ -1,5 +1,5 @@
-const { fetchRepositories } = require('./utils/fetch');
-const { success, error } = require('./utils/response');
+import { fetchRepositories } from './utils/fetch';
+import { success, error } from './utils/response';
 
 exports.handler = async ({ queryStringParameters: params }) => {
   try {
