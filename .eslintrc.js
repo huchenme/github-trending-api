@@ -5,5 +5,6 @@ module.exports = {
     'consistent-return': 'off',
     'import/extensions': 'off',
     'babel/new-cap': 'off',
+    'require-await': 'off',
   },
 };
