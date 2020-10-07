@@ -12,6 +12,7 @@ const extensions = ['.js', '.jsx'];
 
 const resolvePlugin = resolve({
   extensions,
+  preferBuiltins: true,
 });
 
 const babelPlugin = babel({
@@ -20,8 +21,16 @@ const babelPlugin = babel({
   extensions,
 });
 
+function onwarn(warning) {
+  if (warning.code !== 'CIRCULAR_DEPENDENCY') {
+    console.error(`(!) ${warning.message}`);
+  }
+}
+
 const createConfig = (filename) => ({
   input: `src/functions/${filename}.js`,
+  onwarn,
+  external,
   output: [{ file: `build/${filename}.js`, format: 'cjs' }],
   plugins: [json(), resolvePlugin, commonjs(), babelPlugin],
 });
