@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { sample, sampleSize, snakeCase } from 'lodash';
-import languages from './languages.json';
-import spokenLanguages from './spoken-languages.json';
+import languages from './functions/json/languages.json';
+import spokenLanguages from './functions/json/spoken-languages.json';
 
 const SERVER_URL = 'https://ghapi.huchen.dev';
 
