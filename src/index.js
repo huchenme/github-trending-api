@@ -2,6 +2,7 @@ import axios from 'axios';
 import { sample, sampleSize, snakeCase } from 'lodash';
 import languages from './languages.json';
 import spokenLanguages from './spoken-languages.json';
+import * as scrapingFunctions from './functions/utils/fetch';
 
 const SERVER_URL = 'https://ghapi.huchen.dev';
 
@@ -53,5 +54,8 @@ export async function fetchRandomRepositories(
   const json = res.data;
   return sampleSize(json, size);
 }
+
+export const scrapeDevelopers = scrapingFunctions.fetchDevelopers;
+export const scrapeRepositories = scrapingFunctions.fetchRepositories;
 
 export { languages, spokenLanguages };
