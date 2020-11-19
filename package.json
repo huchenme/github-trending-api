@@ -1,10 +1,11 @@
 {
   "name": "@huchenme/github-trending",
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "description": "Get GitHub trending data",
   "sideEffects": false,
   "main": "dist/github-trending.cjs.js",
   "module": "dist/github-trending.esm.js",
+  "typings": "types/index.d.ts",
   "engines": {
     "node": "12.x"
   },
