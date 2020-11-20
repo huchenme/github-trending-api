@@ -1,4 +1,4 @@
-function success(json, { maxAge = 0 } = {}) {
+exports.success = function success(json, { maxAge = 0 } = {}) {
   return {
     headers: {
       'Cache-Control': `public, max-age=${maxAge}`,
@@ -8,9 +8,9 @@ function success(json, { maxAge = 0 } = {}) {
     },
     body: JSON.stringify(json),
   };
-}
+};
 
-function error(err) {
+exports.error = function error(err) {
   return {
     statusCode: 500,
     headers: {
@@ -20,6 +20,4 @@ function error(err) {
     },
     body: JSON.stringify(err.toJSON()),
   };
-}
-
-module.exports = { success, error };
+};

@@ -46,7 +46,8 @@
   - [List Spoken Languages](#list-spoken-languages)
 - [NPM Package](#npm-package)
   - [Install](#install)
-  - [Usage](#usage)
+  - [Browser usage (Calls an API hosted by @huchenme)](#browser-usage-calls-an-api-hosted-by-huchenme)
+  - [Server side usage (Scrape the data yourself)](#server-side-usage-scrape-the-data-yourself)
   - [API](#api)
     - [languages](#languages)
     - [spokenLanguages](#spokenlanguages)
@@ -250,7 +251,7 @@ You could also use the API as a NPM package.
 $ npm install --save @huchenme/github-trending
 ```
 
-### Usage
+### Browser usage (Calls an API hosted by @huchenme)
 
 ```js
 import {
@@ -259,6 +260,28 @@ import {
   fetchRepositories,
   fetchDevelopers,
 } from '@huchenme/github-trending';
+
+fetchRepositories({ language: 'ruby', since: 'monthly' }).then(
+  (repositories) => {
+    console.log(repositories);
+  }
+);
+
+fetchDevelopers({ language: 'javascript' }).then((developers) => {
+  console.log(developers);
+});
+
+console.log(languages);
+console.log(spokenLanguages);
+```
+
+### Server side usage (Scrape the data yourself)
+
+```js
+import {
+  fetchRepositories,
+  fetchDevelopers,
+} from '@huchenme/github-trending/lib/scrape';
 
 fetchRepositories({ language: 'ruby', since: 'monthly' }).then(
   (repositories) => {

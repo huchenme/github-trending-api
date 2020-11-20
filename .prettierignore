@@ -1,3 +1,4 @@
 .history/
 coverage/
 dist/
+lib/
