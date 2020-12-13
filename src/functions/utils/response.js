@@ -7,7 +7,7 @@ function success(json, { maxAge = 0 } = {}) {
       'Access-Control-Allow-Headers': 'Content-Type',
     },
     body: JSON.stringify(json),
-    statusCode: 200
+    statusCode: 200,
   };
 }
 
@@ -20,7 +20,6 @@ function error(err) {
       'Access-Control-Allow-Headers': 'Content-Type',
     },
     body: JSON.stringify(err.toJSON()),
-    statusCode: 200
   };
 }
 
