@@ -52,6 +52,7 @@
     - [spokenLanguages](#spokenlanguages)
     - [fetchRepositories(params)](#fetchrepositoriesparams)
     - [fetchDevelopers(params)](#fetchdevelopersparams)
+- [docker](#docker)
 - [Contributors](#contributors)
   - [Code Contributors](#code-contributors)
   - [Financial Contributors](#financial-contributors)
@@ -389,6 +390,15 @@ Receive an array of trending developers.
   }
   ...
 ]
+```
+
+## docker
+
+You can develop by using docker.
+
+```
+$ docker build -t github-trending-api .
+$ docker run -d --rm -p 8000:8888 github-trending-api:latest
 ```
 
 ## Contributors

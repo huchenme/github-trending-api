@@ -7,6 +7,7 @@ function success(json, { maxAge = 0 } = {}) {
       'Access-Control-Allow-Headers': 'Content-Type',
     },
     body: JSON.stringify(json),
+    statusCode: 200,
   };
 }
 
