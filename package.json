@@ -27,7 +27,7 @@
   "homepage": "https://github.com/huchenme/github-trending-api#readme",
   "dependencies": {
     "@babel/runtime-corejs3": "^7.9.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
