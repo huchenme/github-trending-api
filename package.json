@@ -1,5 +1,5 @@
 {
-  "name": "@omarryhan/github-trending",
+  "name": "github-trending-scrape",
   "version": "0.0.0-development",
   "description": "Get GitHub trending data",
   "sideEffects": false,
