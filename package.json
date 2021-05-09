@@ -1,5 +1,5 @@
 {
-  "name": "@huchenme/github-trending",
+  "name": "@omarryhan/github-trending",
   "version": "0.0.0-development",
   "description": "Get GitHub trending data",
   "sideEffects": false,
