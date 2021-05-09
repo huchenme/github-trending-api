@@ -1,6 +1,6 @@
 {
   "name": "github-trending-scrape",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Get GitHub trending data",
   "sideEffects": false,
   "main": "lib/github-trending.cjs.js",
