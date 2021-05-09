@@ -16,7 +16,7 @@ function removeDefaultAvatarSize(src) {
   return src.replace(/\?s=.*$/, '');
 }
 
-async function fetchRepositories({
+exports.fetchRepositories = async function fetchRepositories({
   language = '',
   since = 'daily',
   spokenLanguage = '',
@@ -103,9 +103,12 @@ async function fetchRepositories({
         });
       })
   );
-}
+};
 
-async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
+exports.fetchDevelopers = async function fetchDevelopers({
+  language = '',
+  since = 'daily',
+} = {}) {
   const data = await fetch(
     `${GITHUB_URL}/trending/developers/${language}?since=${since}`
   );
@@ -149,6 +152,4 @@ async function fetchDevelopers({ language = '', since = 'daily' } = {}) {
           : null,
       });
     });
-}
-
-module.exports = { fetchRepositories, fetchDevelopers };
+};
