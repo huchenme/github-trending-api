@@ -84,6 +84,7 @@
 - **[Gitrepos](https://github.com/Hyraze/gitrepos)** ([Website](https://gitrepos.now.sh)): :octocat: A simple PWA app that returns Trending Repositories & Developers from GitHub, Gitlab & HackerNews.
 - **[Trendzz](https://github.com/omarryhan/trendzz)** ([Website](https://trendzz.netlify.app)): Github trending PWA focusing on usability.
 - **[Ceelog](https://mp.weixin.qq.com/s?__biz=MzAwOTMxMzgxMA==&mid=2647972345&idx=1&sn=8b316d6b89b9aae2454f89144ffafa61&chksm=8341f284b4367b9227901a69bcb49be191a4c1e4054a2df464a58b073745e225a943ad808db4&token=1659362714&lang=zh_CN#rd)** Github trending in WeChat Official Account Platform.
+- **[CoolBot](https://github.com/agam778/CoolBot)** Github trending in WeChat Official Account Platform.
 
 ## Backers
 
@@ -111,7 +112,7 @@ Receive an array of trending repositories.
 
 **URL Endpoint:**
 
-https://ghapi.huchen.dev/repositories?language=javascript&since=weekly
+https://gittrending.netlify.app/repositories?language=javascript&since=weekly
 
 **Parameters:**
 
@@ -155,7 +156,7 @@ Receive an array of trending developers.
 
 **URL Endpoint:**
 
-https://ghapi.huchen.dev/developers?language=javascript&since=weekly
+https://gittrending.netlify.app/developers?language=javascript&since=weekly
 
 **Parameters:**
 
@@ -187,7 +188,7 @@ https://ghapi.huchen.dev/developers?language=javascript&since=weekly
 
 **URL Endpoint:**
 
-https://ghapi.huchen.dev/languages
+https://gittrending.netlify.app/languages
 
 **Response:**
 
@@ -216,7 +217,7 @@ https://ghapi.huchen.dev/languages
 
 **URL Endpoint:**
 
-https://ghapi.huchen.dev/spoken_languages
+https://gittrending.netlify.app/spoken_languages
 
 **Response:**
 
