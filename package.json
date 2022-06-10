@@ -60,7 +60,7 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.3.0",
-    "semantic-release": "^17.0.6"
+    "semantic-release": "^19.0.3"
   },
   "scripts": {
     "start": "netlify dev",
